@@ -1,0 +1,24 @@
+vis           = '3C391.ms'
+field         = ''
+spw           = ''
+selectdata    = False
+scalebychan   = True
+standard      = 'Perley-Butler 2017'
+usescratch    = False
+timerange     = ''
+scan          = ''
+intent        = ''
+observation   = ''
+model         = ''
+listmodels    = True
+fluxdensity   = -1
+spix          = 0.0
+reffreq       = '1GHz'
+polindex      = []
+polangle      = []
+rotmeas       = 0.0
+fluxdict      = {}
+useephemdir   = False
+interpolation = 'nearest'
+ismms         = False
+#setjy( vis='3C391.ms',field='',spw='',selectdata=False,scalebychan=True,standard='Perley-Butler 2017',usescratch=False,timerange='',scan='',intent='',observation='',model='',listmodels=True,fluxdensity=-1,spix=0.0,reffreq='1GHz',polindex=[],polangle=[],rotmeas=0.0,fluxdict={},useephemdir=False,interpolation='nearest',ismms=False )

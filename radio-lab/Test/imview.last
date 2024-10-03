@@ -1,0 +1,6 @@
+raster  = 'PJ_mfs.image'
+contour = {}
+zoom    = 1
+axes    = {}
+out     = ''
+#imview( raster='PJ_mfs.image',contour={},zoom=1,axes={},out='' )

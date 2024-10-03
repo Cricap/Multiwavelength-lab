@@ -1,0 +1,22 @@
+vis         = '3C391.ms'
+field       = '2'
+spw         = ''
+intent      = ''
+selectdata  = True
+docallib    = False
+parang      = False
+applymode   = ''
+flagbackup  = True
+timerange   = ''
+uvrange     = ''
+antenna     = ''
+scan        = ''
+observation = ''
+msselect    = ''
+callib      = ''
+gaintable   = ['3C391.antpos', '3C391.fluxtable1', '3C391.K0', '3C391.B0']
+gainfield   = ['', '1', '', '']
+interp      = ['', 'linear', '', '']
+spwmap      = []
+calwt       = False
+#applycal( vis='3C391.ms',field='2',spw='',intent='',selectdata=True,docallib=False,parang=False,applymode='',flagbackup=True,timerange='',uvrange='',antenna='',scan='',observation='',msselect='',callib='',gaintable=['3C391.antpos', '3C391.fluxtable1', '3C391.K0', '3C391.B0'],gainfield=['', '1', '', ''],interp=['', 'linear', '', ''],spwmap=[],calwt=False )

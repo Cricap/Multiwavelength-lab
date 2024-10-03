@@ -1,0 +1,48 @@
+2024-09-25 18:08:56	INFO	::casa	
+2024-09-25 18:08:56	INFO	::casa	
+2024-09-25 18:08:56	INFO	::casa	
+2024-09-25 18:08:56	INFO	::casa	
+2024-09-25 18:08:57	INFO	::casa	Python version 3.8.10
+2024-09-25 18:08:57	INFO	::casa	CASA Version CASALITH 6.5.0.15
+2024-09-25 18:08:57	INFO	::casa	
+2024-09-25 18:08:57	INFO	::casa	Found an existing telemetry logfile: /home/cricap/.casa/casastats-6.5.0.15-0155d283241-20240925-180302.log
+2024-09-25 18:08:57	INFO	::casa	Telemetry log file: /home/cricap/.casa/casastats-6.5.0.15-0155d283241-20240925-180302.log
+2024-09-25 18:08:57	INFO	::casa	Checking telemetry submission interval
+2024-09-25 18:08:57	INFO	::casa	Telemetry submit interval not reached. Not submitting data.
+2024-09-25 18:08:57	INFO	::casa	Next telemetry data submission in: 6 days, 23:54:05.700651
+2024-09-25 18:08:57	INFO	::casa	
+2024-09-25 18:08:57	INFO	::casa	optional configuration file config.py not found, continuing CASA startup without it
+2024-09-25 18:08:57	INFO	::casa	
+2024-09-25 18:08:57	INFO	::casa	Checking Measures tables in data repository sub-directory /home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casadata/__data__/geodetic
+2024-09-25 18:08:57	INFO	::casa	  IERSeop2000 (version date, last date in table (UTC)): 2022/05/19/15:00, 2022/04/19/00:00:00
+2024-09-25 18:08:57	INFO	::casa	  IERSeop97 (version date, last date in table (UTC)): 2022/05/19/15:00, 2022/04/19/00:00:00
+2024-09-25 18:08:57	INFO	::casa	  IERSpredict (version date, last date in table (UTC)): 2022/05/22/15:00, 2022/08/20/00:00:00
+2024-09-25 18:08:57	INFO	::casa	  TAI_UTC (version date, last date in table (UTC)): 2022/05/19/15:00, 2017/01/01/00:00:00
+2024-09-25 18:09:09	INFO	imview::::casa	##########################################
+2024-09-25 18:09:09	INFO	imview::::casa	##### Begin Task: imview             #####
+2024-09-25 18:09:09	INFO	imview::::casa	imview( raster='PJ_mfs.image', contour={}, zoom=1, axes={}, out='' )
+2024-09-25 18:09:33	SEVERE	imview::::casa	imview() failed to get the current working directory [<class 'KeyboardInterrupt'>: ]
+2024-09-25 18:09:33	SEVERE	imview::::casa	Exception Reported: Error in imview: imview() failed to get the current working directory [<class 'KeyboardInterrupt'>: ]
+2024-09-25 18:09:33	INFO	imview::::casa	Traceback (most recent call last):
+2024-09-25 18:09:33	INFO	imview::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casaviewer/private/task_imview.py", line 472, in __pushd
+2024-09-25 18:09:33	INFO	imview::::casa+	    old_path = viewertool.cwd( gui=gui )
+2024-09-25 18:09:33	INFO	imview::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casaviewer/private/viewertool.py", line 308, in cwd
+2024-09-25 18:09:33	INFO	imview::::casa+	    return stub(gui).cwd(pin).path
+2024-09-25 18:09:33	INFO	imview::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casaviewer/private/viewertool.py", line 278, in stub
+2024-09-25 18:09:33	INFO	imview::::casa+	    uri = __launch(serv_str)
+2024-09-25 18:09:33	INFO	imview::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casaviewer/private/viewertool.py", line 153, in __launch
+2024-09-25 18:09:33	INFO	imview::::casa+	    __time.sleep(1)
+2024-09-25 18:09:33	INFO	imview::::casa+	KeyboardInterrupt
+2024-09-25 18:09:33	INFO	imview::::casa+	
+2024-09-25 18:09:33	INFO	imview::::casa+	During handling of the above exception, another exception occurred:
+2024-09-25 18:09:33	INFO	imview::::casa+	
+2024-09-25 18:09:33	INFO	imview::::casa+	Traceback (most recent call last):
+2024-09-25 18:09:33	INFO	imview::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casaviewer/gotasks/imview.py", line 403, in __call__
+2024-09-25 18:09:33	INFO	imview::::casa+	    _return_result_ = _imview_t( _invocation_parameters['raster'],_invocation_parameters['contour'],_invocation_parameters['zoom'],_invocation_parameters['axes'],_invocation_parameters['out'] )
+2024-09-25 18:09:33	INFO	imview::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casaviewer/imview.py", line 174, in __call__
+2024-09-25 18:09:33	INFO	imview::::casa+	    return _end_log( _logging_state_, 'imview', _imview_t( _pc.document['raster'], _pc.document['contour'], _pc.document['zoom'], _pc.document['axes'], _pc.document['out'] ) )
+2024-09-25 18:09:33	INFO	imview::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casaviewer/private/task_imview.py", line 122, in __call__
+2024-09-25 18:09:33	INFO	imview::::casa+	    self.__pushd( gui, os.path.abspath(os.curdir) )
+2024-09-25 18:09:33	INFO	imview::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casaviewer/private/task_imview.py", line 475, in __pushd
+2024-09-25 18:09:33	INFO	imview::::casa+	    raise RuntimeError("imview() failed to get the current working directory [" + str(sys.exc_info()[0]) + ": " + str(sys.exc_info()[1]) + "]")
+2024-09-25 18:09:33	INFO	imview::::casa+	RuntimeError: imview() failed to get the current working directory [<class 'KeyboardInterrupt'>: ]

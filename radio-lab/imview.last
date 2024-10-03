@@ -1,0 +1,6 @@
+raster  = '3C391_map_noiterations.image'
+contour = {}
+zoom    = 1
+axes    = {}
+out     = ''
+#imview( raster='3C391_map_noiterations.image',contour={},zoom=1,axes={},out='' )

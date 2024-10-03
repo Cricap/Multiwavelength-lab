@@ -1,0 +1,7 @@
+vis         = '3C391.ms'
+mode        = 'restore'
+versionname = 'flagdata_5'
+oldname     = ''
+comment     = ''
+merge       = 'replace'
+#flagmanager( vis='3C391.ms',mode='restore',versionname='flagdata_5',oldname='',comment='',merge='replace' )

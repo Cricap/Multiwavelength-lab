@@ -1,0 +1,751 @@
+2024-10-02 07:41:12	INFO	::casa	
+2024-10-02 07:41:12	INFO	::casa	
+2024-10-02 07:41:12	INFO	::casa	
+2024-10-02 07:41:12	INFO	::casa	
+2024-10-02 07:41:13	INFO	::casa	Python version 3.8.10
+2024-10-02 07:41:13	INFO	::casa	CASA Version CASALITH 6.5.0.15
+2024-10-02 07:41:13	INFO	::casa	
+2024-10-02 07:41:13	INFO	::casa	Telemetry log file: /home/cricap/.casa/casastats-6.5.0.15-0155d5de333-20241002-074112.log
+2024-10-02 07:41:13	INFO	::casa	Checking telemetry submission interval
+2024-10-02 07:41:13	INFO	::casa	Creating a new telemetry time stamp file./home/cricap/.casa/telemetry-0155d5de333.stamp
+2024-10-02 07:41:13	INFO	::casa	Telemetry submit interval not reached. Not submitting data.
+2024-10-02 07:41:13	INFO	::casa	Next telemetry data submission in: 6 days, 23:59:59.986254
+2024-10-02 07:41:13	INFO	::casa	
+2024-10-02 07:41:13	INFO	::casa	optional configuration file config.py not found, continuing CASA startup without it
+2024-10-02 07:41:13	INFO	::casa	
+2024-10-02 07:41:13	INFO	::casa	Checking Measures tables in data repository sub-directory /home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casadata/__data__/geodetic
+2024-10-02 07:41:13	INFO	::casa	  IERSeop2000 (version date, last date in table (UTC)): 2022/05/19/15:00, 2022/04/19/00:00:00
+2024-10-02 07:41:13	INFO	::casa	  IERSeop97 (version date, last date in table (UTC)): 2022/05/19/15:00, 2022/04/19/00:00:00
+2024-10-02 07:41:13	INFO	::casa	  IERSpredict (version date, last date in table (UTC)): 2022/05/22/15:00, 2022/08/20/00:00:00
+2024-10-02 07:41:13	INFO	::casa	  TAI_UTC (version date, last date in table (UTC)): 2022/05/19/15:00, 2017/01/01/00:00:00
+2024-10-02 07:43:06	INFO	applycal::::casa	##########################################
+2024-10-02 07:43:06	INFO	applycal::::casa	##### Begin Task: applycal           #####
+2024-10-02 07:43:06	INFO	applycal::::casa	applycal( vis='3C391.ms', field='0', spw='', intent='', selectdata=True, timerange='', uvrange='', antenna='', scan='', observation='', msselect='', docallib=False, callib='', gaintable=['3C391.antpos', ' 3C391.fluxscale1', '3C391.K0', ' 3C391.B0'], gainfield=['', '0', '', ''], interp=['', 'nearest', '', ''], spwmap=[], calwt=[False], parang=False, applymode='', flagbackup=True )
+2024-10-02 07:43:06	INFO	applycal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2024-10-02 07:43:06	INFO	applycal::calibrater::open	Opening MS: 3C391.ms for calibration.
+2024-10-02 07:43:06	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2024-10-02 07:43:06	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2024-10-02 07:43:06	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_2
+2024-10-02 07:43:06	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2024-10-02 07:43:06	INFO	calibrater::reset	Reseting solve/apply state
+2024-10-02 07:43:06	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2024-10-02 07:43:06	INFO	Calibrater::selectvis+	 Selecting on field: '0'
+2024-10-02 07:43:06	INFO	Calibrater::selectvis	By selection 182243 rows are reduced to 31964
+2024-10-02 07:43:06	INFO	Calibrater::selectvis	Frequency selection: Selecting all channels in all spws.
+2024-10-02 07:43:06	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2024-10-02 07:43:06	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:43:06	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 07:43:06	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2024-10-02 07:43:06	INFO		No VLATrDelCorr keyword in the antpos caltable; turning trop delay correction OFF.
+2024-10-02 07:43:06	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=3C391.antpos select= interp=linear spwmap=[0] calWt=false
+2024-10-02 07:43:06	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:43:06	SEVERE		Exception Reported: Table  3C391.fluxscale1 does not exist.
+2024-10-02 07:43:06	SEVERE	applycal::::casa	Task applycal raised an exception of class RuntimeError with the following message: Table  3C391.fluxscale1 does not exist.
+2024-10-02 07:43:06	INFO	applycal::::casa	Task applycal complete. Start time: 2024-10-02 09:43:05.868551 End time: 2024-10-02 09:43:06.479570
+2024-10-02 07:43:06	INFO	applycal::::casa	##### End Task: applycal             #####
+2024-10-02 07:43:06	INFO	applycal::::casa	##########################################
+2024-10-02 07:43:06	SEVERE	applycal::::casa	Exception Reported: Error in applycal: Table  3C391.fluxscale1 does not exist.
+2024-10-02 07:43:06	INFO	applycal::::casa	Traceback (most recent call last):
+2024-10-02 07:43:06	INFO	applycal::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casashell/private/applycal.py", line 932, in __call__
+2024-10-02 07:43:06	INFO	applycal::::casa+	    _return_result_ = _applycal_t( _invocation_parameters['vis'],_invocation_parameters['field'],_invocation_parameters['spw'],_invocation_parameters['intent'],_invocation_parameters['selectdata'],_invocation_parameters['timerange'],_invocation_parameters['uvrange'],_invocation_parameters['antenna'],_invocation_parameters['scan'],_invocation_parameters['observation'],_invocation_parameters['msselect'],_invocation_parameters['docallib'],_invocation_parameters['callib'],_invocation_parameters['gaintable'],_invocation_parameters['gainfield'],_invocation_parameters['interp'],_invocation_parameters['spwmap'],_invocation_parameters['calwt'],_invocation_parameters['parang'],_invocation_parameters['applymode'],_invocation_parameters['flagbackup'] )
+2024-10-02 07:43:06	INFO	applycal::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatasks/applycal.py", line 275, in __call__
+2024-10-02 07:43:06	INFO	applycal::::casa+	    task_result = _applycal_t( _pc.document['vis'], _pc.document['field'], _pc.document['spw'], _pc.document['intent'], _pc.document['selectdata'], _pc.document['timerange'], _pc.document['uvrange'], _pc.document['antenna'], _pc.document['scan'], _pc.document['observation'], _pc.document['msselect'], _pc.document['docallib'], _pc.document['callib'], _pc.document['gaintable'], _pc.document['gainfield'], _pc.document['interp'], _pc.document['spwmap'], _pc.document['calwt'], _pc.document['parang'], _pc.document['applymode'], _pc.document['flagbackup'] )
+2024-10-02 07:43:06	INFO	applycal::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatasks/private/task_applycal.py", line 176, in applycal
+2024-10-02 07:43:06	INFO	applycal::::casa+	    mycb.setapply(
+2024-10-02 07:43:06	INFO	applycal::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatools/calibrater.py", line 220, in setapply
+2024-10-02 07:43:06	INFO	applycal::::casa+	    return self._swigobj.setapply(_str_ec(type), t, _str_ec(table), _any_ec(field), _str_ec(interp), _str_ec(select), calwt, spwmap, opacity)
+2024-10-02 07:43:06	INFO	applycal::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatools/__casac__/calibrater.py", line 479, in setapply
+2024-10-02 07:43:06	INFO	applycal::::casa+	    return _calibrater.calibrater_setapply(self, *args, **kwargs)
+2024-10-02 07:43:06	INFO	applycal::::casa+	RuntimeError: Table  3C391.fluxscale1 does not exist.
+2024-10-02 07:43:30	INFO	applycal::::casa	##########################################
+2024-10-02 07:43:30	INFO	applycal::::casa	##### Begin Task: applycal           #####
+2024-10-02 07:43:30	INFO	applycal::::casa	applycal( vis='3C391.ms', field='0', spw='', intent='', selectdata=True, timerange='', uvrange='', antenna='', scan='', observation='', msselect='', docallib=False, callib='', gaintable=['3C391.antpos', ' 3C391.fluxtable1', '3C391.K0', ' 3C391.B0'], gainfield=['', '0', '', ''], interp=['', 'nearest', '', ''], spwmap=[], calwt=[False], parang=False, applymode='', flagbackup=True )
+2024-10-02 07:43:30	INFO	applycal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2024-10-02 07:43:30	INFO	applycal::calibrater::open	Opening MS: 3C391.ms for calibration.
+2024-10-02 07:43:30	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2024-10-02 07:43:30	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2024-10-02 07:43:30	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_3
+2024-10-02 07:43:30	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2024-10-02 07:43:30	INFO	calibrater::reset	Reseting solve/apply state
+2024-10-02 07:43:30	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2024-10-02 07:43:30	INFO	Calibrater::selectvis+	 Selecting on field: '0'
+2024-10-02 07:43:30	INFO	Calibrater::selectvis	By selection 182243 rows are reduced to 31964
+2024-10-02 07:43:30	INFO	Calibrater::selectvis	Frequency selection: Selecting all channels in all spws.
+2024-10-02 07:43:30	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2024-10-02 07:43:30	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:43:30	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 07:43:30	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2024-10-02 07:43:30	INFO		No VLATrDelCorr keyword in the antpos caltable; turning trop delay correction OFF.
+2024-10-02 07:43:30	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=3C391.antpos select= interp=linear spwmap=[0] calWt=false
+2024-10-02 07:43:30	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:43:30	SEVERE		Exception Reported: Table  3C391.fluxtable1 does not exist.
+2024-10-02 07:43:30	SEVERE	applycal::::casa	Task applycal raised an exception of class RuntimeError with the following message: Table  3C391.fluxtable1 does not exist.
+2024-10-02 07:43:30	INFO	applycal::::casa	Task applycal complete. Start time: 2024-10-02 09:43:30.149671 End time: 2024-10-02 09:43:30.394151
+2024-10-02 07:43:30	INFO	applycal::::casa	##### End Task: applycal             #####
+2024-10-02 07:43:30	INFO	applycal::::casa	##########################################
+2024-10-02 07:43:30	SEVERE	applycal::::casa	Exception Reported: Error in applycal: Table  3C391.fluxtable1 does not exist.
+2024-10-02 07:43:30	INFO	applycal::::casa	Traceback (most recent call last):
+2024-10-02 07:43:30	INFO	applycal::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casashell/private/applycal.py", line 932, in __call__
+2024-10-02 07:43:30	INFO	applycal::::casa+	    _return_result_ = _applycal_t( _invocation_parameters['vis'],_invocation_parameters['field'],_invocation_parameters['spw'],_invocation_parameters['intent'],_invocation_parameters['selectdata'],_invocation_parameters['timerange'],_invocation_parameters['uvrange'],_invocation_parameters['antenna'],_invocation_parameters['scan'],_invocation_parameters['observation'],_invocation_parameters['msselect'],_invocation_parameters['docallib'],_invocation_parameters['callib'],_invocation_parameters['gaintable'],_invocation_parameters['gainfield'],_invocation_parameters['interp'],_invocation_parameters['spwmap'],_invocation_parameters['calwt'],_invocation_parameters['parang'],_invocation_parameters['applymode'],_invocation_parameters['flagbackup'] )
+2024-10-02 07:43:30	INFO	applycal::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatasks/applycal.py", line 275, in __call__
+2024-10-02 07:43:30	INFO	applycal::::casa+	    task_result = _applycal_t( _pc.document['vis'], _pc.document['field'], _pc.document['spw'], _pc.document['intent'], _pc.document['selectdata'], _pc.document['timerange'], _pc.document['uvrange'], _pc.document['antenna'], _pc.document['scan'], _pc.document['observation'], _pc.document['msselect'], _pc.document['docallib'], _pc.document['callib'], _pc.document['gaintable'], _pc.document['gainfield'], _pc.document['interp'], _pc.document['spwmap'], _pc.document['calwt'], _pc.document['parang'], _pc.document['applymode'], _pc.document['flagbackup'] )
+2024-10-02 07:43:30	INFO	applycal::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatasks/private/task_applycal.py", line 176, in applycal
+2024-10-02 07:43:30	INFO	applycal::::casa+	    mycb.setapply(
+2024-10-02 07:43:30	INFO	applycal::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatools/calibrater.py", line 220, in setapply
+2024-10-02 07:43:30	INFO	applycal::::casa+	    return self._swigobj.setapply(_str_ec(type), t, _str_ec(table), _any_ec(field), _str_ec(interp), _str_ec(select), calwt, spwmap, opacity)
+2024-10-02 07:43:30	INFO	applycal::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatools/__casac__/calibrater.py", line 479, in setapply
+2024-10-02 07:43:30	INFO	applycal::::casa+	    return _calibrater.calibrater_setapply(self, *args, **kwargs)
+2024-10-02 07:43:30	INFO	applycal::::casa+	RuntimeError: Table  3C391.fluxtable1 does not exist.
+2024-10-02 07:44:11	INFO	applycal::::casa	##########################################
+2024-10-02 07:44:11	INFO	applycal::::casa	##### Begin Task: applycal           #####
+2024-10-02 07:44:11	INFO	applycal::::casa	applycal( vis='3C391.ms', field='0', spw='', intent='', selectdata=True, timerange='', uvrange='', antenna='', scan='', observation='', msselect='', docallib=False, callib='', gaintable=['3C391.antpos', '3C391.fluxtable1', '3C391.K0', '3C391.B0'], gainfield=['', '0', '', ''], interp=['', 'nearest', '', ''], spwmap=[], calwt=[False], parang=False, applymode='', flagbackup=True )
+2024-10-02 07:44:11	INFO	applycal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2024-10-02 07:44:11	INFO	applycal::calibrater::open	Opening MS: 3C391.ms for calibration.
+2024-10-02 07:44:11	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2024-10-02 07:44:11	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2024-10-02 07:44:11	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_4
+2024-10-02 07:44:11	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2024-10-02 07:44:11	INFO	calibrater::reset	Reseting solve/apply state
+2024-10-02 07:44:11	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2024-10-02 07:44:11	INFO	Calibrater::selectvis+	 Selecting on field: '0'
+2024-10-02 07:44:11	INFO	Calibrater::selectvis	By selection 182243 rows are reduced to 31964
+2024-10-02 07:44:11	INFO	Calibrater::selectvis	Frequency selection: Selecting all channels in all spws.
+2024-10-02 07:44:11	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2024-10-02 07:44:11	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:44:11	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 07:44:11	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2024-10-02 07:44:11	INFO		No VLATrDelCorr keyword in the antpos caltable; turning trop delay correction OFF.
+2024-10-02 07:44:11	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=3C391.antpos select= interp=linear spwmap=[0] calWt=false
+2024-10-02 07:44:11	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:44:11	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 07:44:11	INFO	Calibrater::setapply(type, applypar)	.   G Jones: table=3C391.fluxtable1 select= interp=nearest spwmap=[-1] calWt=false
+2024-10-02 07:44:11	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:44:11	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 07:44:11	INFO	Calibrater::setapply(type, applypar)	.   K Jones: table=3C391.K0 select= interp=linear spwmap=[-1] calWt=false
+2024-10-02 07:44:11	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:44:11	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 07:44:11	INFO	Calibrater::setapply(type, applypar)	.   B Jones: table=3C391.B0 select= interp=linear,linear spwmap=[-1] calWt=false
+2024-10-02 07:44:11	INFO	calibrater::correct	Beginning correct---------------------------
+2024-10-02 07:44:11	INFO	Calibrater::correct2 (VI2/VB2)	The following calibration terms are arranged for apply:
+2024-10-02 07:44:11	INFO	Calibrater::correct2 (VI2/VB2)	.   KAntPos Jones: table=3C391.antpos select= interp=linear spwmap=[0] calWt=false
+2024-10-02 07:44:11	INFO	Calibrater::correct2 (VI2/VB2)	.   B Jones: table=3C391.B0 select= interp=linear,linear spwmap=[-1] calWt=false
+2024-10-02 07:44:11	INFO	Calibrater::correct2 (VI2/VB2)	.   K Jones: table=3C391.K0 select= interp=linear spwmap=[-1] calWt=false
+2024-10-02 07:44:11	INFO	Calibrater::correct2 (VI2/VB2)	.   G Jones: table=3C391.fluxtable1 select= interp=nearest spwmap=[-1] calWt=false
+2024-10-02 07:44:12	SEVERE	MeasTable::dUTC(Double) (file casacore/measures/Measures/MeasTable.cc, line 4292)	Leap second table TAI_UTC seems out-of-date.
+2024-10-02 07:44:12	SEVERE	MeasTable::dUTC(Double) (file casacore/measures/Measures/MeasTable.cc, line 4292)+	Until the table is updated (see the CASA documentation or your system admin),
+2024-10-02 07:44:12	SEVERE	MeasTable::dUTC(Double) (file casacore/measures/Measures/MeasTable.cc, line 4292)+	times and coordinates derived from UTC could be wrong by 1s or more.
+2024-10-02 07:44:12	INFO	calibrater::correct	Finished correcting.
+2024-10-02 07:44:12	INFO	applycal::::casa	Calibration apply flagging statistics (among calibrateable spws):
+2024-10-02 07:44:12	INFO	applycal::::casa	  Total visibilities selected for correction (ncorr x nchan x nrow summed over spws) = 4091392
+2024-10-02 07:44:12	INFO	applycal::::casa	  Flags:
+2024-10-02 07:44:12	INFO	applycal::::casa	   KAntPos Jones: In: 999296 / 4091392   (24.424352396446%) --> Out: 999296 / 4091392   (24.424352396446%) (3C391.antpos)
+2024-10-02 07:44:12	INFO	applycal::::casa	   B Jones: In: 999296 / 4091392   (24.424352396446%) --> Out: 999296 / 4091392   (24.424352396446%) (3C391.B0)
+2024-10-02 07:44:12	INFO	applycal::::casa	   K Jones: In: 999296 / 4091392   (24.424352396446%) --> Out: 999296 / 4091392   (24.424352396446%) (3C391.K0)
+2024-10-02 07:44:12	INFO	applycal::::casa	   G Jones: In: 999296 / 4091392   (24.424352396446%) --> Out: 999296 / 4091392   (24.424352396446%) (3C391.fluxtable1)
+2024-10-02 07:44:12	INFO	applycal::::casa	Task applycal complete. Start time: 2024-10-02 09:44:10.898613 End time: 2024-10-02 09:44:12.465576
+2024-10-02 07:44:12	INFO	applycal::::casa	##### End Task: applycal             #####
+2024-10-02 07:44:12	INFO	applycal::::casa	##########################################
+2024-10-02 07:45:15	INFO	applycal::::casa	##########################################
+2024-10-02 07:45:15	INFO	applycal::::casa	##### Begin Task: applycal           #####
+2024-10-02 07:45:15	INFO	applycal::::casa	applycal( vis='3C391.ms', field='1', spw='', intent='', selectdata=True, timerange='', uvrange='', antenna='', scan='', observation='', msselect='', docallib=False, callib='', gaintable=['3C391.antpos', '3C391.fluxtable1', '3C391.K0', '3C391.B0'], gainfield=['', '1', '', ''], interp=['', 'nearest', '', ''], spwmap=[], calwt=[False], parang=False, applymode='', flagbackup=True )
+2024-10-02 07:45:15	INFO	applycal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2024-10-02 07:45:15	INFO	applycal::calibrater::open	Opening MS: 3C391.ms for calibration.
+2024-10-02 07:45:15	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2024-10-02 07:45:15	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2024-10-02 07:45:15	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_5
+2024-10-02 07:45:15	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2024-10-02 07:45:15	INFO	calibrater::reset	Reseting solve/apply state
+2024-10-02 07:45:15	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2024-10-02 07:45:15	INFO	Calibrater::selectvis+	 Selecting on field: '1'
+2024-10-02 07:45:15	INFO	Calibrater::selectvis	By selection 182243 rows are reduced to 39733
+2024-10-02 07:45:15	INFO	Calibrater::selectvis	Frequency selection: Selecting all channels in all spws.
+2024-10-02 07:45:15	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2024-10-02 07:45:15	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:45:15	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 07:45:15	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2024-10-02 07:45:15	INFO		No VLATrDelCorr keyword in the antpos caltable; turning trop delay correction OFF.
+2024-10-02 07:45:15	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=3C391.antpos select= interp=linear spwmap=[0] calWt=false
+2024-10-02 07:45:15	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:45:15	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 07:45:15	INFO	Calibrater::setapply(type, applypar)	.   G Jones: table=3C391.fluxtable1 select= interp=nearest spwmap=[-1] calWt=false
+2024-10-02 07:45:15	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:45:15	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 07:45:15	INFO	Calibrater::setapply(type, applypar)	.   K Jones: table=3C391.K0 select= interp=linear spwmap=[-1] calWt=false
+2024-10-02 07:45:15	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 07:45:15	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 07:45:15	INFO	Calibrater::setapply(type, applypar)	.   B Jones: table=3C391.B0 select= interp=linear,linear spwmap=[-1] calWt=false
+2024-10-02 07:45:15	INFO	calibrater::correct	Beginning correct---------------------------
+2024-10-02 07:45:15	INFO	Calibrater::correct2 (VI2/VB2)	The following calibration terms are arranged for apply:
+2024-10-02 07:45:15	INFO	Calibrater::correct2 (VI2/VB2)	.   KAntPos Jones: table=3C391.antpos select= interp=linear spwmap=[0] calWt=false
+2024-10-02 07:45:15	INFO	Calibrater::correct2 (VI2/VB2)	.   B Jones: table=3C391.B0 select= interp=linear,linear spwmap=[-1] calWt=false
+2024-10-02 07:45:15	INFO	Calibrater::correct2 (VI2/VB2)	.   K Jones: table=3C391.K0 select= interp=linear spwmap=[-1] calWt=false
+2024-10-02 07:45:15	INFO	Calibrater::correct2 (VI2/VB2)	.   G Jones: table=3C391.fluxtable1 select= interp=nearest spwmap=[-1] calWt=false
+2024-10-02 07:45:16	INFO	calibrater::correct	Finished correcting.
+2024-10-02 07:45:16	INFO	applycal::::casa	Calibration apply flagging statistics (among calibrateable spws):
+2024-10-02 07:45:16	INFO	applycal::::casa	  Total visibilities selected for correction (ncorr x nchan x nrow summed over spws) = 5085824
+2024-10-02 07:45:16	INFO	applycal::::casa	  Flags:
+2024-10-02 07:45:16	INFO	applycal::::casa	   KAntPos Jones: In: 1160704 / 5085824   (22.82233911358317%) --> Out: 1160704 / 5085824   (22.82233911358317%) (3C391.antpos)
+2024-10-02 07:45:16	INFO	applycal::::casa	   B Jones: In: 1160704 / 5085824   (22.82233911358317%) --> Out: 1160704 / 5085824   (22.82233911358317%) (3C391.B0)
+2024-10-02 07:45:16	INFO	applycal::::casa	   K Jones: In: 1160704 / 5085824   (22.82233911358317%) --> Out: 1160704 / 5085824   (22.82233911358317%) (3C391.K0)
+2024-10-02 07:45:16	INFO	applycal::::casa	   G Jones: In: 1160704 / 5085824   (22.82233911358317%) --> Out: 1160704 / 5085824   (22.82233911358317%) (3C391.fluxtable1)
+2024-10-02 07:45:16	INFO	applycal::::casa	Task applycal complete. Start time: 2024-10-02 09:45:14.513161 End time: 2024-10-02 09:45:16.266397
+2024-10-02 07:45:16	INFO	applycal::::casa	##### End Task: applycal             #####
+2024-10-02 07:45:16	INFO	applycal::::casa	##########################################
+2024-10-02 07:45:24	INFO	plotms::::casa	##########################################
+2024-10-02 07:45:24	INFO	plotms::::casa	##### Begin Task: plotms             #####
+2024-10-02 07:45:24	INFO	plotms::::casa	plotms( vis='', gridrows=1, gridcols=1, rowindex=0, colindex=0, plotindex=0, xaxis='', xdatacolumn='', xframe='', xinterp='', yaxis='', ydatacolumn='', yframe='', yinterp='', yaxislocation='', selectdata=True, field='', spw='', timerange='', uvrange='', antenna='', scan='', correlation='', array='', observation='', intent='', feed='', msselect='', averagedata=True, avgchannel='', avgtime='', avgscan=False, avgfield=False, avgbaseline=False, avgantenna=False, avgspw=False, scalar=False, transform=True, freqframe='', restfreq='', veldef='RADIO', phasecenter='', extendflag=False, extcorr=False, extchannel=False, iteraxis='', xselfscale=False, yselfscale=False, xsharedaxis=False, ysharedaxis=False, customsymbol=[], symbolshape='autoscaling', symbolsize=2, symbolcolor='0000ff', symbolfill='fill', symboloutline=False, coloraxis='', customflaggedsymbol=False, flaggedsymbolshape='circle', flaggedsymbolsize=2, flaggedsymbolcolor='ff0000', flaggedsymbolfill='fill', flaggedsymboloutline=False, xconnector='', timeconnector=False, plotrange=[], title='', titlefont=0, xlabel='', xaxisfont=0, ylabel='', yaxisfont=0, showmajorgrid=False, majorwidth=1, majorstyle='', majorcolor='B0B0B0', showminorgrid=False, minorwidth=1, minorstyle='', minorcolor='D0D0D0', showlegend=False, legendposition='', plotfile='', expformat='', verbose=True, exprange='', highres=False, dpi=-1, width=-1, height=-1, overwrite=False, showgui=True, clearplots=True, callib=[], headeritems='', showatm=False, showtsky=False, showimage=False )
+2024-10-02 07:45:25	INFO	plotms::::casa	casaplotms started: 0.0.0.0:44039
+2024-10-02 07:45:25	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2024-10-02 07:45:25	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2024-10-02 07:45:25	INFO	plotms::::casa	Task plotms complete. Start time: 2024-10-02 09:45:24.337506 End time: 2024-10-02 09:45:25.369749
+2024-10-02 07:45:25	INFO	plotms::::casa	##### End Task: plotms               #####
+2024-10-02 07:45:25	INFO	plotms::::casa	##########################################
+2024-10-02 07:46:20	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE.
+2024-10-02 07:46:20	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-10-02 07:46:20	INFO	PlotMS::load_cache	START     Current memory usage: 9667.95 kilobytes.
+2024-10-02 07:46:20	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 07:46:20	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-10-02 07:46:20	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. UVwave(29)...
+2024-10-02 07:46:20	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-02 07:46:21	INFO	PlotMS::load_cache	Data selection will yield a total of 9177216 plottable points (flagged and unflagged).
+2024-10-02 07:46:21	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0928319 GB of memory (10.1155 bytes/point).
+2024-10-02 07:46:21	INFO	PlotMS::load_cache+	This is 0.572383% of the memory avail. to CASA (16.2185 GB).
+2024-10-02 07:46:21	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-02 07:46:22	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 07:46:22	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 07:46:22	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 07:46:22	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:46:22	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:46:22	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 15137.8 (flagged).
+2024-10-02 07:46:22	INFO	PlotMS::load_cache+	Amp:data: 0.00720806 to 0.282633 (unflagged); 1.22401e-07 to 0.277638(flagged).
+2024-10-02 07:46:22	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:46:20	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +93023.4 kilobytes.
+2024-10-02 07:46:22	INFO	PlotMS::plot	Plotting 7017216 unflagged points.
+2024-10-02 07:46:35	INFO	PlotMS::params_changed	Updating: REDRAW, ITERATION.
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	START     Current memory usage: 102656 kilobytes.
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. UVwave(29)...
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:46:35	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 15137.8 (flagged).
+2024-10-02 07:46:35	INFO	PlotMS::load_cache+	Amp:data: 0.00720806 to 0.282633 (unflagged); 1.22401e-07 to 0.277638(flagged).
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +20.1719 kilobytes.
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:46:35	INFO	PlotMS::load_cache	Found 2 Field iterations.
+2024-10-02 07:46:36	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:46:36	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 14552.6 (flagged).
+2024-10-02 07:46:36	INFO	PlotMS::load_cache+	Amp:data: 0.00720806 to 0.0911287 (unflagged); 1.22401e-07 to 0.0807945(flagged).
+2024-10-02 07:46:36	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:46:36	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:46:36	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:46:36	INFO	PlotMS::plot	Plotting 3092096 unflagged points.
+2024-10-02 07:46:46	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:46:46	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:46:47	INFO	PlotMS::plot	Plotting 3925120 unflagged points.
+2024-10-02 07:47:48	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-10-02 07:47:48	INFO	PlotMS::load_cache	START     Current memory usage: 103891 kilobytes.
+2024-10-02 07:47:48	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 07:47:48	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-10-02 07:47:48	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):corrected vs. UVwave(29)...
+2024-10-02 07:47:48	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	Data selection will yield a total of 9177216 plottable points (flagged and unflagged).
+2024-10-02 07:47:49	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0928319 GB of memory (10.1155 bytes/point).
+2024-10-02 07:47:49	INFO	PlotMS::load_cache+	This is 0.572383% of the memory avail. to CASA (16.2185 GB).
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:47:49	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 15137.8 (flagged).
+2024-10-02 07:47:49	INFO	PlotMS::load_cache+	Amp:corrected: 1.43806 to 8.73652 (unflagged); 1.29235e-06 to 8.41553(flagged).
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:47:48	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +35937.8 kilobytes.
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	Found 2 Field iterations.
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:47:49	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 14552.6 (flagged).
+2024-10-02 07:47:49	INFO	PlotMS::load_cache+	Amp:corrected: 1.43806 to 3.30898 (unflagged); 1.39236e-06 to 0.461578(flagged).
+2024-10-02 07:47:49	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:47:49	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:47:49	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:47:49	INFO	PlotMS::plot	Plotting 3092096 unflagged points.
+2024-10-02 07:47:55	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:47:55	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:47:55	INFO	PlotMS::plot	Plotting 3925120 unflagged points.
+2024-10-02 07:49:27	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-10-02 07:49:27	INFO	PlotMS::load_cache	START     Current memory usage: 139727 kilobytes.
+2024-10-02 07:49:27	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 07:49:27	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-10-02 07:49:27	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18):data vs. UVwave(29)...
+2024-10-02 07:49:27	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	Data selection will yield a total of 9177216 plottable points (flagged and unflagged).
+2024-10-02 07:49:28	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.129541 GB of memory (14.1155 bytes/point).
+2024-10-02 07:49:28	INFO	PlotMS::load_cache+	This is 0.798723% of the memory avail. to CASA (16.2185 GB).
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:49:28	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 15137.8 (flagged).
+2024-10-02 07:49:28	INFO	PlotMS::load_cache+	Phase:data: -180 to 180 (unflagged); -180 to 180(flagged).
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:49:27	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +35983.4 kilobytes.
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	Found 2 Field iterations.
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:49:28	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 14552.6 (flagged).
+2024-10-02 07:49:28	INFO	PlotMS::load_cache+	Phase:data: -180 to 180 (unflagged); -180 to 180(flagged).
+2024-10-02 07:49:28	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:49:28	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:49:28	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:49:28	INFO	PlotMS::plot	Plotting 3092096 unflagged points.
+2024-10-02 07:50:10	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-10-02 07:50:10	INFO	PlotMS::load_cache	START     Current memory usage: 175771 kilobytes.
+2024-10-02 07:50:10	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 07:50:10	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-10-02 07:50:10	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18):corrected vs. UVwave(29)...
+2024-10-02 07:50:10	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	Data selection will yield a total of 9177216 plottable points (flagged and unflagged).
+2024-10-02 07:50:11	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.129541 GB of memory (14.1155 bytes/point).
+2024-10-02 07:50:11	INFO	PlotMS::load_cache+	This is 0.798723% of the memory avail. to CASA (16.2185 GB).
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:50:11	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 15137.8 (flagged).
+2024-10-02 07:50:11	INFO	PlotMS::load_cache+	Phase:corrected: -32.9762 to 29.6741 (unflagged); -180 to 180(flagged).
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:50:10	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +35932.7 kilobytes.
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	Found 2 Field iterations.
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:50:11	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 14552.6 (flagged).
+2024-10-02 07:50:11	INFO	PlotMS::load_cache+	Phase:corrected: -32.9762 to 29.6741 (unflagged); -180 to 180(flagged).
+2024-10-02 07:50:11	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:50:11	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:50:11	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:50:12	INFO	PlotMS::plot	Plotting 3092096 unflagged points.
+2024-10-02 07:50:50	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE, AXES.
+2024-10-02 07:50:50	INFO	PlotMS::load_cache	START     Current memory usage: 211745 kilobytes.
+2024-10-02 07:50:50	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 07:50:50	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-10-02 07:50:50	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18):model vs. UVwave(29)...
+2024-10-02 07:50:50	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-02 07:50:51	INFO	PlotMS::load_cache	Data selection will yield a total of 9177216 plottable points (flagged and unflagged).
+2024-10-02 07:50:51	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.129541 GB of memory (14.1155 bytes/point).
+2024-10-02 07:50:51	INFO	PlotMS::load_cache+	This is 0.798723% of the memory avail. to CASA (16.2185 GB).
+2024-10-02 07:50:51	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-02 07:50:53	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 07:50:53	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 07:50:53	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 07:50:53	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:50:53	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:50:53	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 15137.8 (flagged).
+2024-10-02 07:50:53	INFO	PlotMS::load_cache+	Phase:model: -0.314175 to 0.36227 (unflagged); 0 to 0(flagged).
+2024-10-02 07:50:53	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:50:50	INFO	PlotMS::load_cache	END       Time: +3 seconds.  Memory: +38583.9 kilobytes.
+2024-10-02 07:50:53	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:50:53	INFO	PlotMS::load_cache	Found 2 Field iterations.
+2024-10-02 07:50:54	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:50:54	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 14552.6 (flagged).
+2024-10-02 07:50:54	INFO	PlotMS::load_cache+	Phase:model: 0 to 0 (unflagged); 0 to 0(flagged).
+2024-10-02 07:50:54	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:50:54	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:50:54	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:50:54	INFO	PlotMS::plot	Plotting 3092096 unflagged points.
+2024-10-02 07:51:07	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE, AXES.
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	START     Current memory usage: 250345 kilobytes.
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18):corrected vs. UVwave(29)...
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:51:07	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 15137.8 (flagged).
+2024-10-02 07:51:07	INFO	PlotMS::load_cache+	Phase:corrected: -32.9762 to 29.6741 (unflagged); -180 to 180(flagged).
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: -8.21875 kilobytes.
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	Found 2 Field iterations.
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:51:07	INFO	PlotMS::load_cache+	UVwave: 430.687 to 15985.8 (unflagged); ; 427.332 to 14552.6 (flagged).
+2024-10-02 07:51:07	INFO	PlotMS::load_cache+	Phase:corrected: -32.9762 to 29.6741 (unflagged); -180 to 180(flagged).
+2024-10-02 07:51:07	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:51:07	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:51:07	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:51:07	INFO	PlotMS::plot	Plotting 3092096 unflagged points.
+2024-10-02 07:51:52	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:51:52	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:51:52	INFO	PlotMS::plot	Plotting 3925120 unflagged points.
+2024-10-02 07:53:01	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-10-02 07:53:01	INFO	PlotMS::load_cache	START     Current memory usage: 250300 kilobytes.
+2024-10-02 07:53:01	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 07:53:01	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-10-02 07:53:01	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):corrected vs. Channel(5)...
+2024-10-02 07:53:01	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 07:53:01	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 07:53:01	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 07:53:01	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:53:02	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:53:02	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-10-02 07:53:02	INFO	PlotMS::load_cache+	Amp:corrected: 1.43806 to 8.73652 (unflagged); 1.29235e-06 to 8.41553(flagged).
+2024-10-02 07:53:02	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:53:01	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +41.4219 kilobytes.
+2024-10-02 07:53:02	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:53:02	INFO	PlotMS::load_cache	Found 2 Field iterations.
+2024-10-02 07:53:02	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:53:02	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-10-02 07:53:02	INFO	PlotMS::load_cache+	Amp:corrected: 1.43806 to 3.30898 (unflagged); 1.39236e-06 to 0.461578(flagged).
+2024-10-02 07:53:02	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:53:02	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:53:02	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:53:02	INFO	PlotMS::plot	Plotting 3092096 unflagged points.
+2024-10-02 07:53:06	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	START     Current memory usage: 250399 kilobytes.
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18):corrected vs. Channel(5)...
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:53:06	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-10-02 07:53:06	INFO	PlotMS::load_cache+	Phase:corrected: -32.9762 to 29.6741 (unflagged); -180 to 180(flagged).
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: -9.82812 kilobytes.
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	Found 2 Field iterations.
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:53:06	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-10-02 07:53:06	INFO	PlotMS::load_cache+	Phase:corrected: -32.9762 to 29.6741 (unflagged); -180 to 180(flagged).
+2024-10-02 07:53:06	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:53:06	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:53:06	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:53:06	INFO	PlotMS::plot	Plotting 3092096 unflagged points.
+2024-10-02 07:53:23	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	START     Current memory usage: 250434 kilobytes.
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):corrected vs. Channel(5)...
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:53:23	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-10-02 07:53:23	INFO	PlotMS::load_cache+	Amp:corrected: 1.43806 to 8.73652 (unflagged); 1.29235e-06 to 8.41553(flagged).
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: -9.95312 kilobytes.
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	Found 2 Field iterations.
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 07:53:23	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-10-02 07:53:23	INFO	PlotMS::load_cache+	Amp:corrected: 1.43806 to 3.30898 (unflagged); 1.39236e-06 to 0.461578(flagged).
+2024-10-02 07:53:23	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 07:53:23	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-10-02 07:53:23	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-10-02 07:53:23	INFO	PlotMS::plot	Plotting 3092096 unflagged points.
+2024-10-02 08:03:28	INFO	applycal::::casa	##########################################
+2024-10-02 08:03:28	INFO	applycal::::casa	##### Begin Task: applycal           #####
+2024-10-02 08:03:28	INFO	applycal::::casa	applycal( vis='3C391.ms', field='2', spw='', intent='', selectdata=True, timerange='', uvrange='', antenna='', scan='', observation='', msselect='', docallib=False, callib='', gaintable=['3C391.antpos', '3C391.fluxtable1', '3C391.K0', '3C391.B0'], gainfield=['', '1', '', ''], interp=['', 'linear', '', ''], spwmap=[], calwt=[False], parang=False, applymode='', flagbackup=True )
+2024-10-02 08:03:28	INFO	applycal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2024-10-02 08:03:28	INFO	applycal::calibrater::open	Opening MS: 3C391.ms for calibration.
+2024-10-02 08:03:28	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2024-10-02 08:03:28	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2024-10-02 08:03:28	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_6
+2024-10-02 08:03:28	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2024-10-02 08:03:28	INFO	calibrater::reset	Reseting solve/apply state
+2024-10-02 08:03:28	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2024-10-02 08:03:28	INFO	Calibrater::selectvis+	 Selecting on field: '2'
+2024-10-02 08:03:28	INFO	Calibrater::selectvis	By selection 182243 rows are reduced to 110546
+2024-10-02 08:03:28	INFO	Calibrater::selectvis	Frequency selection: Selecting all channels in all spws.
+2024-10-02 08:03:28	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2024-10-02 08:03:28	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 08:03:28	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 08:03:28	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2024-10-02 08:03:28	INFO		No VLATrDelCorr keyword in the antpos caltable; turning trop delay correction OFF.
+2024-10-02 08:03:28	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=3C391.antpos select= interp=linear spwmap=[0] calWt=false
+2024-10-02 08:03:28	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 08:03:28	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 08:03:28	INFO	Calibrater::setapply(type, applypar)	.   G Jones: table=3C391.fluxtable1 select= interp=linear spwmap=[-1] calWt=false
+2024-10-02 08:03:28	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 08:03:28	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 08:03:28	INFO	Calibrater::setapply(type, applypar)	.   K Jones: table=3C391.K0 select= interp=linear spwmap=[-1] calWt=false
+2024-10-02 08:03:28	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2024-10-02 08:03:28	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2024-10-02 08:03:29	INFO	Calibrater::setapply(type, applypar)	.   B Jones: table=3C391.B0 select= interp=linear,linear spwmap=[-1] calWt=false
+2024-10-02 08:03:29	INFO	calibrater::correct	Beginning correct---------------------------
+2024-10-02 08:03:29	INFO	Calibrater::correct2 (VI2/VB2)	The following calibration terms are arranged for apply:
+2024-10-02 08:03:29	INFO	Calibrater::correct2 (VI2/VB2)	.   KAntPos Jones: table=3C391.antpos select= interp=linear spwmap=[0] calWt=false
+2024-10-02 08:03:29	INFO	Calibrater::correct2 (VI2/VB2)	.   B Jones: table=3C391.B0 select= interp=linear,linear spwmap=[-1] calWt=false
+2024-10-02 08:03:29	INFO	Calibrater::correct2 (VI2/VB2)	.   K Jones: table=3C391.K0 select= interp=linear spwmap=[-1] calWt=false
+2024-10-02 08:03:29	INFO	Calibrater::correct2 (VI2/VB2)	.   G Jones: table=3C391.fluxtable1 select= interp=linear spwmap=[-1] calWt=false
+2024-10-02 08:03:31	INFO	calibrater::correct	Finished correcting.
+2024-10-02 08:03:31	INFO	applycal::::casa	Calibration apply flagging statistics (among calibrateable spws):
+2024-10-02 08:03:31	INFO	applycal::::casa	  Total visibilities selected for correction (ncorr x nchan x nrow summed over spws) = 14149888
+2024-10-02 08:03:31	INFO	applycal::::casa	  Flags:
+2024-10-02 08:03:31	INFO	applycal::::casa	   KAntPos Jones: In: 3230592 / 14149888   (22.831219582798113%) --> Out: 3230592 / 14149888   (22.831219582798113%) (3C391.antpos)
+2024-10-02 08:03:31	INFO	applycal::::casa	   B Jones: In: 3230592 / 14149888   (22.831219582798113%) --> Out: 3230592 / 14149888   (22.831219582798113%) (3C391.B0)
+2024-10-02 08:03:31	INFO	applycal::::casa	   K Jones: In: 3230592 / 14149888   (22.831219582798113%) --> Out: 3230592 / 14149888   (22.831219582798113%) (3C391.K0)
+2024-10-02 08:03:31	INFO	applycal::::casa	   G Jones: In: 3230592 / 14149888   (22.831219582798113%) --> Out: 4220544 / 14149888   (29.827402167423514%) (3C391.fluxtable1)
+2024-10-02 08:03:31	INFO	applycal::::casa	Task applycal complete. Start time: 2024-10-02 10:03:27.910396 End time: 2024-10-02 10:03:31.452154
+2024-10-02 08:03:31	INFO	applycal::::casa	##### End Task: applycal             #####
+2024-10-02 08:03:31	INFO	applycal::::casa	##########################################
+2024-10-02 08:04:03	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, ITERATION.
+2024-10-02 08:04:03	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-10-02 08:04:03	INFO	PlotMS::load_cache	START     Current memory usage: 14258.9 kilobytes.
+2024-10-02 08:04:03	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 08:04:03	INFO	PlotMS::load_cache	  Selection: field: 2
+2024-10-02 08:04:03	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. UVwave(29)...
+2024-10-02 08:04:03	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-02 08:04:03	INFO	PlotMS::load_cache	Data selection will yield a total of 14149888 plottable points (flagged and unflagged).
+2024-10-02 08:04:03	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.143118 GB of memory (10.1144 bytes/point).
+2024-10-02 08:04:03	INFO	PlotMS::load_cache+	This is 0.882438% of the memory avail. to CASA (16.2185 GB).
+2024-10-02 08:04:04	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-02 08:04:05	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 08:04:05	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 08:04:05	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 08:04:05	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 08:04:05	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 08:04:05	INFO	PlotMS::load_cache+	UVwave: 450.08 to 15984 (unflagged); ; 423.723 to 16011.1 (flagged).
+2024-10-02 08:04:05	INFO	PlotMS::load_cache+	Amp:data: 1.32572e-06 to 0.13273 (unflagged); 3.1636e-07 to 0.148264(flagged).
+2024-10-02 08:04:05	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 08:04:03	INFO	PlotMS::load_cache	END       Time: +2 seconds.  Memory: +142379 kilobytes.
+2024-10-02 08:04:05	INFO	PlotMS::plot	Plotting 9929344 unflagged points.
+2024-10-02 08:06:09	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-10-02 08:06:09	INFO	PlotMS::load_cache	START     Current memory usage: 156487 kilobytes.
+2024-10-02 08:06:09	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 08:06:09	INFO	PlotMS::load_cache	  Selection: field: 2
+2024-10-02 08:06:09	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):corrected vs. UVwave(29)...
+2024-10-02 08:06:09	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 08:06:09	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 08:06:09	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 08:06:09	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 08:06:19	INFO	plotms::::casa	##########################################
+2024-10-02 08:06:19	INFO	plotms::::casa	##### Begin Task: plotms             #####
+2024-10-02 08:06:19	INFO	plotms::::casa	plotms( vis='', gridrows=1, gridcols=1, rowindex=0, colindex=0, plotindex=0, xaxis='', xdatacolumn='', xframe='', xinterp='', yaxis='', ydatacolumn='', yframe='', yinterp='', yaxislocation='', selectdata=True, field='', spw='', timerange='', uvrange='', antenna='', scan='', correlation='', array='', observation='', intent='', feed='', msselect='', averagedata=True, avgchannel='', avgtime='', avgscan=False, avgfield=False, avgbaseline=False, avgantenna=False, avgspw=False, scalar=False, transform=True, freqframe='', restfreq='', veldef='RADIO', phasecenter='', extendflag=False, extcorr=False, extchannel=False, iteraxis='', xselfscale=False, yselfscale=False, xsharedaxis=False, ysharedaxis=False, customsymbol=[], symbolshape='autoscaling', symbolsize=2, symbolcolor='0000ff', symbolfill='fill', symboloutline=False, coloraxis='', customflaggedsymbol=False, flaggedsymbolshape='circle', flaggedsymbolsize=2, flaggedsymbolcolor='ff0000', flaggedsymbolfill='fill', flaggedsymboloutline=False, xconnector='', timeconnector=False, plotrange=[], title='', titlefont=0, xlabel='', xaxisfont=0, ylabel='', yaxisfont=0, showmajorgrid=False, majorwidth=1, majorstyle='', majorcolor='B0B0B0', showminorgrid=False, minorwidth=1, minorstyle='', minorcolor='D0D0D0', showlegend=False, legendposition='', plotfile='', expformat='', verbose=True, exprange='', highres=False, dpi=-1, width=-1, height=-1, overwrite=False, showgui=True, clearplots=True, callib=[], headeritems='', showatm=False, showtsky=False, showimage=False )
+2024-10-02 08:06:19	INFO	plotms::::casa	plotms failure detected [0.0.0.0:44039] restarting
+2024-10-02 08:06:20	INFO	plotms::::casa	casaplotms started: 0.0.0.0:46039
+2024-10-02 08:06:20	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2024-10-02 08:06:20	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2024-10-02 08:06:20	INFO	plotms::::casa	Task plotms complete. Start time: 2024-10-02 10:06:18.817522 End time: 2024-10-02 10:06:19.948163
+2024-10-02 08:06:20	INFO	plotms::::casa	##### End Task: plotms               #####
+2024-10-02 08:06:20	INFO	plotms::::casa	##########################################
+2024-10-02 08:06:48	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE.
+2024-10-02 08:06:48	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-10-02 08:06:48	INFO	PlotMS::load_cache	START     Current memory usage: 9680.59 kilobytes.
+2024-10-02 08:06:48	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 08:06:48	INFO	PlotMS::load_cache	  Selection: field: 2
+2024-10-02 08:06:48	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):corrected vs. UVwave(29)...
+2024-10-02 08:06:48	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-02 08:06:48	INFO	PlotMS::load_cache	Data selection will yield a total of 14149888 plottable points (flagged and unflagged).
+2024-10-02 08:06:48	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.143118 GB of memory (10.1144 bytes/point).
+2024-10-02 08:06:48	INFO	PlotMS::load_cache+	This is 0.882438% of the memory avail. to CASA (16.2185 GB).
+2024-10-02 08:06:48	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-02 08:06:50	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 08:06:50	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 08:06:50	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 08:06:50	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 08:06:50	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 08:06:50	INFO	PlotMS::load_cache+	UVwave: 450.08 to 15984 (unflagged); ; 423.723 to 16011.1 (flagged).
+2024-10-02 08:06:50	INFO	PlotMS::load_cache+	Amp:corrected: 5.2676e-05 to 5.0583 (unflagged); 3.1636e-07 to 4.95774(flagged).
+2024-10-02 08:06:50	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 08:06:48	INFO	PlotMS::load_cache	END       Time: +3 seconds.  Memory: +142973 kilobytes.
+2024-10-02 08:06:50	INFO	PlotMS::plot	Plotting 9929344 unflagged points.
+2024-10-02 08:07:42	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-10-02 08:07:42	INFO	PlotMS::load_cache	START     Current memory usage: 152645 kilobytes.
+2024-10-02 08:07:42	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 08:07:42	INFO	PlotMS::load_cache	  Selection: field: 2
+2024-10-02 08:07:42	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18):data vs. UVwave(29)...
+2024-10-02 08:07:42	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-02 08:07:42	INFO	PlotMS::load_cache	Data selection will yield a total of 14149888 plottable points (flagged and unflagged).
+2024-10-02 08:07:42	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.199718 GB of memory (14.1144 bytes/point).
+2024-10-02 08:07:42	INFO	PlotMS::load_cache+	This is 1.23142% of the memory avail. to CASA (16.2185 GB).
+2024-10-02 08:07:42	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-02 08:07:43	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 08:07:43	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 08:07:43	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 08:07:43	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 08:07:43	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 08:07:43	INFO	PlotMS::load_cache+	UVwave: 450.08 to 15984 (unflagged); ; 423.723 to 16011.1 (flagged).
+2024-10-02 08:07:43	INFO	PlotMS::load_cache+	Phase:data: -180 to 180 (unflagged); -180 to 180(flagged).
+2024-10-02 08:07:43	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 08:07:42	INFO	PlotMS::load_cache	END       Time: +2 seconds.  Memory: +55412.4 kilobytes.
+2024-10-02 08:07:43	INFO	PlotMS::plot	Plotting 9929344 unflagged points.
+2024-10-02 08:07:51	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-10-02 08:07:51	INFO	PlotMS::load_cache	START     Current memory usage: 208029 kilobytes.
+2024-10-02 08:07:51	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 08:07:51	INFO	PlotMS::load_cache	  Selection: field: 2
+2024-10-02 08:07:51	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18):corrected vs. UVwave(29)...
+2024-10-02 08:07:51	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-02 08:07:51	INFO	PlotMS::load_cache	Data selection will yield a total of 14149888 plottable points (flagged and unflagged).
+2024-10-02 08:07:51	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.199718 GB of memory (14.1144 bytes/point).
+2024-10-02 08:07:51	INFO	PlotMS::load_cache+	This is 1.23142% of the memory avail. to CASA (16.2185 GB).
+2024-10-02 08:07:51	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-02 08:07:52	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 08:07:52	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 08:07:52	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 08:07:52	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 08:07:53	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 08:07:53	INFO	PlotMS::load_cache+	UVwave: 450.08 to 15984 (unflagged); ; 423.723 to 16011.1 (flagged).
+2024-10-02 08:07:53	INFO	PlotMS::load_cache+	Phase:corrected: -180 to 180 (unflagged); -180 to 180(flagged).
+2024-10-02 08:07:53	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 08:07:51	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +55408.6 kilobytes.
+2024-10-02 08:07:53	INFO	PlotMS::plot	Plotting 9929344 unflagged points.
+2024-10-02 08:08:45	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2024-10-02 08:08:45	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-10-02 08:08:45	INFO	PlotMS::load_cache	START     Current memory usage: 10248.7 kilobytes.
+2024-10-02 08:08:45	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 08:08:45	INFO	PlotMS::load_cache	  Selection: field: 2
+2024-10-02 08:08:45	INFO	PlotMS::load_cache	Data Averaging: 
+2024-10-02 08:08:45	INFO	PlotMS::load_cache+	 Using VECTOR averaging.
+2024-10-02 08:08:45	INFO	PlotMS::load_cache+	 Channel: 64 channels
+2024-10-02 08:08:45	INFO	PlotMS::load_cache+	 Time: 1000 seconds.  Scan: false;  Field: false
+2024-10-02 08:08:45	INFO	PlotMS::load_cache	Caching for the new plot: Phase(18):corrected vs. UVwave(29)...
+2024-10-02 08:08:45	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-02 08:08:45	INFO	PlotMS::load_cache	Data selection will yield a total of 7318 plottable points (flagged and unflagged).
+2024-10-02 08:08:45	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.000117664 GB of memory (16.0787 bytes/point).
+2024-10-02 08:08:45	INFO	PlotMS::load_cache+	This is 0.000725493% of the memory avail. to CASA (16.2185 GB).
+2024-10-02 08:08:45	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-02 08:08:47	INFO	PlotMS::load_cache	SPW 0: number of channels averaged = 64
+2024-10-02 08:08:47	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 08:08:47	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 08:08:47	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 08:08:47	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 08:08:47	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 08:08:47	INFO	PlotMS::load_cache+	UVwave: 461.022 to 15753.5 (unflagged); ; 431.216 to 15784.5 (flagged).
+2024-10-02 08:08:47	INFO	PlotMS::load_cache+	Phase:corrected: -179.986 to 179.937 (unflagged); -179.775 to 179.996(flagged).
+2024-10-02 08:08:47	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 08:08:45	INFO	PlotMS::load_cache	END       Time: +3 seconds.  Memory: +219.703 kilobytes.
+2024-10-02 08:08:47	INFO	PlotMS::plot	Plotting 5116 unflagged points.
+2024-10-02 08:22:04	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE.
+2024-10-02 08:22:04	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-10-02 08:22:04	INFO	PlotMS::load_cache	START     Current memory usage: 10154.5 kilobytes.
+2024-10-02 08:22:04	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 08:22:04	INFO	PlotMS::load_cache	  Selection: field: 2
+2024-10-02 08:22:04	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):corrected vs. UVwave(29)...
+2024-10-02 08:22:04	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-02 08:22:04	INFO	PlotMS::load_cache	Data selection will yield a total of 14149888 plottable points (flagged and unflagged).
+2024-10-02 08:22:04	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.143118 GB of memory (10.1144 bytes/point).
+2024-10-02 08:22:04	INFO	PlotMS::load_cache+	This is 0.882438% of the memory avail. to CASA (16.2185 GB).
+2024-10-02 08:22:04	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-02 08:22:06	INFO	PlotMS::load_cache	SPW 0: number of channels averaged = 64
+2024-10-02 08:22:06	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 08:22:06	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 08:22:06	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 08:22:06	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 08:22:06	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 08:22:06	INFO	PlotMS::load_cache+	UVwave: 450.08 to 15984 (unflagged); ; 423.723 to 16011.1 (flagged).
+2024-10-02 08:22:06	INFO	PlotMS::load_cache+	Amp:corrected: 5.2676e-05 to 5.0583 (unflagged); 3.1636e-07 to 4.95774(flagged).
+2024-10-02 08:22:06	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 08:22:04	INFO	PlotMS::load_cache	END       Time: +3 seconds.  Memory: +142396 kilobytes.
+2024-10-02 08:22:06	INFO	PlotMS::plot	Plotting 9929344 unflagged points.
+2024-10-02 08:22:19	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-10-02 08:22:19	INFO	PlotMS::load_cache	START     Current memory usage: 152643 kilobytes.
+2024-10-02 08:22:19	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-10-02 08:22:19	INFO	PlotMS::load_cache	  Selection: field: 2
+2024-10-02 08:22:19	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):corrected vs. Channel(5)...
+2024-10-02 08:22:19	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-02 08:22:19	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-02 08:22:19	INFO	PlotMS::load_cache	Finished loading.
+2024-10-02 08:22:19	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-02 08:22:19	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-02 08:22:19	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-10-02 08:22:19	INFO	PlotMS::load_cache+	Amp:corrected: 5.2676e-05 to 5.0583 (unflagged); 3.1636e-07 to 4.95774(flagged).
+2024-10-02 08:22:19	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-02 08:22:19	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: -0.46875 kilobytes.
+2024-10-02 08:22:19	INFO	PlotMS::plot	Plotting 9929344 unflagged points.
+2024-10-02 08:28:55	INFO	split::::casa	##########################################
+2024-10-02 08:28:55	INFO	split::::casa	##### Begin Task: split              #####
+2024-10-02 08:28:55	INFO	split::::casa	split( vis='3C391.ms', outputvis='3C391_calibrated.ms', keepmms=True, field='2', spw='', scan='', antenna='', correlation='RR,LL', timerange='', intent='', array='', uvrange='', observation='', feed='', datacolumn='corrected', keepflags=False, width=1, timebin='0s', combine='' )
+2024-10-02 08:28:55	INFO	MSTransformManager::parseMsSpecParams	Input file name is 3C391.ms
+2024-10-02 08:28:55	INFO	MSTransformManager::parseMsSpecParams	Data column is CORRECTED
+2024-10-02 08:28:55	INFO	MSTransformManager::parseMsSpecParams	Output file name is 3C391_calibrated.ms
+2024-10-02 08:28:55	INFO	MSTransformManager::parseDataSelParams	field selection is 2
+2024-10-02 08:28:55	INFO	MSTransformManager::parseDataSelParams	correlation selection is RR,LL
+2024-10-02 08:28:55	INFO	MSTransformManager::colCheckInfo	Adding DATA column to output MS from input CORRECTED_DATA column
+2024-10-02 08:28:55	INFO	MSTransformManager::initDataSelectionParams	Selected Fields Ids are [2]
+2024-10-02 08:28:55	INFO	MSTransformManager::initDataSelectionParams	Selected correlations are [[[0] to [0] with stride [1], length [1], [1] to [1] with stride [1], length [1]]]
+2024-10-02 08:28:55	INFO	MSTransformManager::open	Select data
+2024-10-02 08:28:55	INFO	MSTransformManager::createOutputMSStructure	Create output MS structure
+2024-10-02 08:28:55	INFO	MSTransformDataHandler::makeSelection	77573 out of 182243 rows are going to be considered due to the selection criteria.
+2024-10-02 08:28:57	INFO	split::::casa	Task split complete. Start time: 2024-10-02 10:28:55.022314 End time: 2024-10-02 10:28:56.735607
+2024-10-02 08:28:57	INFO	split::::casa	##### End Task: split                #####
+2024-10-02 08:28:57	INFO	split::::casa	##########################################
+2024-10-02 08:31:22	INFO	listobs::::casa	##########################################
+2024-10-02 08:31:22	INFO	listobs::::casa	##### Begin Task: listobs            #####
+2024-10-02 08:31:22	INFO	listobs::::casa	listobs( vis='3C391_calibrated.ms', selectdata=True, spw='', field='', antenna='', uvrange='', timerange='', correlation='', scan='', intent='', feed='', array='', observation='', verbose=True, listfile='', listunfl=False, cachesize=50.0, overwrite=False )
+2024-10-02 08:31:23	INFO	listobs::ms::summary	================================================================================
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	           MeasurementSet Name:  /home/cricap/multiwavelength-lab/radio-lab/3C391_calibrated.ms      MS Version 2
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	================================================================================
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	   Observer: Dr. James Miller-Jones     Project: T.B.D.  
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	Observation: EVLA
+2024-10-02 08:31:23	INFO	listobs::MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+2024-10-02 08:31:23	INFO	listobs::ms::summary	Data records: 77573       Total elapsed time = 24912 seconds
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	   Observed from   24-Apr-2010/08:44:38.0   to   24-Apr-2010/15:39:50.0 (UTC)
+2024-10-02 08:31:23	INFO	listobs::ms::summary	
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	   ObservationID = 0         ArrayID = 0
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  Date        Timerange (UTC)          Scan  FldId FieldName             nRows     SpwIds   Average Interval(s)    ScanIntent
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  24-Apr-2010/08:44:38.0 - 08:49:48.0     9      0 3C391 C5                  5890  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	              09:21:42.0 - 09:26:52.0    17      0 3C391 C5                  7843  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	              09:58:47.0 - 10:03:57.0    25      0 3C391 C5                  7843  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	              10:35:51.0 - 10:41:01.0    33      0 3C391 C5                  7843  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	              11:22:23.0 - 11:27:23.0    43      0 3C391 C5                  6930  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	              11:58:21.0 - 12:03:21.0    51      0 3C391 C5                  7568  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	              12:34:28.0 - 12:39:28.0    59      0 3C391 C5                  7568  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	              13:10:34.0 - 13:15:34.0    67      0 3C391 C5                  7568  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	              13:46:38.0 - 13:51:38.0    75      0 3C391 C5                  5681  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	              14:22:43.0 - 14:27:43.0    83      0 3C391 C5                  5130  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	              14:58:46.0 - 15:03:46.0    91      0 3C391 C5                  4573  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	              15:34:50.0 - 15:39:50.0    99      0 3C391 C5                  3136  [0]  [10] 
+2024-10-02 08:31:23	INFO	listobs::ms::summary	           (nRows = Total number of rows per scan) 
+2024-10-02 08:31:23	INFO	listobs::ms::summary	Fields: 1
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  ID   Code Name                RA               Decl           Epoch   SrcId      nRows
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  0    NONE 3C391 C5            18:49:19.339000 -00.53.33.16000 J2000   0          77573
+2024-10-02 08:31:23	INFO	listobs::ms::summary	Spectral Windows:  (1 unique spectral windows and 1 unique polarization setups)
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  SpwID  Name      #Chans   Frame   Ch0(MHz)  ChanWid(kHz)  TotBW(kHz) CtrFreq(MHz)  Corrs  
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  0      Subband:0     64   TOPO    4536.000      2000.000    128000.0   4599.0000   RR  LL
+2024-10-02 08:31:23	INFO	listobs::ms::summary	Sources: 1
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  ID   Name                SpwId RestFreq(MHz)  SysVel(km/s) 
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  0    3C391 C5            0     -              -            
+2024-10-02 08:31:23	INFO	listobs::ms::summary	Antennas: 23:
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  ID   Name  Station   Diam.    Long.         Lat.                Offset from array center (m)                ITRF Geocentric coordinates (m)        
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	                                                                     East         North     Elevation               x               y               z
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  0    ea01  W09       25.0 m   -107.37.25.2  +33.53.51.0       -521.9407     -332.7782       -1.1977 -1601710.017000 -5042006.928200  3554602.355600
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  1    ea02  E02       25.0 m   -107.37.04.4  +33.54.01.1          9.8247      -20.4292       -2.7808 -1601150.059500 -5042000.619800  3554860.729400
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  2    ea03  E09       25.0 m   -107.36.45.1  +33.53.53.6        506.0591     -251.8666       -3.5832 -1600715.948000 -5042273.187000  3554668.184500
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  3    ea04  W01       25.0 m   -107.37.05.9  +33.54.00.5        -27.3562      -41.3030       -2.7418 -1601189.030140 -5042000.493300  3554843.425700
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  5    ea07  N06       25.0 m   -107.37.06.9  +33.54.10.3        -54.0667      263.8720       -4.2292 -1601162.593200 -5041829.000000  3555095.890500
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  6    ea08  N01       25.0 m   -107.37.06.0  +33.54.01.8        -30.8810       -1.4664       -2.8597 -1601185.634945 -5041978.156586  3554876.424700
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  7    ea09  E06       25.0 m   -107.36.55.6  +33.53.57.7        236.9058     -126.3369       -2.4443 -1600951.588000 -5042125.911000  3554773.012300
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  8    ea11  E04       25.0 m   -107.37.00.8  +33.53.59.7        102.8046      -63.7684       -2.6412 -1601068.791200 -5042051.910200  3554824.835300
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  9    ea12  E08       25.0 m   -107.36.48.9  +33.53.55.1        407.8394     -206.0057       -3.2252 -1600801.916000 -5042219.371000  3554706.449900
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  11   ea14  E05       25.0 m   -107.36.58.4  +33.53.58.8        164.9788      -92.8032       -2.5268 -1601014.462000 -5042086.252000  3554800.799800
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  13   ea16  W02       25.0 m   -107.37.07.5  +33.54.00.9        -67.9687      -26.5614       -2.7175 -1601225.255200 -5041980.383590  3554855.675000
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  14   ea17  W07       25.0 m   -107.37.18.4  +33.53.54.8       -349.9866     -216.7507       -1.7978 -1601526.386100 -5041996.840100  3554698.327400
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  15   ea18  N09       25.0 m   -107.37.07.8  +33.54.19.0        -77.4352      530.6274       -5.5867 -1601139.485500 -5041679.036000  3555316.532800
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  16   ea19  W04       25.0 m   -107.37.10.8  +33.53.59.1       -152.8599      -83.8054       -2.4614 -1601315.893000 -5041985.320170  3554808.304600
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  17   ea20  N05       25.0 m   -107.37.06.7  +33.54.08.0        -47.8454      192.6015       -3.8723 -1601168.786100 -5041869.054000  3555036.936000
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  18   ea21  E01       25.0 m   -107.37.05.7  +33.53.59.2        -23.8638      -81.1510       -2.5851 -1601192.467800 -5042022.856800  3554810.438800
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  19   ea22  N04       25.0 m   -107.37.06.5  +33.54.06.1        -42.5986      132.8623       -3.5431 -1601173.953700 -5041902.660400  3554987.536500
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  20   ea23  E07       25.0 m   -107.36.52.4  +33.53.56.5        318.0523     -164.1848       -2.6960 -1600880.570000 -5042170.388000  3554741.457400
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  21   ea24  W05       25.0 m   -107.37.13.0  +33.53.57.8       -210.0944     -122.3885       -2.2581 -1601377.008000 -5041988.665500  3554776.393400
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  22   ea25  N02       25.0 m   -107.37.06.2  +33.54.03.5        -35.6245       53.1806       -3.1345 -1601180.861480 -5041947.453400  3554921.628700
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  23   ea26  W03       25.0 m   -107.37.08.9  +33.54.00.1       -105.3429      -51.7191       -2.6054 -1601265.151700 -5041982.533050  3554834.856300
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  24   ea27  E03       25.0 m   -107.37.02.8  +33.54.00.5         50.6647      -39.4832       -2.7249 -1601114.365500 -5042023.153700  3554844.945600
+2024-10-02 08:31:23	INFO	listobs::ms::summary+	  25   ea28  N08       25.0 m   -107.37.07.5  +33.54.15.8        -68.9057      433.1889       -5.0602 -1601147.940400 -5041733.837000  3555235.956000
+2024-10-02 08:31:23	INFO	listobs::::casa	Task listobs complete. Start time: 2024-10-02 10:31:22.483040 End time: 2024-10-02 10:31:22.725554
+2024-10-02 08:31:23	INFO	listobs::::casa	##### End Task: listobs              #####
+2024-10-02 08:31:23	INFO	listobs::::casa	##########################################

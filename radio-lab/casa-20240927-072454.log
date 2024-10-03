@@ -1,0 +1,371 @@
+2024-09-27 07:24:57	INFO	::casa	
+2024-09-27 07:24:57	INFO	::casa	
+2024-09-27 07:24:57	INFO	::casa	
+2024-09-27 07:24:57	INFO	::casa	
+2024-09-27 07:24:58	INFO	::casa	Python version 3.8.10
+2024-09-27 07:24:58	INFO	::casa	CASA Version CASALITH 6.5.0.15
+2024-09-27 07:24:58	INFO	::casa	
+2024-09-27 07:24:58	INFO	::casa	Telemetry log file: /home/cricap/.casa/casastats-6.5.0.15-0155d283c59-20240927-072458.log
+2024-09-27 07:24:58	INFO	::casa	Checking telemetry submission interval
+2024-09-27 07:24:58	INFO	::casa	Creating a new telemetry time stamp file./home/cricap/.casa/telemetry-0155d283c59.stamp
+2024-09-27 07:24:58	INFO	::casa	Telemetry submit interval not reached. Not submitting data.
+2024-09-27 07:24:58	INFO	::casa	Next telemetry data submission in: 6 days, 23:59:59.986412
+2024-09-27 07:24:59	INFO	::casa	
+2024-09-27 07:24:59	INFO	::casa	optional configuration file config.py not found, continuing CASA startup without it
+2024-09-27 07:24:59	INFO	::casa	
+2024-09-27 07:24:59	INFO	::casa	Checking Measures tables in data repository sub-directory /home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casadata/__data__/geodetic
+2024-09-27 07:24:59	INFO	::casa	  IERSeop2000 (version date, last date in table (UTC)): 2022/05/19/15:00, 2022/04/19/00:00:00
+2024-09-27 07:24:59	INFO	::casa	  IERSeop97 (version date, last date in table (UTC)): 2022/05/19/15:00, 2022/04/19/00:00:00
+2024-09-27 07:24:59	INFO	::casa	  IERSpredict (version date, last date in table (UTC)): 2022/05/22/15:00, 2022/08/20/00:00:00
+2024-09-27 07:24:59	INFO	::casa	  TAI_UTC (version date, last date in table (UTC)): 2022/05/19/15:00, 2017/01/01/00:00:00
+2024-09-27 07:59:59	INFO	listobs::::casa	##########################################
+2024-09-27 07:59:59	INFO	listobs::::casa	##### Begin Task: listobs            #####
+2024-09-27 07:59:59	INFO	listobs::::casa	listobs( vis='3C391.ms', selectdata=True, spw='', field='', antenna='', uvrange='', timerange='', correlation='', scan='', intent='', feed='', array='', observation='', verbose=True, listfile='', listunfl=False, cachesize=50.0, overwrite=False )
+2024-09-27 07:59:59	INFO	listobs::ms::summary	================================================================================
+2024-09-27 07:59:59	INFO	listobs::ms::summary+	           MeasurementSet Name:  /home/cricap/multiwavelength-lab/radio-lab/3C391.ms      MS Version 2
+2024-09-27 07:59:59	INFO	listobs::ms::summary+	================================================================================
+2024-09-27 07:59:59	INFO	listobs::ms::summary+	   Observer: Dr. James Miller-Jones     Project: T.B.D.  
+2024-09-27 07:59:59	INFO	listobs::ms::summary+	Observation: EVLA
+2024-09-27 07:59:59	INFO	listobs::MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+2024-09-27 08:00:00	INFO	listobs::ms::summary	Data records: 182243       Total elapsed time = 28143.5 seconds
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	   Observed from   24-Apr-2010/08:02:10.0   to   24-Apr-2010/15:51:13.5 (UTC)
+2024-09-27 08:00:00	INFO	listobs::ms::summary	
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	   ObservationID = 0         ArrayID = 0
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  Date        Timerange (UTC)          Scan  FldId FieldName             nRows     SpwIds   Average Interval(s)    ScanIntent
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  24-Apr-2010/08:02:10.0 - 08:02:30.0     1      0 J1331+3030                 650  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              08:02:20.0 - 08:09:30.0     2      0 J1331+3030               13975  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              08:09:20.0 - 08:16:28.0     3      0 J1331+3030               13975  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              08:19:38.0 - 08:24:26.5     4      1 J1822-0938                7035  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              08:44:38.0 - 08:49:48.0     9      2 3C391 C5                  7843  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              09:00:03.0 - 09:01:31.0    12      1 J1822-0938                2925  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              09:21:42.0 - 09:26:52.0    17      2 3C391 C5                 10075  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              09:37:07.0 - 09:38:35.0    20      1 J1822-0938                2900  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              09:58:47.0 - 10:03:57.0    25      2 3C391 C5                 10075  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              10:14:12.0 - 10:15:39.5    28      1 J1822-0938                2925  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              10:35:51.0 - 10:41:01.0    33      2 3C391 C5                 10075  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              10:51:15.0 - 10:52:42.5    36      1 J1822-0938                2925  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              10:55:14.0 - 10:57:42.0    37      0 J1331+3030                3364  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              11:00:13.0 - 11:02:41.0    38      1 J1822-0938                3883  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              11:22:23.0 - 11:27:23.0    43      2 3C391 C5                  9750  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              11:37:21.0 - 11:38:47.0    46      1 J1822-0938                2700  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              11:58:21.0 - 12:03:21.0    51      2 3C391 C5                  9725  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              12:13:29.0 - 12:14:48.0    54      1 J1822-0938                2600  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              12:34:28.0 - 12:39:28.0    59      2 3C391 C5                  9725  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              12:49:35.0 - 12:50:53.0    62      1 J1822-0938                2600  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              13:10:34.0 - 13:15:34.0    67      2 3C391 C5                  9725  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              13:25:40.0 - 13:26:57.5    70      1 J1822-0938                2600  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              13:46:38.0 - 13:51:38.0    75      2 3C391 C5                  9725  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              14:01:44.0 - 14:03:01.5    78      1 J1822-0938                2024  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              14:22:43.0 - 14:27:43.0    83      2 3C391 C5                  9000  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              14:37:48.0 - 14:39:05.5    86      1 J1822-0938                1848  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              14:58:46.0 - 15:03:46.0    91      2 3C391 C5                  7568  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              15:13:51.0 - 15:15:09.0    94      1 J1822-0938                1680  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              15:34:50.0 - 15:39:50.0    99      2 3C391 C5                  7260  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	              15:49:55.0 - 15:51:13.5   102      1 J1822-0938                1088  [0]  [10] 
+2024-09-27 08:00:00	INFO	listobs::ms::summary	           (nRows = Total number of rows per scan) 
+2024-09-27 08:00:00	INFO	listobs::ms::summary	Fields: 3
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  ID   Code Name                RA               Decl           Epoch   SrcId      nRows
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  0    N    J1331+3030          13:31:08.287984 +30.30.32.95886 J2000   0          31964
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  1    J    J1822-0938          18:22:28.704200 -09.38.56.83501 J2000   1          39733
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  2    NONE 3C391 C5            18:49:19.339000 -00.53.33.16000 J2000   2         110546
+2024-09-27 08:00:00	INFO	listobs::ms::summary	Spectral Windows:  (1 unique spectral windows and 1 unique polarization setups)
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  SpwID  Name      #Chans   Frame   Ch0(MHz)  ChanWid(kHz)  TotBW(kHz) CtrFreq(MHz)  Corrs  
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  0      Subband:0     64   TOPO    4536.000      2000.000    128000.0   4599.0000   RR  LL
+2024-09-27 08:00:00	INFO	listobs::ms::summary	Sources: 3
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  ID   Name                SpwId RestFreq(MHz)  SysVel(km/s) 
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  0    J1331+3030          0     -              -            
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  1    J1822-0938          0     -              -            
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  2    3C391 C5            0     -              -            
+2024-09-27 08:00:00	INFO	listobs::ms::summary	Antennas: 26:
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  ID   Name  Station   Diam.    Long.         Lat.                Offset from array center (m)                ITRF Geocentric coordinates (m)        
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	                                                                     East         North     Elevation               x               y               z
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  0    ea01  W09       25.0 m   -107.37.25.2  +33.53.51.0       -521.9407     -332.7782       -1.1977 -1601710.017000 -5042006.928200  3554602.355600
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  1    ea02  E02       25.0 m   -107.37.04.4  +33.54.01.1          9.8247      -20.4292       -2.7808 -1601150.059500 -5042000.619800  3554860.729400
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  2    ea03  E09       25.0 m   -107.36.45.1  +33.53.53.6        506.0591     -251.8666       -3.5832 -1600715.948000 -5042273.187000  3554668.184500
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  3    ea04  W01       25.0 m   -107.37.05.9  +33.54.00.5        -27.3562      -41.3030       -2.7418 -1601189.030140 -5042000.493300  3554843.425700
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  4    ea05  W08       25.0 m   -107.37.21.6  +33.53.53.0       -432.1158     -272.1493       -1.5032 -1601614.091000 -5042001.655700  3554652.509300
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  5    ea07  N06       25.0 m   -107.37.06.9  +33.54.10.3        -54.0667      263.8720       -4.2292 -1601162.593200 -5041829.000000  3555095.890500
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  6    ea08  N01       25.0 m   -107.37.06.0  +33.54.01.8        -30.8810       -1.4664       -2.8597 -1601185.634945 -5041978.156586  3554876.424700
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  7    ea09  E06       25.0 m   -107.36.55.6  +33.53.57.7        236.9058     -126.3369       -2.4443 -1600951.588000 -5042125.911000  3554773.012300
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  8    ea11  E04       25.0 m   -107.37.00.8  +33.53.59.7        102.8046      -63.7684       -2.6412 -1601068.791200 -5042051.910200  3554824.835300
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  9    ea12  E08       25.0 m   -107.36.48.9  +33.53.55.1        407.8394     -206.0057       -3.2252 -1600801.916000 -5042219.371000  3554706.449900
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  10   ea13  N07       25.0 m   -107.37.07.2  +33.54.12.9        -61.1040      344.2335       -4.6144 -1601155.635800 -5041783.843000  3555162.374100
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  11   ea14  E05       25.0 m   -107.36.58.4  +33.53.58.8        164.9788      -92.8032       -2.5268 -1601014.462000 -5042086.252000  3554800.799800
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  12   ea15  W06       25.0 m   -107.37.15.6  +33.53.56.4       -275.8288     -166.7451       -2.0590 -1601447.198000 -5041992.502500  3554739.687600
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  13   ea16  W02       25.0 m   -107.37.07.5  +33.54.00.9        -67.9687      -26.5614       -2.7175 -1601225.255200 -5041980.383590  3554855.675000
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  14   ea17  W07       25.0 m   -107.37.18.4  +33.53.54.8       -349.9866     -216.7507       -1.7978 -1601526.386100 -5041996.840100  3554698.327400
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  15   ea18  N09       25.0 m   -107.37.07.8  +33.54.19.0        -77.4352      530.6274       -5.5867 -1601139.485500 -5041679.036000  3555316.532800
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  16   ea19  W04       25.0 m   -107.37.10.8  +33.53.59.1       -152.8599      -83.8054       -2.4614 -1601315.893000 -5041985.320170  3554808.304600
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  17   ea20  N05       25.0 m   -107.37.06.7  +33.54.08.0        -47.8454      192.6015       -3.8723 -1601168.786100 -5041869.054000  3555036.936000
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  18   ea21  E01       25.0 m   -107.37.05.7  +33.53.59.2        -23.8638      -81.1510       -2.5851 -1601192.467800 -5042022.856800  3554810.438800
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  19   ea22  N04       25.0 m   -107.37.06.5  +33.54.06.1        -42.5986      132.8623       -3.5431 -1601173.953700 -5041902.660400  3554987.536500
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  20   ea23  E07       25.0 m   -107.36.52.4  +33.53.56.5        318.0523     -164.1848       -2.6960 -1600880.570000 -5042170.388000  3554741.457400
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  21   ea24  W05       25.0 m   -107.37.13.0  +33.53.57.8       -210.0944     -122.3885       -2.2581 -1601377.008000 -5041988.665500  3554776.393400
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  22   ea25  N02       25.0 m   -107.37.06.2  +33.54.03.5        -35.6245       53.1806       -3.1345 -1601180.861480 -5041947.453400  3554921.628700
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  23   ea26  W03       25.0 m   -107.37.08.9  +33.54.00.1       -105.3429      -51.7191       -2.6054 -1601265.151700 -5041982.533050  3554834.856300
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  24   ea27  E03       25.0 m   -107.37.02.8  +33.54.00.5         50.6647      -39.4832       -2.7249 -1601114.365500 -5042023.153700  3554844.945600
+2024-09-27 08:00:00	INFO	listobs::ms::summary+	  25   ea28  N08       25.0 m   -107.37.07.5  +33.54.15.8        -68.9057      433.1889       -5.0602 -1601147.940400 -5041733.837000  3555235.956000
+2024-09-27 08:00:00	INFO	listobs::::casa	Task listobs complete. Start time: 2024-09-27 09:59:59.265153 End time: 2024-09-27 09:59:59.593977
+2024-09-27 08:00:00	INFO	listobs::::casa	##### End Task: listobs              #####
+2024-09-27 08:00:00	INFO	listobs::::casa	##########################################
+2024-09-27 08:20:27	INFO	plotants::::casa	##########################################
+2024-09-27 08:20:27	INFO	plotants::::casa	##### Begin Task: plotants           #####
+2024-09-27 08:20:27	INFO	plotants::::casa	plotants( vis='3C391.ms', figfile='plotants_3c391_antenna_layout.png', antindex=False, logpos=False, exclude='', checkbaselines=False, title='', showgui=True )
+2024-09-27 08:20:28	INFO	msmetadata_cmpt.cc::open	Performing internal consistency checks on 3C391.ms...
+2024-09-27 08:20:28	INFO	plotants::::casa	Number of points being plotted: 26
+2024-09-27 08:20:28	INFO	plotants::::casa	Task plotants complete. Start time: 2024-09-27 10:20:27.422496 End time: 2024-09-27 10:20:28.064343
+2024-09-27 08:20:28	INFO	plotants::::casa	##### End Task: plotants             #####
+2024-09-27 08:20:28	INFO	plotants::::casa	##########################################
+2024-09-27 08:29:37	INFO	plotms::::casa	##########################################
+2024-09-27 08:29:37	INFO	plotms::::casa	##### Begin Task: plotms             #####
+2024-09-27 08:29:37	INFO	plotms::::casa	plotms( vis='3C391.ms', gridrows=1, gridcols=1, rowindex=0, colindex=0, plotindex=0, xaxis='', xdatacolumn='', xframe='', xinterp='', yaxis='', ydatacolumn='', yframe='', yinterp='', yaxislocation='', selectdata=True, field='', spw='', timerange='', uvrange='', antenna='', scan='', correlation='', array='', observation='', intent='', feed='', msselect='', averagedata=True, avgchannel='', avgtime='', avgscan=False, avgfield=False, avgbaseline=False, avgantenna=False, avgspw=False, scalar=False, transform=True, freqframe='', restfreq='', veldef='RADIO', phasecenter='', extendflag=False, extcorr=False, extchannel=False, iteraxis='', xselfscale=False, yselfscale=False, xsharedaxis=False, ysharedaxis=False, customsymbol=[], symbolshape='autoscaling', symbolsize=2, symbolcolor='0000ff', symbolfill='fill', symboloutline=False, coloraxis='', customflaggedsymbol=False, flaggedsymbolshape='circle', flaggedsymbolsize=2, flaggedsymbolcolor='ff0000', flaggedsymbolfill='fill', flaggedsymboloutline=False, xconnector='', timeconnector=False, plotrange=[], title='', titlefont=0, xlabel='', xaxisfont=0, ylabel='', yaxisfont=0, showmajorgrid=False, majorwidth=1, majorstyle='', majorcolor='B0B0B0', showminorgrid=False, minorwidth=1, minorstyle='', minorcolor='D0D0D0', showlegend=False, legendposition='', plotfile='', expformat='', verbose=True, exprange='', highres=False, dpi=-1, width=-1, height=-1, overwrite=False, showgui=True, clearplots=True, callib=[], headeritems='', showatm=False, showtsky=False, showimage=False )
+2024-09-27 08:29:38	INFO	plotms::::casa	casaplotms started: 0.0.0.0:39749
+2024-09-27 08:29:38	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2024-09-27 08:29:39	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2024-09-27 08:29:39	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2024-09-27 08:29:39	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 08:29:39	INFO	PlotMS::load_cache	START     Current memory usage: 9210.17 kilobytes.
+2024-09-27 08:29:39	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 08:29:39	INFO	plotms::::casa	Task plotms complete. Start time: 2024-09-27 10:29:37.137853 End time: 2024-09-27 10:29:38.759865
+2024-09-27 08:29:39	INFO	plotms::::casa	##### End Task: plotms               #####
+2024-09-27 08:29:39	INFO	plotms::::casa	##########################################
+2024-09-27 08:29:39	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Time(2)...
+2024-09-27 08:29:39	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 08:29:40	INFO	PlotMS::load_cache	Data selection will yield a total of 23327104 plottable points (flagged and unflagged).
+2024-09-27 08:29:40	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.142642 GB of memory (6.11484 bytes/point).
+2024-09-27 08:29:40	INFO	PlotMS::load_cache+	This is 0.8795% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 08:29:40	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 08:29:41	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 08:29:41	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 08:29:41	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 08:29:41	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 08:29:42	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 08:29:42	INFO	PlotMS::load_cache+	Time: 4.77881e+09 to 4.77884e+09 (unflagged); (no flagged data)
+2024-09-27 08:29:42	INFO	PlotMS::load_cache+	Amp:data: 1.22401e-07 to 0.282633 (unflagged); (no flagged data)
+2024-09-27 08:29:42	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 08:29:39	INFO	PlotMS::load_cache	END       Time: +4 seconds.  Memory: +144028 kilobytes.
+2024-09-27 08:29:42	INFO	PlotMS::plot	Plotting 23327104 unflagged points.
+2024-09-27 08:40:16	INFO	PlotMS::params_changed	Updating: REDRAW, DISPLAY.
+2024-09-27 08:40:16	INFO	PlotMS::plot	Plotting 23327104 unflagged points.
+2024-09-27 08:46:38	INFO	PlotMS::locate	Time in [4.77882e+09 4.77882e+09], Amp in [0.274588 0.278824]:
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=13 Freq=4.562 Corr=LL X=4.77882e+09 Y=0.276501 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.275259 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=17 Freq=4.57 Corr=LL X=4.77882e+09 Y=0.275784 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:39.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.276141 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:49.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=13 Freq=4.562 Corr=LL X=4.77882e+09 Y=0.275046 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:59.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.274663 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:59.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.275251 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:19.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.27531 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:19.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.274971 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.276667 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.27593 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:39.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=13 Freq=4.562 Corr=LL X=4.77882e+09 Y=0.274816 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:39.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.276671 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:49.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.27543 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:49.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=16 Freq=4.568 Corr=LL X=4.77882e+09 Y=0.274647 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:59.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.27592 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:19.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.275228 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.275695 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.275039 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=16 Freq=4.568 Corr=LL X=4.77882e+09 Y=0.275944 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:37.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.277411 Observation=0
+2024-09-27 08:46:38	INFO	PlotMS::locate+	Found 21 points (21 unflagged) among 23327104 in 0.79s.
+2024-09-27 08:46:47	INFO	PlotMS::locate	Time in [4.77882e+09 4.77882e+09], Amp in [0.274588 0.278824]:
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=13 Freq=4.562 Corr=LL X=4.77882e+09 Y=0.276501 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.275259 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=17 Freq=4.57 Corr=LL X=4.77882e+09 Y=0.275784 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:39.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.276141 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:49.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=13 Freq=4.562 Corr=LL X=4.77882e+09 Y=0.275046 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:59.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.274663 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:59.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.275251 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:19.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.27531 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:19.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.274971 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.276667 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.27593 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:39.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=13 Freq=4.562 Corr=LL X=4.77882e+09 Y=0.274816 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:39.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.276671 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:49.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.27543 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:49.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=16 Freq=4.568 Corr=LL X=4.77882e+09 Y=0.274647 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:59.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.27592 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:19.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.275228 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.275695 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.275039 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=16 Freq=4.568 Corr=LL X=4.77882e+09 Y=0.275944 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:37.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.277411 Observation=0
+2024-09-27 08:46:47	INFO	PlotMS::locate+	Found 21 points (21 unflagged) among 23327104 in 0.76s.
+2024-09-27 08:46:57	INFO	PlotMS::locate	Time in [4.77882e+09 4.77882e+09], Amp in [0.274588 0.278824]:
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=13 Freq=4.562 Corr=LL X=4.77882e+09 Y=0.276501 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.275259 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=17 Freq=4.57 Corr=LL X=4.77882e+09 Y=0.275784 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:39.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.276141 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:49.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=13 Freq=4.562 Corr=LL X=4.77882e+09 Y=0.275046 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:59.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.274663 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:55:59.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.275251 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:19.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.27531 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:19.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.274971 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.276667 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.27593 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:39.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=13 Freq=4.562 Corr=LL X=4.77882e+09 Y=0.274816 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:39.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.276671 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:49.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.27543 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:49.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=16 Freq=4.568 Corr=LL X=4.77882e+09 Y=0.274647 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:56:59.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.27592 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:19.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.275228 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.275695 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=15 Freq=4.566 Corr=LL X=4.77882e+09 Y=0.275039 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:29.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=16 Freq=4.568 Corr=LL X=4.77882e+09 Y=0.275944 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Scan=37 Field=J1331+3030 [0] Time=2010/04/24/10:57:37.0000 BL=ea11@E04 & ea17@W07 [8&14] Spw=0 Chan=14 Freq=4.564 Corr=LL X=4.77882e+09 Y=0.277411 Observation=0
+2024-09-27 08:46:57	INFO	PlotMS::locate+	Found 21 points (21 unflagged) among 23327104 in 0.88s.
+2024-09-27 08:53:06	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, DISPLAY.
+2024-09-27 08:53:06	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 08:53:06	INFO	PlotMS::load_cache	START     Current memory usage: 10143.8 kilobytes.
+2024-09-27 08:53:06	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 08:53:06	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 08:53:06	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. UVwave(29)...
+2024-09-27 08:53:06	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 08:53:07	INFO	PlotMS::load_cache	Data selection will yield a total of 4091392 plottable points (flagged and unflagged).
+2024-09-27 08:53:07	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0413803 GB of memory (10.114 bytes/point).
+2024-09-27 08:53:07	INFO	PlotMS::load_cache+	This is 0.255143% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 08:53:07	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 08:53:07	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 08:53:07	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 08:53:07	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 08:53:07	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 08:53:08	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 08:53:08	INFO	PlotMS::load_cache+	UVwave: 575.374 to 15137.8 (unflagged); (no flagged data)
+2024-09-27 08:53:08	INFO	PlotMS::load_cache+	Amp:data: 5.21588e-07 to 0.282633 (unflagged); (no flagged data)
+2024-09-27 08:53:08	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 08:53:06	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +41140.4 kilobytes.
+2024-09-27 08:53:08	INFO	PlotMS::plot	Plotting 4091392 unflagged points.
+2024-09-27 09:23:01	INFO	PlotMS::locate	UVwave in [4891.89 4972.97], Amp in [0.0440181 0.0453725]:
+2024-09-27 09:23:01	INFO	PlotMS::locate+	Scan=2 Field=J1331+3030 [0] Time=2010/04/24/08:02:25.0000 BL=ea02@E02 & ea23@E07 [1&20] Spw=0 Chan=0 Freq=4.536 Corr=RR X=4930.07 Y=0.0441251 Observation=0
+2024-09-27 09:23:01	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:14:55.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4972.56 Y=0.0451012 Observation=0
+2024-09-27 09:23:01	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:15:05.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4971.36 Y=0.0452482 Observation=0
+2024-09-27 09:23:01	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:15:15.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4970.16 Y=0.0448651 Observation=0
+2024-09-27 09:23:01	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:15:35.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4967.76 Y=0.0447234 Observation=0
+2024-09-27 09:23:01	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:16:05.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4964.14 Y=0.0449611 Observation=0
+2024-09-27 09:23:01	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:16:23.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4961.96 Y=0.0450916 Observation=0
+2024-09-27 09:23:01	INFO	PlotMS::locate+	Found 7 points (7 unflagged) among 4091392 in 0.15s.
+2024-09-27 09:23:06	INFO	PlotMS::locate	UVwave in [4891.89 4972.97], Amp in [0.0440181 0.0453725]:
+2024-09-27 09:23:06	INFO	PlotMS::locate+	Scan=2 Field=J1331+3030 [0] Time=2010/04/24/08:02:25.0000 BL=ea02@E02 & ea23@E07 [1&20] Spw=0 Chan=0 Freq=4.536 Corr=RR X=4930.07 Y=0.0441251 Observation=0
+2024-09-27 09:23:06	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:14:55.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4972.56 Y=0.0451012 Observation=0
+2024-09-27 09:23:06	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:15:05.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4971.36 Y=0.0452482 Observation=0
+2024-09-27 09:23:06	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:15:15.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4970.16 Y=0.0448651 Observation=0
+2024-09-27 09:23:06	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:15:35.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4967.76 Y=0.0447234 Observation=0
+2024-09-27 09:23:06	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:16:05.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4964.14 Y=0.0449611 Observation=0
+2024-09-27 09:23:06	INFO	PlotMS::locate+	Scan=3 Field=J1331+3030 [0] Time=2010/04/24/08:16:23.0000 BL=ea21@E01 & ea23@E07 [18&20] Spw=0 Chan=0 Freq=4.536 Corr=LL X=4961.96 Y=0.0450916 Observation=0
+2024-09-27 09:23:06	INFO	PlotMS::locate+	Found 7 points (7 unflagged) among 4091392 in 0.12s.
+2024-09-27 09:25:06	INFO	PlotMS::params_changed	Updating: REDRAW, DISPLAY.
+2024-09-27 09:25:06	INFO	PlotMS::plot	Plotting 4091392 unflagged points.
+2024-09-27 09:27:13	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-09-27 09:27:13	INFO	PlotMS::load_cache	START     Current memory usage: 51415.3 kilobytes.
+2024-09-27 09:27:13	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 09:27:13	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 09:27:13	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Time(2)...
+2024-09-27 09:27:13	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 09:27:13	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 09:27:13	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 09:27:13	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 09:27:13	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 09:27:13	INFO	PlotMS::load_cache+	Time: 4.77881e+09 to 4.77882e+09 (unflagged); (no flagged data)
+2024-09-27 09:27:13	INFO	PlotMS::load_cache+	Amp:data: 5.21588e-07 to 0.282633 (unflagged); (no flagged data)
+2024-09-27 09:27:13	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 09:27:13	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +56.0938 kilobytes.
+2024-09-27 09:27:13	INFO	PlotMS::plot	Plotting 4091392 unflagged points.
+2024-09-27 09:30:18	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, AXES.
+2024-09-27 09:30:18	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 09:30:18	INFO	PlotMS::load_cache	START     Current memory usage: 10239.5 kilobytes.
+2024-09-27 09:30:18	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 09:30:18	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Time(2)...
+2024-09-27 09:30:18	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 09:30:19	INFO	PlotMS::load_cache	Data selection will yield a total of 23327104 plottable points (flagged and unflagged).
+2024-09-27 09:30:19	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.142642 GB of memory (6.11484 bytes/point).
+2024-09-27 09:30:19	INFO	PlotMS::load_cache+	This is 0.8795% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 09:30:19	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 09:30:20	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 09:30:21	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 09:30:21	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 09:30:21	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 09:30:21	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 09:30:21	INFO	PlotMS::load_cache+	Time: 4.77881e+09 to 4.77884e+09 (unflagged); (no flagged data)
+2024-09-27 09:30:21	INFO	PlotMS::load_cache+	Amp:data: 1.22401e-07 to 0.282633 (unflagged); (no flagged data)
+2024-09-27 09:30:21	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 09:30:18	INFO	PlotMS::load_cache	END       Time: +3 seconds.  Memory: +143428 kilobytes.
+2024-09-27 09:30:21	INFO	PlotMS::plot	Plotting 23327104 unflagged points.
+2024-09-27 09:30:38	INFO	PlotMS::params_changed	Updating: REDRAW, AXES.
+2024-09-27 09:30:38	INFO	PlotMS::plot	Plotting 23327104 unflagged points.
+2024-09-27 09:33:11	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	START     Current memory usage: 10294 kilobytes.
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Time(2)...
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	Data selection will yield a total of 4091392 plottable points (flagged and unflagged).
+2024-09-27 09:33:11	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0250147 GB of memory (6.11399 bytes/point).
+2024-09-27 09:33:11	INFO	PlotMS::load_cache+	This is 0.154236% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 09:33:12	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 09:33:12	INFO	PlotMS::load_cache+	Time: 4.77881e+09 to 4.77882e+09 (unflagged); (no flagged data)
+2024-09-27 09:33:12	INFO	PlotMS::load_cache+	Amp:data: 5.21588e-07 to 0.282633 (unflagged); (no flagged data)
+2024-09-27 09:33:12	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 09:33:11	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +25122.6 kilobytes.
+2024-09-27 09:33:12	INFO	PlotMS::plot	Plotting 4091392 unflagged points.
+2024-09-27 09:40:56	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE, AXES, DISPLAY.
+2024-09-27 09:40:56	INFO	PlotMS::load_cache	START     Current memory usage: 35473 kilobytes.
+2024-09-27 09:40:56	INFO	PlotMS::plot	WARNING: Connecting points is implemented for calibration tables only
+2024-09-27 09:40:56	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 09:40:56	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 09:40:56	INFO	PlotMS::load_cache	Caching for the new plot: Vwave(34) vs. Uwave(33)...
+2024-09-27 09:40:56	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 09:40:57	INFO	PlotMS::load_cache	Data selection will yield a total of 4091392 plottable points (flagged and unflagged).
+2024-09-27 09:40:57	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0577459 GB of memory (14.114 bytes/point).
+2024-09-27 09:40:57	INFO	PlotMS::load_cache+	This is 0.35605% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 09:40:57	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 09:40:57	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 09:40:57	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 09:40:57	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 09:40:57	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 09:40:57	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 09:40:57	INFO	PlotMS::load_cache+	Uwave: -14516.2 to 13424.5 (unflagged); (no flagged data)
+2024-09-27 09:40:57	INFO	PlotMS::load_cache+	Vwave: -14541.1 to 10313.9 (unflagged); (no flagged data)
+2024-09-27 09:40:57	WARN	PlotMS::load_cache	For a UV plot, plotms will plot the conjugates of the points in the MS.
+2024-09-27 09:40:57	WARN	PlotMS::load_cache+	However, the Locate and Flag functions will not work for these conjugate points!
+2024-09-27 09:40:57	WARN	PlotMS::load_cache+	The global ranges above do not include the conjugates.
+2024-09-27 09:40:57	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 09:40:56	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +30089 kilobytes.
+2024-09-27 09:40:57	INFO	PlotMS::plot	WARNING: Connecting points is implemented for calibration tables only
+2024-09-27 09:40:58	INFO	PlotMS::plot	Plotting 2045696 unflagged points.
+2024-09-27 09:44:10	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, DISPLAY, ITERATION.
+2024-09-27 09:44:10	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 09:44:10	INFO	PlotMS::load_cache	START     Current memory usage: 10113.5 kilobytes.
+2024-09-27 09:44:10	INFO	PlotMS::plot	WARNING: Connecting points is implemented for calibration tables only
+2024-09-27 09:44:10	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 09:44:10	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-09-27 09:44:10	INFO	PlotMS::load_cache	Caching for the new plot: Vwave(34) vs. Uwave(33)...
+2024-09-27 09:44:10	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 09:44:10	INFO	PlotMS::load_cache	Data selection will yield a total of 9177216 plottable points (flagged and unflagged).
+2024-09-27 09:44:10	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0928319 GB of memory (10.1155 bytes/point).
+2024-09-27 09:44:10	INFO	PlotMS::load_cache+	This is 0.572383% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 09:44:10	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 09:44:12	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 09:44:12	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 09:44:12	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 09:44:12	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 09:44:12	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 09:44:12	INFO	PlotMS::load_cache+	Uwave: -15937.9 to 14552.6 (unflagged); (no flagged data)
+2024-09-27 09:44:12	INFO	PlotMS::load_cache+	Vwave: -14541.1 to 10313.9 (unflagged); (no flagged data)
+2024-09-27 09:44:12	WARN	PlotMS::load_cache	For a UV plot, plotms will plot the conjugates of the points in the MS.
+2024-09-27 09:44:12	WARN	PlotMS::load_cache+	However, the Locate and Flag functions will not work for these conjugate points!
+2024-09-27 09:44:12	WARN	PlotMS::load_cache+	The global ranges above do not include the conjugates.
+2024-09-27 09:44:12	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 09:44:10	INFO	PlotMS::load_cache	END       Time: +3 seconds.  Memory: +87959 kilobytes.
+2024-09-27 09:44:12	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 09:44:12	INFO	PlotMS::load_cache	Found 2 Field iterations.
+2024-09-27 09:52:26	INFO	plotms::::casa	##########################################
+2024-09-27 09:52:26	INFO	plotms::::casa	##### Begin Task: plotms             #####
+2024-09-27 09:52:26	INFO	plotms::::casa	plotms( vis='', gridrows=1, gridcols=1, rowindex=0, colindex=0, plotindex=0, xaxis='', xdatacolumn='', xframe='', xinterp='', yaxis='', ydatacolumn='', yframe='', yinterp='', yaxislocation='', selectdata=True, field='', spw='', timerange='', uvrange='', antenna='', scan='', correlation='', array='', observation='', intent='', feed='', msselect='', averagedata=True, avgchannel='', avgtime='', avgscan=False, avgfield=False, avgbaseline=False, avgantenna=False, avgspw=False, scalar=False, transform=True, freqframe='', restfreq='', veldef='RADIO', phasecenter='', extendflag=False, extcorr=False, extchannel=False, iteraxis='', xselfscale=False, yselfscale=False, xsharedaxis=False, ysharedaxis=False, customsymbol=[], symbolshape='autoscaling', symbolsize=2, symbolcolor='0000ff', symbolfill='fill', symboloutline=False, coloraxis='', customflaggedsymbol=False, flaggedsymbolshape='circle', flaggedsymbolsize=2, flaggedsymbolcolor='ff0000', flaggedsymbolfill='fill', flaggedsymboloutline=False, xconnector='', timeconnector=False, plotrange=[], title='', titlefont=0, xlabel='', xaxisfont=0, ylabel='', yaxisfont=0, showmajorgrid=False, majorwidth=1, majorstyle='', majorcolor='B0B0B0', showminorgrid=False, minorwidth=1, minorstyle='', minorcolor='D0D0D0', showlegend=False, legendposition='', plotfile='', expformat='', verbose=True, exprange='', highres=False, dpi=-1, width=-1, height=-1, overwrite=False, showgui=True, clearplots=True, callib=[], headeritems='', showatm=False, showtsky=False, showimage=False )

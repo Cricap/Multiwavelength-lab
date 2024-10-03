@@ -1,0 +1,635 @@
+2024-09-27 09:54:21	INFO	::casa	
+2024-09-27 09:54:21	INFO	::casa	
+2024-09-27 09:54:21	INFO	::casa	
+2024-09-27 09:54:21	INFO	::casa	
+2024-09-27 09:54:22	INFO	::casa	Python version 3.8.10
+2024-09-27 09:54:22	INFO	::casa	CASA Version CASALITH 6.5.0.15
+2024-09-27 09:54:22	INFO	::casa	
+2024-09-27 09:54:22	INFO	::casa	Found an existing telemetry logfile: /home/cricap/.casa/casastats-6.5.0.15-0155d283c59-20240927-072458.log
+2024-09-27 09:54:22	INFO	::casa	Telemetry log file: /home/cricap/.casa/casastats-6.5.0.15-0155d283c59-20240927-072458.log
+2024-09-27 09:54:22	INFO	::casa	Checking telemetry submission interval
+2024-09-27 09:54:22	INFO	::casa	Telemetry submit interval not reached. Not submitting data.
+2024-09-27 09:54:22	INFO	::casa	Next telemetry data submission in: 6 days, 21:30:36.079043
+2024-09-27 09:54:23	INFO	::casa	
+2024-09-27 09:54:23	INFO	::casa	optional configuration file config.py not found, continuing CASA startup without it
+2024-09-27 09:54:23	INFO	::casa	
+2024-09-27 09:54:23	INFO	::casa	Checking Measures tables in data repository sub-directory /home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casadata/__data__/geodetic
+2024-09-27 09:54:23	INFO	::casa	  IERSeop2000 (version date, last date in table (UTC)): 2022/05/19/15:00, 2022/04/19/00:00:00
+2024-09-27 09:54:23	INFO	::casa	  IERSeop97 (version date, last date in table (UTC)): 2022/05/19/15:00, 2022/04/19/00:00:00
+2024-09-27 09:54:23	INFO	::casa	  IERSpredict (version date, last date in table (UTC)): 2022/05/22/15:00, 2022/08/20/00:00:00
+2024-09-27 09:54:23	INFO	::casa	  TAI_UTC (version date, last date in table (UTC)): 2022/05/19/15:00, 2017/01/01/00:00:00
+2024-09-27 09:54:46	INFO	plotms::::casa	##########################################
+2024-09-27 09:54:46	INFO	plotms::::casa	##### Begin Task: plotms             #####
+2024-09-27 09:54:46	INFO	plotms::::casa	plotms( vis='', gridrows=1, gridcols=1, rowindex=0, colindex=0, plotindex=0, xaxis='', xdatacolumn='', xframe='', xinterp='', yaxis='', ydatacolumn='', yframe='', yinterp='', yaxislocation='', selectdata=True, field='', spw='', timerange='', uvrange='', antenna='', scan='', correlation='', array='', observation='', intent='', feed='', msselect='', averagedata=True, avgchannel='', avgtime='', avgscan=False, avgfield=False, avgbaseline=False, avgantenna=False, avgspw=False, scalar=False, transform=True, freqframe='', restfreq='', veldef='RADIO', phasecenter='', extendflag=False, extcorr=False, extchannel=False, iteraxis='', xselfscale=False, yselfscale=False, xsharedaxis=False, ysharedaxis=False, customsymbol=[], symbolshape='autoscaling', symbolsize=2, symbolcolor='0000ff', symbolfill='fill', symboloutline=False, coloraxis='', customflaggedsymbol=False, flaggedsymbolshape='circle', flaggedsymbolsize=2, flaggedsymbolcolor='ff0000', flaggedsymbolfill='fill', flaggedsymboloutline=False, xconnector='', timeconnector=False, plotrange=[], title='', titlefont=0, xlabel='', xaxisfont=0, ylabel='', yaxisfont=0, showmajorgrid=False, majorwidth=1, majorstyle='', majorcolor='B0B0B0', showminorgrid=False, minorwidth=1, minorstyle='', minorcolor='D0D0D0', showlegend=False, legendposition='', plotfile='', expformat='', verbose=True, exprange='', highres=False, dpi=-1, width=-1, height=-1, overwrite=False, showgui=True, clearplots=True, callib=[], headeritems='', showatm=False, showtsky=False, showimage=False )
+2024-09-27 09:54:48	INFO	plotms::::casa	casaplotms started: 0.0.0.0:34507
+2024-09-27 09:54:48	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2024-09-27 09:54:48	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2024-09-27 09:54:48	INFO	plotms::::casa	Task plotms complete. Start time: 2024-09-27 11:54:46.458717 End time: 2024-09-27 11:54:47.940869
+2024-09-27 09:54:48	INFO	plotms::::casa	##### End Task: plotms               #####
+2024-09-27 09:54:48	INFO	plotms::::casa	##########################################
+2024-09-27 09:55:51	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE.
+2024-09-27 09:55:51	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 09:55:51	INFO	PlotMS::load_cache	START     Current memory usage: 9496.19 kilobytes.
+2024-09-27 09:55:51	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 09:55:51	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 09:55:51	INFO	PlotMS::load_cache	Caching for the new plot: Vwave(34) vs. Uwave(33)...
+2024-09-27 09:55:51	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 09:55:51	INFO	PlotMS::load_cache	Data selection will yield a total of 4091392 plottable points (flagged and unflagged).
+2024-09-27 09:55:51	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0413803 GB of memory (10.114 bytes/point).
+2024-09-27 09:55:51	INFO	PlotMS::load_cache+	This is 0.255143% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 09:55:51	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 09:55:52	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 09:55:52	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 09:55:52	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 09:55:52	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 09:55:52	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 09:55:52	INFO	PlotMS::load_cache+	Uwave: -14516.2 to 13424.5 (unflagged); (no flagged data)
+2024-09-27 09:55:52	INFO	PlotMS::load_cache+	Vwave: -14541.1 to 10313.9 (unflagged); (no flagged data)
+2024-09-27 09:55:52	WARN	PlotMS::load_cache	For a UV plot, plotms will plot the conjugates of the points in the MS.
+2024-09-27 09:55:52	WARN	PlotMS::load_cache+	However, the Locate and Flag functions will not work for these conjugate points!
+2024-09-27 09:55:52	WARN	PlotMS::load_cache+	The global ranges above do not include the conjugates.
+2024-09-27 09:55:52	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 09:55:51	INFO	PlotMS::load_cache	END       Time: +2 seconds.  Memory: +39782.8 kilobytes.
+2024-09-27 09:55:52	INFO	PlotMS::plot	Plotting 2045696 unflagged points.
+2024-09-27 09:56:20	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2024-09-27 09:56:20	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 09:56:20	INFO	PlotMS::load_cache	START     Current memory usage: 9815.41 kilobytes.
+2024-09-27 09:56:20	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 09:56:20	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-09-27 09:56:20	INFO	PlotMS::load_cache	Caching for the new plot: Vwave(34) vs. Uwave(33)...
+2024-09-27 09:56:20	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 09:56:20	INFO	PlotMS::load_cache	Data selection will yield a total of 9177216 plottable points (flagged and unflagged).
+2024-09-27 09:56:20	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0928319 GB of memory (10.1155 bytes/point).
+2024-09-27 09:56:20	INFO	PlotMS::load_cache+	This is 0.572383% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 09:56:20	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 09:56:22	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 09:56:22	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 09:56:22	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 09:56:22	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 09:56:23	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 09:56:23	INFO	PlotMS::load_cache+	Uwave: -15937.9 to 14552.6 (unflagged); (no flagged data)
+2024-09-27 09:56:23	INFO	PlotMS::load_cache+	Vwave: -14541.1 to 10313.9 (unflagged); (no flagged data)
+2024-09-27 09:56:23	WARN	PlotMS::load_cache	For a UV plot, plotms will plot the conjugates of the points in the MS.
+2024-09-27 09:56:23	WARN	PlotMS::load_cache+	However, the Locate and Flag functions will not work for these conjugate points!
+2024-09-27 09:56:23	WARN	PlotMS::load_cache+	The global ranges above do not include the conjugates.
+2024-09-27 09:56:23	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 09:56:20	INFO	PlotMS::load_cache	END       Time: +3 seconds.  Memory: +87899.7 kilobytes.
+2024-09-27 09:56:23	INFO	PlotMS::plot	Plotting 4588608 unflagged points.
+2024-09-27 09:57:28	INFO	PlotMS::params_changed	Updating: REDRAW, ITERATION.
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	START     Current memory usage: 97775.8 kilobytes.
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	  Selection: field: 0,1
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	Caching for the new plot: Vwave(34) vs. Uwave(33)...
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 09:57:28	INFO	PlotMS::load_cache+	Uwave: -15937.9 to 14552.6 (unflagged); (no flagged data)
+2024-09-27 09:57:28	INFO	PlotMS::load_cache+	Vwave: -14541.1 to 10313.9 (unflagged); (no flagged data)
+2024-09-27 09:57:28	WARN	PlotMS::load_cache	For a UV plot, plotms will plot the conjugates of the points in the MS.
+2024-09-27 09:57:28	WARN	PlotMS::load_cache+	However, the Locate and Flag functions will not work for these conjugate points!
+2024-09-27 09:57:28	WARN	PlotMS::load_cache+	The global ranges above do not include the conjugates.
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +15.8906 kilobytes.
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	Found 2 Field iterations.
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 09:57:28	INFO	PlotMS::load_cache+	Uwave: -15937.9 to 14552.6 (unflagged); (no flagged data)
+2024-09-27 09:57:28	INFO	PlotMS::load_cache+	Vwave: -10902.7 to 9375.67 (unflagged); (no flagged data)
+2024-09-27 09:57:28	WARN	PlotMS::load_cache	For a UV plot, plotms will plot the conjugates of the points in the MS.
+2024-09-27 09:57:28	WARN	PlotMS::load_cache+	However, the Locate and Flag functions will not work for these conjugate points!
+2024-09-27 09:57:28	WARN	PlotMS::load_cache+	The global ranges above do not include the conjugates.
+2024-09-27 09:57:28	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 09:57:28	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-09-27 09:57:28	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-09-27 09:57:28	INFO	PlotMS::plot	Plotting 2045696 unflagged points.
+2024-09-27 09:57:31	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-09-27 09:57:31	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-09-27 09:57:31	INFO	PlotMS::plot	Plotting 2542912 unflagged points.
+2024-09-27 09:57:34	INFO	PlotMS::plot	Stepping to iteration = 1 (of 2): Field: J1331+3030
+2024-09-27 09:57:34	INFO	PlotMS::plot	Stepping to iteration = 2 (of 2): Field: J1822-0938
+2024-09-27 09:57:34	INFO	PlotMS::plot	Plotting 2045696 unflagged points.
+2024-09-27 09:58:48	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, ITERATION.
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	START     Current memory usage: 10901.7 kilobytes.
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Channel(5)...
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	Data selection will yield a total of 4091392 plottable points (flagged and unflagged).
+2024-09-27 09:58:48	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0250147 GB of memory (6.11399 bytes/point).
+2024-09-27 09:58:48	INFO	PlotMS::load_cache+	This is 0.154236% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 09:58:49	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 09:58:49	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); (no flagged data)
+2024-09-27 09:58:49	INFO	PlotMS::load_cache+	Amp:data: 5.21588e-07 to 0.282633 (unflagged); (no flagged data)
+2024-09-27 09:58:49	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 09:58:48	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +25122.6 kilobytes.
+2024-09-27 09:58:49	INFO	PlotMS::plot	Plotting 4091392 unflagged points.
+2024-09-27 10:01:10	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-09-27 10:01:10	INFO	PlotMS::load_cache	START     Current memory usage: 36034.2 kilobytes.
+2024-09-27 10:01:10	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 10:01:10	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 10:01:10	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Frequency(6)...
+2024-09-27 10:01:10	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 10:01:10	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 10:01:10	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 10:01:10	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:01:10	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:01:10	INFO	PlotMS::load_cache+	Frequency: 4.536 to 4.662 (unflagged); (no flagged data)
+2024-09-27 10:01:10	INFO	PlotMS::load_cache+	Amp:data: 5.21588e-07 to 0.282633 (unflagged); (no flagged data)
+2024-09-27 10:01:10	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:01:10	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +50.5781 kilobytes.
+2024-09-27 10:01:10	INFO	PlotMS::plot	Plotting 4091392 unflagged points.
+2024-09-27 10:08:53	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE.
+2024-09-27 10:08:53	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 10:08:53	INFO	PlotMS::load_cache	START     Current memory usage: 10892.4 kilobytes.
+2024-09-27 10:08:53	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 10:08:53	INFO	PlotMS::load_cache	  Selection: field: 0, scan: 1,2,3
+2024-09-27 10:08:53	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Time(2)...
+2024-09-27 10:08:53	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 10:08:54	INFO	PlotMS::load_cache	Data selection will yield a total of 3660800 plottable points (flagged and unflagged).
+2024-09-27 10:08:54	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0223788 GB of memory (6.11308 bytes/point).
+2024-09-27 10:08:54	INFO	PlotMS::load_cache+	This is 0.137983% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 10:08:54	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 10:08:54	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 10:08:54	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 10:08:54	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 10:08:54	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:08:54	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:08:54	INFO	PlotMS::load_cache+	Time: 4.77881e+09 to 4.77881e+09 (unflagged); (no flagged data)
+2024-09-27 10:08:54	INFO	PlotMS::load_cache+	Amp:data: 5.21588e-07 to 0.282633 (unflagged); (no flagged data)
+2024-09-27 10:08:54	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:08:53	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +22529 kilobytes.
+2024-09-27 10:08:54	INFO	PlotMS::plot	Plotting 3660800 unflagged points.
+2024-09-27 10:10:13	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2024-09-27 10:10:13	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 10:10:13	INFO	PlotMS::load_cache	START     Current memory usage: 10927 kilobytes.
+2024-09-27 10:10:13	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 10:10:13	INFO	PlotMS::load_cache	  Selection: field: 0, scan: 1,2,3,4
+2024-09-27 10:10:13	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Time(2)...
+2024-09-27 10:10:13	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 10:10:14	INFO	PlotMS::load_cache	Data selection will yield a total of 3660800 plottable points (flagged and unflagged).
+2024-09-27 10:10:14	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0223788 GB of memory (6.11308 bytes/point).
+2024-09-27 10:10:14	INFO	PlotMS::load_cache+	This is 0.137983% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 10:10:14	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 10:10:14	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 10:10:14	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 10:10:14	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 10:10:14	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:10:14	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:10:14	INFO	PlotMS::load_cache+	Time: 4.77881e+09 to 4.77881e+09 (unflagged); (no flagged data)
+2024-09-27 10:10:14	INFO	PlotMS::load_cache+	Amp:data: 5.21588e-07 to 0.282633 (unflagged); (no flagged data)
+2024-09-27 10:10:14	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:10:13	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +22517.6 kilobytes.
+2024-09-27 10:10:14	INFO	PlotMS::plot	Plotting 3660800 unflagged points.
+2024-09-27 10:11:20	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2024-09-27 10:11:20	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 10:11:20	INFO	PlotMS::load_cache	START     Current memory usage: 10971.5 kilobytes.
+2024-09-27 10:11:20	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 10:11:20	INFO	PlotMS::load_cache	  Selection: scan: 1,2,3,4
+2024-09-27 10:11:20	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Time(2)...
+2024-09-27 10:11:20	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 10:11:21	INFO	PlotMS::load_cache	Data selection will yield a total of 4561280 plottable points (flagged and unflagged).
+2024-09-27 10:11:21	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0278894 GB of memory (6.11437 bytes/point).
+2024-09-27 10:11:21	INFO	PlotMS::load_cache+	This is 0.17196% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 10:11:21	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 10:11:21	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 10:11:21	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 10:11:21	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 10:11:21	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:11:21	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:11:21	INFO	PlotMS::load_cache+	Time: 4.77881e+09 to 4.77881e+09 (unflagged); (no flagged data)
+2024-09-27 10:11:21	INFO	PlotMS::load_cache+	Amp:data: 5.21588e-07 to 0.282633 (unflagged); (no flagged data)
+2024-09-27 10:11:21	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:11:20	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +28073.6 kilobytes.
+2024-09-27 10:11:21	INFO	PlotMS::plot	Plotting 4561280 unflagged points.
+2024-09-27 10:12:42	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2024-09-27 10:12:42	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 10:12:42	INFO	PlotMS::load_cache	START     Current memory usage: 10990.8 kilobytes.
+2024-09-27 10:12:42	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 10:12:42	INFO	PlotMS::load_cache	  Selection: scan: 1~4
+2024-09-27 10:12:42	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Time(2)...
+2024-09-27 10:12:42	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 10:12:42	INFO	PlotMS::load_cache	Data selection will yield a total of 4561280 plottable points (flagged and unflagged).
+2024-09-27 10:12:42	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0278894 GB of memory (6.11437 bytes/point).
+2024-09-27 10:12:42	INFO	PlotMS::load_cache+	This is 0.17196% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 10:12:42	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 10:12:43	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 10:12:43	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 10:12:43	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 10:12:43	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:12:43	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:12:43	INFO	PlotMS::load_cache+	Time: 4.77881e+09 to 4.77881e+09 (unflagged); (no flagged data)
+2024-09-27 10:12:43	INFO	PlotMS::load_cache+	Amp:data: 5.21588e-07 to 0.282633 (unflagged); (no flagged data)
+2024-09-27 10:12:43	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:12:42	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +28073.8 kilobytes.
+2024-09-27 10:12:43	INFO	PlotMS::plot	Plotting 4561280 unflagged points.
+2024-09-27 10:22:38	INFO	flagdata::::casa	##########################################
+2024-09-27 10:22:38	INFO	flagdata::::casa	##### Begin Task: flagdata           #####
+2024-09-27 10:22:38	INFO	flagdata::::casa	flagdata( vis='3C391.ms', mode='manual', autocorr=False, inpfile='', reason='any', tbuff=0.0, spw='', field='', antenna='', uvrange='', timerange='', correlation='', scan='1', intent='', array='', observation='', feed='', clipminmax=[], datacolumn='DATA', clipoutside=True, channelavg=False, chanbin=1, timeavg=False, timebin='0s', clipzeros=False, quackinterval=1.0, quackmode='beg', quackincrement=False, tolerance=0.0, addantenna='', lowerlimit=0.0, upperlimit=90.0, ntime='scan', combinescans=False, timecutoff=4.0, freqcutoff=3.0, timefit='line', freqfit='poly', maxnpieces=7, flagdimension='freqtime', usewindowstats='none', halfwin=1, extendflags=True, winsize=3, timedev='', freqdev='', timedevscale=5.0, freqdevscale=5.0, spectralmax=1000000.0, spectralmin=0.0, antint_ref_antenna='', minchanfrac=0.6, verbose=False, extendpols=True, growtime=50.0, growfreq=50.0, growaround=False, flagneartime=False, flagnearfreq=False, minrel=0.0, maxrel=1.0, minabs=0, maxabs=-1, spwchan=False, spwcorr=False, basecnt=False, fieldcnt=False, name='Summary', action='apply', display='', flagbackup=False, savepars=False, cmdreason='', outfile='', overwrite=True, writeflags=True )
+2024-09-27 10:22:38	INFO	AgentFlagger::open	Table type is Measurement Set
+2024-09-27 10:22:38	INFO	flagdata::::casa	Manual mode is active
+2024-09-27 10:22:38	INFO	flagdata::::casa	Initializing the agents
+2024-09-27 10:22:38	INFO	AgentFlagger::initAgents	There are initially 1 agents in the list. Agents: manual
+2024-09-27 10:22:38	INFO	Manual::setAgentParameters 	autocorr is 0
+2024-09-27 10:22:38	INFO	AgentFlagger::initAgents	There are 1 valid agents in the list. Agents: manual
+2024-09-27 10:22:38	INFO	flagdata::::casa	Running the agentflagger tool
+2024-09-27 10:22:38	INFO	FlagMSHandler::	Chunk = 1 [progress: 100%], Observation = 0, Array = 0, Scan = 1, Field = 0 (J1331+3030), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 650
+2024-09-27 10:22:38	INFO	Manual::chunkSummary	=> Data flagged so far 100% (83200/83200)
+2024-09-27 10:22:38	INFO	FlagMSHandler::nextChunk 	==================================================================================== 
+2024-09-27 10:22:38	INFO	Manual::tableSummary	=> Percentage of data flagged in table selection: 100%
+2024-09-27 10:22:38	INFO	AgentFlagger::run	=> Writing flags to the MS
+2024-09-27 10:22:38	INFO	flagdata::::casa	Task flagdata complete. Start time: 2024-09-27 12:22:38.025912 End time: 2024-09-27 12:22:38.308624
+2024-09-27 10:22:38	INFO	flagdata::::casa	##### End Task: flagdata             #####
+2024-09-27 10:22:38	INFO	flagdata::::casa	##########################################
+2024-09-27 10:23:21	INFO	flagdata::::casa	##########################################
+2024-09-27 10:23:21	INFO	flagdata::::casa	##### Begin Task: flagdata           #####
+2024-09-27 10:23:21	INFO	flagdata::::casa	flagdata( vis='3C391.ms', mode='manual', autocorr=False, inpfile='', reason='any', tbuff=0.0, spw='', field='', antenna='', uvrange='', timerange='', correlation='', scan='1', intent='', array='', observation='', feed='', clipminmax=[], datacolumn='DATA', clipoutside=True, channelavg=False, chanbin=1, timeavg=False, timebin='0s', clipzeros=False, quackinterval=1.0, quackmode='beg', quackincrement=False, tolerance=0.0, addantenna='', lowerlimit=0.0, upperlimit=90.0, ntime='scan', combinescans=False, timecutoff=4.0, freqcutoff=3.0, timefit='line', freqfit='poly', maxnpieces=7, flagdimension='freqtime', usewindowstats='none', halfwin=1, extendflags=True, winsize=3, timedev='', freqdev='', timedevscale=5.0, freqdevscale=5.0, spectralmax=1000000.0, spectralmin=0.0, antint_ref_antenna='', minchanfrac=0.6, verbose=False, extendpols=True, growtime=50.0, growfreq=50.0, growaround=False, flagneartime=False, flagnearfreq=False, minrel=0.0, maxrel=1.0, minabs=0, maxabs=-1, spwchan=False, spwcorr=False, basecnt=False, fieldcnt=False, name='Summary', action='apply', display='', flagbackup=False, savepars=False, cmdreason='', outfile='', overwrite=True, writeflags=True )
+2024-09-27 10:23:21	INFO	AgentFlagger::open	Table type is Measurement Set
+2024-09-27 10:23:21	INFO	flagdata::::casa	Manual mode is active
+2024-09-27 10:23:21	INFO	flagdata::::casa	Initializing the agents
+2024-09-27 10:23:21	INFO	AgentFlagger::initAgents	There are initially 1 agents in the list. Agents: manual
+2024-09-27 10:23:21	INFO	Manual::setAgentParameters 	autocorr is 0
+2024-09-27 10:23:21	INFO	AgentFlagger::initAgents	There are 1 valid agents in the list. Agents: manual
+2024-09-27 10:23:21	INFO	flagdata::::casa	Running the agentflagger tool
+2024-09-27 10:23:21	INFO	FlagMSHandler::	Chunk = 1 [progress: 100%], Observation = 0, Array = 0, Scan = 1, Field = 0 (J1331+3030), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 650
+2024-09-27 10:23:21	INFO	Manual::chunkSummary	=> Data flagged so far 100% (83200/83200)
+2024-09-27 10:23:21	INFO	FlagMSHandler::nextChunk 	==================================================================================== 
+2024-09-27 10:23:21	INFO	Manual::tableSummary	=> Percentage of data flagged in table selection: 100%
+2024-09-27 10:23:21	INFO	AgentFlagger::run	=> Writing flags to the MS
+2024-09-27 10:23:21	INFO	flagdata::::casa	Task flagdata complete. Start time: 2024-09-27 12:23:20.884177 End time: 2024-09-27 12:23:20.986661
+2024-09-27 10:23:21	INFO	flagdata::::casa	##### End Task: flagdata             #####
+2024-09-27 10:23:21	INFO	flagdata::::casa	##########################################
+2024-09-27 10:25:06	INFO	flagdata::::casa	##########################################
+2024-09-27 10:25:06	INFO	flagdata::::casa	##### Begin Task: flagdata           #####
+2024-09-27 10:25:06	INFO	flagdata::::casa	flagdata( vis='3C391.ms', mode='manual', autocorr=False, inpfile='', reason='any', tbuff=0.0, spw='', field='', antenna='', uvrange='', timerange='', correlation='', scan='1', intent='', array='', observation='', feed='', clipminmax=[], datacolumn='DATA', clipoutside=True, channelavg=False, chanbin=1, timeavg=False, timebin='0s', clipzeros=False, quackinterval=1.0, quackmode='beg', quackincrement=False, tolerance=0.0, addantenna='', lowerlimit=0.0, upperlimit=90.0, ntime='scan', combinescans=False, timecutoff=4.0, freqcutoff=3.0, timefit='line', freqfit='poly', maxnpieces=7, flagdimension='freqtime', usewindowstats='none', halfwin=1, extendflags=True, winsize=3, timedev='', freqdev='', timedevscale=5.0, freqdevscale=5.0, spectralmax=1000000.0, spectralmin=0.0, antint_ref_antenna='', minchanfrac=0.6, verbose=False, extendpols=True, growtime=50.0, growfreq=50.0, growaround=False, flagneartime=False, flagnearfreq=False, minrel=0.0, maxrel=1.0, minabs=0, maxabs=-1, spwchan=False, spwcorr=False, basecnt=False, fieldcnt=False, name='Summary', action='apply', display='', flagbackup=False, savepars=False, cmdreason='', outfile='', overwrite=True, writeflags=True )
+2024-09-27 10:25:06	INFO	AgentFlagger::open	Table type is Measurement Set
+2024-09-27 10:25:06	INFO	flagdata::::casa	Manual mode is active
+2024-09-27 10:25:06	INFO	flagdata::::casa	Initializing the agents
+2024-09-27 10:25:06	INFO	AgentFlagger::initAgents	There are initially 1 agents in the list. Agents: manual
+2024-09-27 10:25:06	INFO	Manual::setAgentParameters 	autocorr is 0
+2024-09-27 10:25:06	INFO	AgentFlagger::initAgents	There are 1 valid agents in the list. Agents: manual
+2024-09-27 10:25:06	INFO	flagdata::::casa	Running the agentflagger tool
+2024-09-27 10:25:06	INFO	FlagMSHandler::	Chunk = 1 [progress: 100%], Observation = 0, Array = 0, Scan = 1, Field = 0 (J1331+3030), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 650
+2024-09-27 10:25:06	INFO	Manual::chunkSummary	=> Data flagged so far 100% (83200/83200)
+2024-09-27 10:25:06	INFO	FlagMSHandler::nextChunk 	==================================================================================== 
+2024-09-27 10:25:06	INFO	Manual::tableSummary	=> Percentage of data flagged in table selection: 100%
+2024-09-27 10:25:06	INFO	AgentFlagger::run	=> Writing flags to the MS
+2024-09-27 10:25:06	INFO	flagdata::::casa	Task flagdata complete. Start time: 2024-09-27 12:25:06.280072 End time: 2024-09-27 12:25:06.420211
+2024-09-27 10:25:06	INFO	flagdata::::casa	##### End Task: flagdata             #####
+2024-09-27 10:25:06	INFO	flagdata::::casa	##########################################
+2024-09-27 10:27:33	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, ITERATION.
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	START     Current memory usage: 10971.9 kilobytes.
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	  Selection: scan: 1~3
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Time(2)...
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	Data selection will yield a total of 3660800 plottable points (flagged and unflagged).
+2024-09-27 10:27:33	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0223788 GB of memory (6.11308 bytes/point).
+2024-09-27 10:27:33	INFO	PlotMS::load_cache+	This is 0.137983% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:27:34	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:27:34	INFO	PlotMS::load_cache+	Time: 4.77881e+09 to 4.77881e+09 (unflagged); ; 4.77881e+09 to 4.77881e+09 (flagged).
+2024-09-27 10:27:34	INFO	PlotMS::load_cache+	Amp:data: 5.21588e-07 to 0.282633 (unflagged); 2.95155e-06 to 0.277638(flagged).
+2024-09-27 10:27:34	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:27:33	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +22528.8 kilobytes.
+2024-09-27 10:27:34	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:27:34	INFO	PlotMS::load_cache	Found 3 Scan iterations.
+2024-09-27 10:27:34	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:27:34	INFO	PlotMS::load_cache+	Time: 4.77881e+09 to 4.77881e+09 (unflagged); ; 1.79769e+308 to -1.79769e+308 (flagged).
+2024-09-27 10:27:34	INFO	PlotMS::load_cache+	Amp:data: 8.9819e-07 to 0.277253 (unflagged); 1.79769e+308 to -1.79769e+308(flagged).
+2024-09-27 10:27:34	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:27:34	INFO	PlotMS::plot	Stepping to iteration = 1 (of 3): Scan: 1
+2024-09-27 10:27:34	INFO	PlotMS::plot	Stepping to iteration = 2 (of 3): Scan: 2
+2024-09-27 10:27:34	INFO	PlotMS::plot	Stepping to iteration = 3 (of 3): Scan: 3
+2024-09-27 10:27:34	INFO	PlotMS::plot	Plotting 0 unflagged points.
+2024-09-27 10:27:34	INFO	PlotMS::PlotMS Warning	WARNING: All selected data are flagged.
+2024-09-27 10:27:43	INFO	PlotMS::plot	Stepping to iteration = 1 (of 3): Scan: 1
+2024-09-27 10:27:43	INFO	PlotMS::plot	Stepping to iteration = 2 (of 3): Scan: 2
+2024-09-27 10:27:43	INFO	PlotMS::plot	Stepping to iteration = 3 (of 3): Scan: 3
+2024-09-27 10:27:43	INFO	PlotMS::plot	Plotting 1788800 unflagged points.
+2024-09-27 10:27:45	INFO	PlotMS::plot	Stepping to iteration = 1 (of 3): Scan: 1
+2024-09-27 10:27:45	INFO	PlotMS::plot	Stepping to iteration = 2 (of 3): Scan: 2
+2024-09-27 10:27:45	INFO	PlotMS::plot	Stepping to iteration = 3 (of 3): Scan: 3
+2024-09-27 10:27:45	INFO	PlotMS::plot	Plotting 1788800 unflagged points.
+2024-09-27 10:27:47	INFO	PlotMS::plot	Stepping to iteration = 1 (of 3): Scan: 1
+2024-09-27 10:27:47	INFO	PlotMS::plot	Stepping to iteration = 2 (of 3): Scan: 2
+2024-09-27 10:27:47	INFO	PlotMS::plot	Stepping to iteration = 3 (of 3): Scan: 3
+2024-09-27 10:27:47	INFO	PlotMS::plot	Plotting 1788800 unflagged points.
+2024-09-27 10:27:48	INFO	PlotMS::plot	Stepping to iteration = 1 (of 3): Scan: 1
+2024-09-27 10:27:48	INFO	PlotMS::plot	Stepping to iteration = 2 (of 3): Scan: 2
+2024-09-27 10:27:48	INFO	PlotMS::plot	Stepping to iteration = 3 (of 3): Scan: 3
+2024-09-27 10:27:48	INFO	PlotMS::plot	Plotting 0 unflagged points.
+2024-09-27 10:27:48	INFO	PlotMS::PlotMS Warning	WARNING: All selected data are flagged.
+2024-09-27 10:29:15	INFO	PlotMS::plot	Stepping to iteration = 1 (of 3): Scan: 1
+2024-09-27 10:29:15	INFO	PlotMS::plot	Stepping to iteration = 2 (of 3): Scan: 2
+2024-09-27 10:29:15	INFO	PlotMS::plot	Stepping to iteration = 3 (of 3): Scan: 3
+2024-09-27 10:29:15	INFO	PlotMS::plot	Plotting 1788800 unflagged points.
+2024-09-27 10:29:16	INFO	PlotMS::plot	Stepping to iteration = 1 (of 3): Scan: 1
+2024-09-27 10:29:16	INFO	PlotMS::plot	Stepping to iteration = 2 (of 3): Scan: 2
+2024-09-27 10:29:16	INFO	PlotMS::plot	Stepping to iteration = 3 (of 3): Scan: 3
+2024-09-27 10:29:16	INFO	PlotMS::plot	Plotting 1788800 unflagged points.
+2024-09-27 10:29:58	INFO	PlotMS::plot	Stepping to iteration = 1 (of 3): Scan: 1
+2024-09-27 10:29:58	INFO	PlotMS::plot	Stepping to iteration = 2 (of 3): Scan: 2
+2024-09-27 10:29:58	INFO	PlotMS::plot	Stepping to iteration = 3 (of 3): Scan: 3
+2024-09-27 10:29:58	INFO	PlotMS::plot	Plotting 1788800 unflagged points.
+2024-09-27 10:29:58	INFO	PlotMS::plot	Stepping to iteration = 1 (of 3): Scan: 1
+2024-09-27 10:29:58	INFO	PlotMS::plot	Stepping to iteration = 2 (of 3): Scan: 2
+2024-09-27 10:29:58	INFO	PlotMS::plot	Stepping to iteration = 3 (of 3): Scan: 3
+2024-09-27 10:29:58	INFO	PlotMS::plot	Plotting 0 unflagged points.
+2024-09-27 10:29:58	INFO	PlotMS::PlotMS Warning	WARNING: All selected data are flagged.
+2024-09-27 10:30:00	INFO	PlotMS::plot	Stepping to iteration = 1 (of 3): Scan: 1
+2024-09-27 10:30:00	INFO	PlotMS::plot	Stepping to iteration = 2 (of 3): Scan: 2
+2024-09-27 10:30:00	INFO	PlotMS::plot	Stepping to iteration = 3 (of 3): Scan: 3
+2024-09-27 10:30:00	INFO	PlotMS::plot	Plotting 1788800 unflagged points.
+2024-09-27 10:30:01	INFO	PlotMS::plot	Stepping to iteration = 1 (of 3): Scan: 1
+2024-09-27 10:30:01	INFO	PlotMS::plot	Stepping to iteration = 2 (of 3): Scan: 2
+2024-09-27 10:30:01	INFO	PlotMS::plot	Stepping to iteration = 3 (of 3): Scan: 3
+2024-09-27 10:30:01	INFO	PlotMS::plot	Plotting 1788800 unflagged points.
+2024-09-27 10:37:47	INFO	flagdata::::casa	##########################################
+2024-09-27 10:37:47	INFO	flagdata::::casa	##### Begin Task: flagdata           #####
+2024-09-27 10:37:47	INFO	flagdata::::casa	flagdata( vis='3C391.ms', mode='manual', autocorr=False, inpfile='', reason='any', tbuff=0.0, spw='', field='', antenna='ea13,ea15', uvrange='', timerange='', correlation='', scan='', intent='', array='', observation='', feed='', clipminmax=[], datacolumn='DATA', clipoutside=True, channelavg=False, chanbin=1, timeavg=False, timebin='0s', clipzeros=False, quackinterval=1.0, quackmode='beg', quackincrement=False, tolerance=0.0, addantenna='', lowerlimit=0.0, upperlimit=90.0, ntime='scan', combinescans=False, timecutoff=4.0, freqcutoff=3.0, timefit='line', freqfit='poly', maxnpieces=7, flagdimension='freqtime', usewindowstats='none', halfwin=1, extendflags=True, winsize=3, timedev='', freqdev='', timedevscale=5.0, freqdevscale=5.0, spectralmax=1000000.0, spectralmin=0.0, antint_ref_antenna='', minchanfrac=0.6, verbose=False, extendpols=True, growtime=50.0, growfreq=50.0, growaround=False, flagneartime=False, flagnearfreq=False, minrel=0.0, maxrel=1.0, minabs=0, maxabs=-1, spwchan=False, spwcorr=False, basecnt=False, fieldcnt=False, name='Summary', action='apply', display='', flagbackup=True, savepars=False, cmdreason='', outfile='', overwrite=True, writeflags=True )
+2024-09-27 10:37:47	INFO	flagdata::::casa	Backup original flags before applying new flags
+2024-09-27 10:37:47	INFO	AgentFlagger::open	Table type is Measurement Set
+2024-09-27 10:37:47	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called flagdata_1
+2024-09-27 10:37:47	INFO	AgentFlagger::open	Table type is Measurement Set
+2024-09-27 10:37:47	INFO	flagdata::::casa	Manual mode is active
+2024-09-27 10:37:48	INFO	flagdata::::casa	Initializing the agents
+2024-09-27 10:37:48	INFO	AgentFlagger::initAgents	There are initially 1 agents in the list. Agents: manual
+2024-09-27 10:37:48	INFO	Manual::setAgentParameters 	autocorr is 0
+2024-09-27 10:37:48	INFO	AgentFlagger::initAgents	There are 1 valid agents in the list. Agents: manual
+2024-09-27 10:37:48	INFO	flagdata::::casa	Running the agentflagger tool
+2024-09-27 10:37:48	INFO	FlagMSHandler::	Chunk = 1 [progress: 0%], Observation = 0, Array = 0, Scan = 1, Field = 0 (J1331+3030), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 98
+2024-09-27 10:37:48	INFO	FlagMSHandler::	Chunk = 3 [progress: 15%], Observation = 0, Array = 0, Scan = 3, Field = 0 (J1331+3030), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 2107
+2024-09-27 10:37:48	INFO	Manual::chunkSummary	=> Data flagged so far 100% (551936/551936)
+2024-09-27 10:37:48	INFO	FlagMSHandler::	Chunk = 5 [progress: 24%], Observation = 0, Array = 0, Scan = 9, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1333
+2024-09-27 10:37:48	INFO	Manual::chunkSummary	=> Data flagged so far 100% (323712/323712)
+2024-09-27 10:37:48	INFO	FlagMSHandler::	Chunk = 7 [progress: 31%], Observation = 0, Array = 0, Scan = 17, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1519
+2024-09-27 10:37:48	INFO	Manual::chunkSummary	=> Data flagged so far 100% (250880/250880)
+2024-09-27 10:37:48	INFO	FlagMSHandler::	Chunk = 11 [progress: 45%], Observation = 0, Array = 0, Scan = 33, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1519
+2024-09-27 10:37:48	INFO	Manual::chunkSummary	=> Data flagged so far 100% (501504/501504)
+2024-09-27 10:37:48	INFO	FlagMSHandler::	Chunk = 14 [progress: 51%], Observation = 0, Array = 0, Scan = 38, Field = 1 (J1822-0938), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 630
+2024-09-27 10:37:48	INFO	Manual::chunkSummary	=> Data flagged so far 100% (211584/211584)
+2024-09-27 10:37:48	INFO	FlagMSHandler::	Chunk = 17 [progress: 62%], Observation = 0, Array = 0, Scan = 51, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1468
+2024-09-27 10:37:48	INFO	Manual::chunkSummary	=> Data flagged so far 100% (403712/403712)
+2024-09-27 10:37:48	INFO	FlagMSHandler::	Chunk = 20 [progress: 70%], Observation = 0, Array = 0, Scan = 62, Field = 1 (J1822-0938), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 392
+2024-09-27 10:37:48	INFO	Manual::chunkSummary	=> Data flagged so far 100% (288256/288256)
+2024-09-27 10:37:48	INFO	FlagMSHandler::	Chunk = 23 [progress: 82%], Observation = 0, Array = 0, Scan = 75, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1468
+2024-09-27 10:37:48	INFO	Manual::chunkSummary	=> Data flagged so far 100% (425984/425984)
+2024-09-27 10:37:48	INFO	FlagMSHandler::	Chunk = 27 [progress: 93%], Observation = 0, Array = 0, Scan = 91, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1288
+2024-09-27 10:37:48	INFO	Manual::chunkSummary	=> Data flagged so far 100% (431360/431360)
+2024-09-27 10:37:49	INFO	FlagMSHandler::	Chunk = 30 [progress: 100%], Observation = 0, Array = 0, Scan = 102, Field = 1 (J1822-0938), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 128
+2024-09-27 10:37:49	INFO	Manual::chunkSummary	=> Data flagged so far 100% (217600/217600)
+2024-09-27 10:37:49	INFO	FlagMSHandler::nextChunk 	==================================================================================== 
+2024-09-27 10:37:49	INFO	Manual::tableSummary	=> Percentage of data flagged in table selection: 100%
+2024-09-27 10:37:49	INFO	AgentFlagger::run	=> Writing flags to the MS
+2024-09-27 10:37:49	INFO	flagdata::::casa	Task flagdata complete. Start time: 2024-09-27 12:37:47.257907 End time: 2024-09-27 12:37:48.578916
+2024-09-27 10:37:49	INFO	flagdata::::casa	##### End Task: flagdata             #####
+2024-09-27 10:37:49	INFO	flagdata::::casa	##########################################
+2024-09-27 10:40:55	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE.
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	START     Current memory usage: 12406.2 kilobytes.
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Channel(5)...
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Data selection will yield a total of 4091392 plottable points (flagged and unflagged).
+2024-09-27 10:40:55	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0250147 GB of memory (6.11399 bytes/point).
+2024-09-27 10:40:55	INFO	PlotMS::load_cache+	This is 0.154236% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:40:55	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-09-27 10:40:55	INFO	PlotMS::load_cache+	Amp:data: 0.0277528 to 0.282633 (unflagged); 5.21588e-07 to 0.277638(flagged).
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +25180.1 kilobytes.
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:40:55	INFO	PlotMS::load_cache	Found 4 Scan iterations.
+2024-09-27 10:40:56	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:40:56	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-09-27 10:40:56	INFO	PlotMS::load_cache+	Amp:data: 0.0282591 to 0.277411 (unflagged); 1.22041e-06 to 0.216907(flagged).
+2024-09-27 10:40:56	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:40:56	INFO	PlotMS::plot	Stepping to iteration = 1 (of 4): Scan: 1
+2024-09-27 10:40:56	INFO	PlotMS::plot	Stepping to iteration = 2 (of 4): Scan: 2
+2024-09-27 10:40:56	INFO	PlotMS::plot	Stepping to iteration = 3 (of 4): Scan: 3
+2024-09-27 10:40:56	INFO	PlotMS::plot	Stepping to iteration = 4 (of 4): Scan: 37
+2024-09-27 10:40:56	INFO	PlotMS::plot	Plotting 0 unflagged points.
+2024-09-27 10:40:56	INFO	PlotMS::PlotMS Warning	WARNING: All selected data are flagged.
+2024-09-27 10:41:01	INFO	PlotMS::plot	Stepping to iteration = 1 (of 4): Scan: 1
+2024-09-27 10:41:01	INFO	PlotMS::plot	Stepping to iteration = 2 (of 4): Scan: 2
+2024-09-27 10:41:01	INFO	PlotMS::plot	Stepping to iteration = 3 (of 4): Scan: 3
+2024-09-27 10:41:01	INFO	PlotMS::plot	Stepping to iteration = 4 (of 4): Scan: 37
+2024-09-27 10:41:01	INFO	PlotMS::plot	Plotting 1519104 unflagged points.
+2024-09-27 10:41:22	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, ITERATION.
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	START     Current memory usage: 12614.7 kilobytes.
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Channel(5)...
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	Data selection will yield a total of 4091392 plottable points (flagged and unflagged).
+2024-09-27 10:41:22	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0250147 GB of memory (6.11399 bytes/point).
+2024-09-27 10:41:22	INFO	PlotMS::load_cache+	This is 0.154236% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:41:23	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:41:23	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-09-27 10:41:23	INFO	PlotMS::load_cache+	Amp:data: 0.0277528 to 0.282633 (unflagged); 5.21588e-07 to 0.277638(flagged).
+2024-09-27 10:41:23	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:41:22	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +25139.8 kilobytes.
+2024-09-27 10:41:23	INFO	PlotMS::plot	Plotting 3394304 unflagged points.
+2024-09-27 10:42:25	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, DISPLAY.
+2024-09-27 10:42:25	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 10:42:25	INFO	PlotMS::load_cache	START     Current memory usage: 11346.6 kilobytes.
+2024-09-27 10:42:25	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 10:42:25	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 10:42:25	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Channel(5)...
+2024-09-27 10:42:25	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 10:42:25	INFO	PlotMS::load_cache	Data selection will yield a total of 4091392 plottable points (flagged and unflagged).
+2024-09-27 10:42:25	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0250147 GB of memory (6.11399 bytes/point).
+2024-09-27 10:42:25	INFO	PlotMS::load_cache+	This is 0.154236% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 10:42:25	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 10:42:26	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 10:42:26	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 10:42:26	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 10:42:26	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:42:26	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:42:26	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-09-27 10:42:26	INFO	PlotMS::load_cache+	Amp:data: 0.0277528 to 0.282633 (unflagged); 5.21588e-07 to 0.277638(flagged).
+2024-09-27 10:42:26	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:42:25	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +25177.3 kilobytes.
+2024-09-27 10:42:26	INFO	PlotMS::plot	Plotting 3394304 unflagged points.
+2024-09-27 10:48:38	INFO	flagdata::::casa	##########################################
+2024-09-27 10:48:38	INFO	flagdata::::casa	##### Begin Task: flagdata           #####
+2024-09-27 10:48:38	INFO	flagdata::::casa	flagdata( vis='3C391.ms', mode='quack', autocorr=False, inpfile='', reason='any', tbuff=0.0, spw='', field='', antenna='', uvrange='', timerange='', correlation='', scan='', intent='', array='', observation='', feed='', clipminmax=[], datacolumn='DATA', clipoutside=True, channelavg=False, chanbin=1, timeavg=False, timebin='0s', clipzeros=False, quackinterval=10.0, quackmode='beg', quackincrement=False, tolerance=0.0, addantenna='', lowerlimit=0.0, upperlimit=90.0, ntime='scan', combinescans=False, timecutoff=4.0, freqcutoff=3.0, timefit='line', freqfit='poly', maxnpieces=7, flagdimension='freqtime', usewindowstats='none', halfwin=1, extendflags=True, winsize=3, timedev='', freqdev='', timedevscale=5.0, freqdevscale=5.0, spectralmax=1000000.0, spectralmin=0.0, antint_ref_antenna='', minchanfrac=0.6, verbose=False, extendpols=True, growtime=50.0, growfreq=50.0, growaround=False, flagneartime=False, flagnearfreq=False, minrel=0.0, maxrel=1.0, minabs=0, maxabs=-1, spwchan=False, spwcorr=False, basecnt=False, fieldcnt=False, name='Summary', action='apply', display='', flagbackup=True, savepars=False, cmdreason='', outfile='', overwrite=True, writeflags=True )
+2024-09-27 10:48:38	INFO	flagdata::::casa	Backup original flags before applying new flags
+2024-09-27 10:48:38	INFO	AgentFlagger::open	Table type is Measurement Set
+2024-09-27 10:48:38	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called flagdata_2
+2024-09-27 10:48:39	INFO	AgentFlagger::open	Table type is Measurement Set
+2024-09-27 10:48:39	INFO	flagdata::::casa	Quack mode is active
+2024-09-27 10:48:39	INFO	flagdata::::casa	Initializing the agents
+2024-09-27 10:48:39	INFO	AgentFlagger::initAgents	There are initially 1 agents in the list. Agents: quack
+2024-09-27 10:48:39	INFO	Quack::setAgentParameters 	 quackinterval is 10
+2024-09-27 10:48:39	INFO	Quack::setAgentParameters 	 quackmode is beg
+2024-09-27 10:48:39	INFO	Quack::setAgentParameters 	 quackincrement is 0
+2024-09-27 10:48:39	INFO	AgentFlagger::initAgents	There are 1 valid agents in the list. Agents: quack
+2024-09-27 10:48:39	INFO	flagdata::::casa	Running the agentflagger tool
+2024-09-27 10:48:39	INFO	FlagMSHandler::preSweep 	 30 Scans found in MS
+2024-09-27 10:48:39	INFO	FlagMSHandler::	Chunk = 1 [progress: 0%], Observation = 0, Array = 0, Scan = 1, Field = 0 (J1331+3030), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 650
+2024-09-27 10:48:40	INFO	FlagMSHandler::	Chunk = 3 [progress: 15%], Observation = 0, Array = 0, Scan = 3, Field = 0 (J1331+3030), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 13975
+2024-09-27 10:48:40	INFO	Quack::chunkSummary	=> Data flagged so far 6.81818% (249600/3660800)
+2024-09-27 10:48:40	INFO	FlagMSHandler::	Chunk = 5 [progress: 23%], Observation = 0, Array = 0, Scan = 9, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 7843
+2024-09-27 10:48:40	INFO	Quack::chunkSummary	=> Data flagged so far 4.92002% (93696/1904384)
+2024-09-27 10:48:40	INFO	FlagMSHandler::	Chunk = 7 [progress: 30%], Observation = 0, Array = 0, Scan = 17, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 10075
+2024-09-27 10:48:40	INFO	Quack::chunkSummary	=> Data flagged so far 10% (166400/1664000)
+2024-09-27 10:48:40	INFO	FlagMSHandler::	Chunk = 11 [progress: 45%], Observation = 0, Array = 0, Scan = 33, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 10075
+2024-09-27 10:48:40	INFO	Quack::chunkSummary	=> Data flagged so far 10.0096% (332800/3324800)
+2024-09-27 10:48:40	INFO	FlagMSHandler::	Chunk = 14 [progress: 50%], Observation = 0, Array = 0, Scan = 38, Field = 1 (J1822-0938), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 3883
+2024-09-27 10:48:40	INFO	Quack::chunkSummary	=> Data flagged so far 9.76209% (127104/1302016)
+2024-09-27 10:48:40	INFO	FlagMSHandler::	Chunk = 17 [progress: 62%], Observation = 0, Array = 0, Scan = 51, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 9725
+2024-09-27 10:48:40	INFO	Quack::chunkSummary	=> Data flagged so far 8.45547% (240000/2838400)
+2024-09-27 10:48:40	INFO	FlagMSHandler::	Chunk = 20 [progress: 71%], Observation = 0, Array = 0, Scan = 62, Field = 1 (J1822-0938), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 2600
+2024-09-27 10:48:40	INFO	Quack::chunkSummary	=> Data flagged so far 12.8978% (246400/1910400)
+2024-09-27 10:48:40	INFO	FlagMSHandler::	Chunk = 23 [progress: 83%], Observation = 0, Array = 0, Scan = 75, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 9725
+2024-09-27 10:48:40	INFO	Quack::chunkSummary	=> Data flagged so far 8.61678% (243200/2822400)
+2024-09-27 10:48:40	INFO	FlagMSHandler::	Chunk = 26 [progress: 90%], Observation = 0, Array = 0, Scan = 86, Field = 1 (J1822-0938), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1848
+2024-09-27 10:48:40	INFO	Quack::chunkSummary	=> Data flagged so far 12.1815% (200704/1647616)
+2024-09-27 10:48:40	INFO	FlagMSHandler::	Chunk = 30 [progress: 100%], Observation = 0, Array = 0, Scan = 102, Field = 1 (J1822-0938), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1088
+2024-09-27 10:48:40	INFO	Quack::chunkSummary	=> Data flagged so far 9.43396% (212480/2252288)
+2024-09-27 10:48:40	INFO	FlagMSHandler::nextChunk 	==================================================================================== 
+2024-09-27 10:48:40	INFO	Quack::tableSummary	=> Percentage of data flagged in table selection: 9.05549%
+2024-09-27 10:48:40	INFO	AgentFlagger::run	=> Writing flags to the MS
+2024-09-27 10:48:40	INFO	flagdata::::casa	Task flagdata complete. Start time: 2024-09-27 12:48:38.258420 End time: 2024-09-27 12:48:40.159578
+2024-09-27 10:48:40	INFO	flagdata::::casa	##### End Task: flagdata             #####
+2024-09-27 10:48:40	INFO	flagdata::::casa	##########################################
+2024-09-27 10:54:04	INFO	flagmanager::::casa	##########################################
+2024-09-27 10:54:04	INFO	flagmanager::::casa	##### Begin Task: flagmanager        #####
+2024-09-27 10:54:04	INFO	flagmanager::::casa	flagmanager( vis='3C391.ms', mode='restore', versionname='flags.flagdata_1', oldname='', comment='', merge='replace' )
+2024-09-27 10:54:04	INFO	flagmanager::AgentFlagger::open	Table type is Measurement Set
+2024-09-27 10:54:04	INFO	flagmanager::::casa	Restore flagversions flags.flagdata_1
+2024-09-27 10:54:04	SEVERE	AgentFlagger::restoreFlagVersion (file src/code/flagging/Flagging/AgentFlagger.cc, line 1108)	Could not restore Flag Version : Flag version flags.flagdata_1 does not exist
+2024-09-27 10:54:04	SEVERE	agentflagger:: (file src/tools/agentflagger/agentflagger_cmpt.cc, line 35)	Exception Reported: Flag version flags.flagdata_1 does not exist
+2024-09-27 10:54:04	SEVERE	flagmanager::::casa	Task flagmanager raised an exception of class RuntimeError with the following message: Flag version flags.flagdata_1 does not exist
+2024-09-27 10:54:04	INFO	flagmanager::::casa	Task flagmanager complete. Start time: 2024-09-27 12:54:03.855097 End time: 2024-09-27 12:54:03.889437
+2024-09-27 10:54:04	INFO	flagmanager::::casa	##### End Task: flagmanager          #####
+2024-09-27 10:54:04	INFO	flagmanager::::casa	##########################################
+2024-09-27 10:54:04	SEVERE	flagmanager::::casa	Exception Reported: Error in flagmanager: Flag version flags.flagdata_1 does not exist
+2024-09-27 10:54:04	INFO	flagmanager::::casa	Traceback (most recent call last):
+2024-09-27 10:54:04	INFO	flagmanager::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casashell/private/flagmanager.py", line 405, in __call__
+2024-09-27 10:54:04	INFO	flagmanager::::casa+	    _return_result_ = _flagmanager_t( _invocation_parameters['vis'],_invocation_parameters['mode'],_invocation_parameters['versionname'],_invocation_parameters['oldname'],_invocation_parameters['comment'],_invocation_parameters['merge'] )
+2024-09-27 10:54:04	INFO	flagmanager::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatasks/flagmanager.py", line 96, in __call__
+2024-09-27 10:54:04	INFO	flagmanager::::casa+	    task_result = _flagmanager_t( _pc.document['vis'], _pc.document['mode'], _pc.document['versionname'], _pc.document['oldname'], _pc.document['comment'], _pc.document['merge'] )
+2024-09-27 10:54:04	INFO	flagmanager::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatasks/private/task_flagmanager.py", line 89, in flagmanager
+2024-09-27 10:54:04	INFO	flagmanager::::casa+	    aflocal.restoreflagversion(versionname=versionname,
+2024-09-27 10:54:04	INFO	flagmanager::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatools/agentflagger.py", line 83, in restoreflagversion
+2024-09-27 10:54:04	INFO	flagmanager::::casa+	    return self._swigobj.restoreflagversion(_str_ec(versionname), _str_ec(merge))
+2024-09-27 10:54:04	INFO	flagmanager::::casa+	  File "/home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casatools/__casac__/agentflagger.py", line 365, in restoreflagversion
+2024-09-27 10:54:04	INFO	flagmanager::::casa+	    return _agentflagger.agentflagger_restoreflagversion(self, *args, **kwargs)
+2024-09-27 10:54:04	INFO	flagmanager::::casa+	RuntimeError: Flag version flags.flagdata_1 does not exist
+2024-09-27 10:54:19	INFO	flagmanager::::casa	##########################################
+2024-09-27 10:54:19	INFO	flagmanager::::casa	##### Begin Task: flagmanager        #####
+2024-09-27 10:54:19	INFO	flagmanager::::casa	flagmanager( vis='3C391.ms', mode='restore', versionname='flagdata_1', oldname='', comment='', merge='replace' )
+2024-09-27 10:54:19	INFO	flagmanager::AgentFlagger::open	Table type is Measurement Set
+2024-09-27 10:54:19	INFO	flagmanager::::casa	Restore flagversions flagdata_1
+2024-09-27 10:54:19	INFO	flagmanager::::casa	Task flagmanager complete. Start time: 2024-09-27 12:54:18.756287 End time: 2024-09-27 12:54:18.855690
+2024-09-27 10:54:19	INFO	flagmanager::::casa	##### End Task: flagmanager          #####
+2024-09-27 10:54:19	INFO	flagmanager::::casa	##########################################
+2024-09-27 10:55:10	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	START     Current memory usage: 11265.5 kilobytes.
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Channel(5)...
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	Data selection will yield a total of 4091392 plottable points (flagged and unflagged).
+2024-09-27 10:55:10	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0250147 GB of memory (6.11399 bytes/point).
+2024-09-27 10:55:10	INFO	PlotMS::load_cache+	This is 0.154236% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:55:10	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-09-27 10:55:10	INFO	PlotMS::load_cache+	Amp:data: 5.21588e-07 to 0.282633 (unflagged); 2.95155e-06 to 0.277638(flagged).
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:55:10	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +25177 kilobytes.
+2024-09-27 10:55:10	INFO	PlotMS::plot	Plotting 4008192 unflagged points.
+2024-09-27 10:59:04	INFO	flagdata::::casa	##########################################
+2024-09-27 10:59:04	INFO	flagdata::::casa	##### Begin Task: flagdata           #####
+2024-09-27 10:59:04	INFO	flagdata::::casa	flagdata( vis='3C391.ms', mode='manual', autocorr=False, inpfile='', reason='any', tbuff=0.0, spw='', field='', antenna='ea13,ea15', uvrange='', timerange='', correlation='', scan='', intent='', array='', observation='', feed='', clipminmax=[], datacolumn='DATA', clipoutside=True, channelavg=False, chanbin=1, timeavg=False, timebin='0s', clipzeros=False, quackinterval=1.0, quackmode='beg', quackincrement=False, tolerance=0.0, addantenna='', lowerlimit=0.0, upperlimit=90.0, ntime='scan', combinescans=False, timecutoff=4.0, freqcutoff=3.0, timefit='line', freqfit='poly', maxnpieces=7, flagdimension='freqtime', usewindowstats='none', halfwin=1, extendflags=True, winsize=3, timedev='', freqdev='', timedevscale=5.0, freqdevscale=5.0, spectralmax=1000000.0, spectralmin=0.0, antint_ref_antenna='', minchanfrac=0.6, verbose=False, extendpols=True, growtime=50.0, growfreq=50.0, growaround=False, flagneartime=False, flagnearfreq=False, minrel=0.0, maxrel=1.0, minabs=0, maxabs=-1, spwchan=False, spwcorr=False, basecnt=False, fieldcnt=False, name='Summary', action='apply', display='', flagbackup=True, savepars=False, cmdreason='', outfile='', overwrite=True, writeflags=True )
+2024-09-27 10:59:04	INFO	flagdata::::casa	Backup original flags before applying new flags
+2024-09-27 10:59:04	INFO	AgentFlagger::open	Table type is Measurement Set
+2024-09-27 10:59:04	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called flagdata_3
+2024-09-27 10:59:04	INFO	AgentFlagger::open	Table type is Measurement Set
+2024-09-27 10:59:04	INFO	flagdata::::casa	Manual mode is active
+2024-09-27 10:59:04	INFO	flagdata::::casa	Initializing the agents
+2024-09-27 10:59:04	INFO	AgentFlagger::initAgents	There are initially 1 agents in the list. Agents: manual
+2024-09-27 10:59:04	INFO	Manual::setAgentParameters 	autocorr is 0
+2024-09-27 10:59:04	INFO	AgentFlagger::initAgents	There are 1 valid agents in the list. Agents: manual
+2024-09-27 10:59:04	INFO	flagdata::::casa	Running the agentflagger tool
+2024-09-27 10:59:04	INFO	FlagMSHandler::	Chunk = 1 [progress: 0%], Observation = 0, Array = 0, Scan = 1, Field = 0 (J1331+3030), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 98
+2024-09-27 10:59:04	INFO	FlagMSHandler::	Chunk = 3 [progress: 15%], Observation = 0, Array = 0, Scan = 3, Field = 0 (J1331+3030), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 2107
+2024-09-27 10:59:04	INFO	Manual::chunkSummary	=> Data flagged so far 100% (551936/551936)
+2024-09-27 10:59:04	INFO	FlagMSHandler::	Chunk = 5 [progress: 24%], Observation = 0, Array = 0, Scan = 9, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1333
+2024-09-27 10:59:04	INFO	Manual::chunkSummary	=> Data flagged so far 100% (323712/323712)
+2024-09-27 10:59:04	INFO	FlagMSHandler::	Chunk = 7 [progress: 31%], Observation = 0, Array = 0, Scan = 17, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1519
+2024-09-27 10:59:04	INFO	Manual::chunkSummary	=> Data flagged so far 100% (250880/250880)
+2024-09-27 10:59:04	INFO	FlagMSHandler::	Chunk = 11 [progress: 45%], Observation = 0, Array = 0, Scan = 33, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1519
+2024-09-27 10:59:04	INFO	Manual::chunkSummary	=> Data flagged so far 100% (501504/501504)
+2024-09-27 10:59:04	INFO	FlagMSHandler::	Chunk = 14 [progress: 51%], Observation = 0, Array = 0, Scan = 38, Field = 1 (J1822-0938), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 630
+2024-09-27 10:59:04	INFO	Manual::chunkSummary	=> Data flagged so far 100% (211584/211584)
+2024-09-27 10:59:04	INFO	FlagMSHandler::	Chunk = 17 [progress: 62%], Observation = 0, Array = 0, Scan = 51, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1468
+2024-09-27 10:59:04	INFO	Manual::chunkSummary	=> Data flagged so far 100% (403712/403712)
+2024-09-27 10:59:04	INFO	FlagMSHandler::	Chunk = 20 [progress: 70%], Observation = 0, Array = 0, Scan = 62, Field = 1 (J1822-0938), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 392
+2024-09-27 10:59:04	INFO	Manual::chunkSummary	=> Data flagged so far 100% (288256/288256)
+2024-09-27 10:59:04	INFO	FlagMSHandler::	Chunk = 23 [progress: 82%], Observation = 0, Array = 0, Scan = 75, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1468
+2024-09-27 10:59:04	INFO	Manual::chunkSummary	=> Data flagged so far 100% (425984/425984)
+2024-09-27 10:59:04	INFO	FlagMSHandler::	Chunk = 27 [progress: 93%], Observation = 0, Array = 0, Scan = 91, Field = 2 (3C391 C5), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 1288
+2024-09-27 10:59:04	INFO	Manual::chunkSummary	=> Data flagged so far 100% (431360/431360)
+2024-09-27 10:59:04	INFO	FlagMSHandler::	Chunk = 30 [progress: 100%], Observation = 0, Array = 0, Scan = 102, Field = 1 (J1822-0938), Spw = 0, Channels = 64, Corrs = [ RR LL ], Total Rows = 128
+2024-09-27 10:59:04	INFO	Manual::chunkSummary	=> Data flagged so far 100% (217600/217600)
+2024-09-27 10:59:04	INFO	FlagMSHandler::nextChunk 	==================================================================================== 
+2024-09-27 10:59:04	INFO	Manual::tableSummary	=> Percentage of data flagged in table selection: 100%
+2024-09-27 10:59:04	INFO	AgentFlagger::run	=> Writing flags to the MS
+2024-09-27 10:59:04	INFO	flagdata::::casa	Task flagdata complete. Start time: 2024-09-27 12:59:04.060658 End time: 2024-09-27 12:59:04.459050
+2024-09-27 10:59:04	INFO	flagdata::::casa	##### End Task: flagdata             #####
+2024-09-27 10:59:04	INFO	flagdata::::casa	##########################################
+2024-09-27 10:59:32	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA.
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	START     Current memory usage: 11275.6 kilobytes.
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	Plotting table 3C391.ms
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	  Selection: field: 0
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Channel(5)...
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	Loading page header cache
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	Data selection will yield a total of 4091392 plottable points (flagged and unflagged).
+2024-09-27 10:59:32	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.0250147 GB of memory (6.11399 bytes/point).
+2024-09-27 10:59:32	INFO	PlotMS::load_cache+	This is 0.154236% of the memory avail. to CASA (16.2185 GB).
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	Loading chunks......
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	Finished loading.
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	Axes ranges:
+2024-09-27 10:59:32	INFO	PlotMS::load_cache+	Channel: 0 to 63 (unflagged); ; 0 to 63 (flagged).
+2024-09-27 10:59:32	INFO	PlotMS::load_cache+	Amp:data: 0.0277528 to 0.282633 (unflagged); 5.21588e-07 to 0.277638(flagged).
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	Finished indexing.
+2024-09-27 10:59:32	INFO	PlotMS::load_cache	END       Time: +1 seconds.  Memory: +25176.3 kilobytes.
+2024-09-27 10:59:32	INFO	PlotMS::plot	Plotting 3394304 unflagged points.

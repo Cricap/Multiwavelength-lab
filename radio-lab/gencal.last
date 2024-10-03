@@ -1,0 +1,14 @@
+vis             = '3C391.ms'
+caltable        = '3C391.antpos'
+caltype         = 'antpos'
+infile          = ''
+endpoint        = 'asdm'
+timeout         = 180
+retry           = 3
+retry_wait_time = 5
+spw             = ''
+antenna         = ''
+pol             = ''
+parameter       = []
+uniform         = True
+#gencal( vis='3C391.ms',caltable='3C391.antpos',caltype='antpos',infile='',endpoint='asdm',timeout=180,retry=3,retry_wait_time=5,spw='',antenna='',pol='',parameter=[],uniform=True )

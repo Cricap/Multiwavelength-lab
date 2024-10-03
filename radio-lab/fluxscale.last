@@ -1,0 +1,16 @@
+vis           = '3C391.ms'
+caltable      = '3C391.G1'
+fluxtable     = '3C391.fluxtable1'
+reference     = '0'
+transfer      = ['1']
+listfile      = ''
+append        = False
+refspwmap     = [-1]
+gainthreshold = -1.0
+antenna       = ''
+incremental   = False
+fitorder      = 1
+display       = False
+timerange     = ''
+scan          = ''
+#fluxscale( vis='3C391.ms',caltable='3C391.G1',fluxtable='3C391.fluxtable1',reference='0',transfer=['1'],listfile='',append=False,refspwmap=[-1],gainthreshold=-1.0,antenna='',incremental=False,fitorder=1,display=False,timerange='',scan='' )

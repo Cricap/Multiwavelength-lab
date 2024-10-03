@@ -1,0 +1,9 @@
+vis            = '3C391.ms'
+figfile        = 'plotants_3c391_antenna_layout.png'
+antindex       = False
+logpos         = False
+exclude        = ''
+checkbaselines = False
+title          = ''
+showgui        = True
+#plotants( vis='3C391.ms',figfile='plotants_3c391_antenna_layout.png',antindex=False,logpos=False,exclude='',checkbaselines=False,title='',showgui=True )

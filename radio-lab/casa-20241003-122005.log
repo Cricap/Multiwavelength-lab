@@ -1,0 +1,762 @@
+2024-10-03 12:20:07	INFO	::casa	
+2024-10-03 12:20:07	INFO	::casa	
+2024-10-03 12:20:07	INFO	::casa	
+2024-10-03 12:20:07	INFO	::casa	
+2024-10-03 12:20:08	INFO	::casa	Python version 3.8.10
+2024-10-03 12:20:08	INFO	::casa	CASA Version CASALITH 6.5.0.15
+2024-10-03 12:20:08	INFO	::casa	
+2024-10-03 12:20:08	INFO	::casa	Telemetry log file: /home/cricap/.casa/casastats-6.5.0.15-0155d5dec60-20241003-122007.log
+2024-10-03 12:20:08	INFO	::casa	Checking telemetry submission interval
+2024-10-03 12:20:08	INFO	::casa	Creating a new telemetry time stamp file./home/cricap/.casa/telemetry-0155d5dec60.stamp
+2024-10-03 12:20:08	INFO	::casa	Telemetry submit interval not reached. Not submitting data.
+2024-10-03 12:20:08	INFO	::casa	Next telemetry data submission in: 6 days, 23:59:59.987178
+2024-10-03 12:20:08	INFO	::casa	
+2024-10-03 12:20:08	INFO	::casa	optional configuration file config.py not found, continuing CASA startup without it
+2024-10-03 12:20:08	INFO	::casa	
+2024-10-03 12:20:08	INFO	::casa	Checking Measures tables in data repository sub-directory /home/cricap/CASA/casa-6.5.0-15-py3.8/lib/py/lib/python3.8/site-packages/casadata/__data__/geodetic
+2024-10-03 12:20:08	INFO	::casa	  IERSeop2000 (version date, last date in table (UTC)): 2022/05/19/15:00, 2022/04/19/00:00:00
+2024-10-03 12:20:08	INFO	::casa	  IERSeop97 (version date, last date in table (UTC)): 2022/05/19/15:00, 2022/04/19/00:00:00
+2024-10-03 12:20:08	INFO	::casa	  IERSpredict (version date, last date in table (UTC)): 2022/05/22/15:00, 2022/08/20/00:00:00
+2024-10-03 12:20:08	INFO	::casa	  TAI_UTC (version date, last date in table (UTC)): 2022/05/19/15:00, 2017/01/01/00:00:00
+2024-10-03 12:36:28	INFO	plotms::::casa	##########################################
+2024-10-03 12:36:28	INFO	plotms::::casa	##### Begin Task: plotms             #####
+2024-10-03 12:36:28	INFO	plotms::::casa	plotms( vis='', gridrows=1, gridcols=1, rowindex=0, colindex=0, plotindex=0, xaxis='', xdatacolumn='', xframe='', xinterp='', yaxis='', ydatacolumn='', yframe='', yinterp='', yaxislocation='', selectdata=True, field='', spw='', timerange='', uvrange='', antenna='', scan='', correlation='', array='', observation='', intent='', feed='', msselect='', averagedata=True, avgchannel='', avgtime='', avgscan=False, avgfield=False, avgbaseline=False, avgantenna=False, avgspw=False, scalar=False, transform=True, freqframe='', restfreq='', veldef='RADIO', phasecenter='', extendflag=False, extcorr=False, extchannel=False, iteraxis='', xselfscale=False, yselfscale=False, xsharedaxis=False, ysharedaxis=False, customsymbol=[], symbolshape='autoscaling', symbolsize=2, symbolcolor='0000ff', symbolfill='fill', symboloutline=False, coloraxis='', customflaggedsymbol=False, flaggedsymbolshape='circle', flaggedsymbolsize=2, flaggedsymbolcolor='ff0000', flaggedsymbolfill='fill', flaggedsymboloutline=False, xconnector='', timeconnector=False, plotrange=[], title='', titlefont=0, xlabel='', xaxisfont=0, ylabel='', yaxisfont=0, showmajorgrid=False, majorwidth=1, majorstyle='', majorcolor='B0B0B0', showminorgrid=False, minorwidth=1, minorstyle='', minorcolor='D0D0D0', showlegend=False, legendposition='', plotfile='', expformat='', verbose=True, exprange='', highres=False, dpi=-1, width=-1, height=-1, overwrite=False, showgui=True, clearplots=True, callib=[], headeritems='', showatm=False, showtsky=False, showimage=False )
+2024-10-03 12:36:29	INFO	plotms::::casa	casaplotms started: 0.0.0.0:44899
+2024-10-03 12:36:29	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2024-10-03 12:36:29	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE, AXES, CANVAS, DISPLAY, PAGEHEADER, ITERATION, LOG, PLOTMS_OPTIONS.
+2024-10-03 12:36:29	INFO	plotms::::casa	Task plotms complete. Start time: 2024-10-03 14:36:28.024959 End time: 2024-10-03 14:36:29.429593
+2024-10-03 12:36:29	INFO	plotms::::casa	##### End Task: plotms               #####
+2024-10-03 12:36:29	INFO	plotms::::casa	##########################################
+2024-10-03 12:36:53	INFO	PlotMS::params_changed	Updating: REDRAW, MSDATA, CACHE.
+2024-10-03 12:36:53	INFO	PlotMS::load_cache	Clearing the existing plotms cache.
+2024-10-03 12:36:53	INFO	PlotMS::load_cache	START     Current memory usage: 9688.17 kilobytes.
+2024-10-03 12:36:53	INFO	PlotMS::load_cache	Plotting table 3C391_calibrated.ms
+2024-10-03 12:36:53	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. UVwave(29)...
+2024-10-03 12:36:53	INFO	PlotMS::load_cache	Loading page header cache
+2024-10-03 12:36:54	INFO	PlotMS::load_cache	Data selection will yield a total of 9929344 plottable points (flagged and unflagged).
+2024-10-03 12:36:54	INFO	PlotMS::load_cache+	The plotms cache will require an estimated 0.100517 GB of memory (10.1232 bytes/point).
+2024-10-03 12:36:54	INFO	PlotMS::load_cache+	This is 0.619768% of the memory avail. to CASA (16.2185 GB).
+2024-10-03 12:36:54	INFO	PlotMS::load_cache	Loading chunks......
+2024-10-03 12:36:55	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-03 12:36:55	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-03 12:36:55	INFO	PlotMS::load_cache	Finished loading.
+2024-10-03 12:36:55	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-03 12:36:56	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-03 12:36:56	INFO	PlotMS::load_cache+	UVwave: 450.08 to 15984 (unflagged); (no flagged data)
+2024-10-03 12:36:56	INFO	PlotMS::load_cache+	Amp:data: 5.2676e-05 to 5.0583 (unflagged); (no flagged data)
+2024-10-03 12:36:56	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-03 12:36:53	INFO	PlotMS::load_cache	END       Time: +2 seconds.  Memory: +101114 kilobytes.
+2024-10-03 12:36:56	INFO	PlotMS::plot	Plotting 9929344 unflagged points.
+2024-10-03 12:41:29	INFO	PlotMS::params_changed	Updating: REDRAW, CACHE.
+2024-10-03 12:41:29	INFO	PlotMS::load_cache	START     Current memory usage: 110602 kilobytes.
+2024-10-03 12:41:29	INFO	PlotMS::load_cache	Plotting table 3C391_calibrated.ms
+2024-10-03 12:41:29	INFO	PlotMS::load_cache	Caching for the new plot: Amp(17):data vs. Frequency(6)...
+2024-10-03 12:41:29	INFO	PlotMS::load_cache	Generating the plot mask.
+2024-10-03 12:41:29	INFO	PlotMS::load_cache	refTime = 2010/04/24/00:00:00.0
+2024-10-03 12:41:29	INFO	PlotMS::load_cache	Finished loading.
+2024-10-03 12:41:29	INFO	PlotMS::load_cache	Setting up iteration indexing (if necessary), and calculating plot ranges.
+2024-10-03 12:41:29	INFO	PlotMS::load_cache	Axes ranges:
+2024-10-03 12:41:29	INFO	PlotMS::load_cache+	Frequency: 4.536 to 4.662 (unflagged); (no flagged data)
+2024-10-03 12:41:29	INFO	PlotMS::load_cache+	Amp:data: 5.2676e-05 to 5.0583 (unflagged); (no flagged data)
+2024-10-03 12:41:29	INFO	PlotMS::load_cache	Finished indexing.
+2024-10-03 12:41:29	INFO	PlotMS::load_cache	END       Time: +0 seconds.  Memory: +51.9844 kilobytes.
+2024-10-03 12:41:29	INFO	PlotMS::plot	Plotting 9929344 unflagged points.
+2024-10-03 13:22:27	INFO	tclean::::casa	##########################################
+2024-10-03 13:22:27	INFO	tclean::::casa	##### Begin Task: tclean             #####
+2024-10-03 13:22:27	INFO	tclean::::casa	tclean( vis='3C391_calibrated.ms', selectdata=True, field='', spw='', timerange='', uvrange='', antenna='', scan='', observation='', intent='', datacolumn='data', imagename='3C391_map0', imsize=[400, 400], cell=['2.5arcsec', '2.5arcsec'], phasecenter='', stokes='I', projection='SIN', startmodel='', specmode='mfs', reffreq='', nchan=-1, start='', width='', outframe='LSRK', veltype='radio', restfreq=[], interpolation='linear', perchanweightdensity=True, gridder='standard', facets=1, psfphasecenter='', wprojplanes=1, vptable='', mosweight=True, aterm=True, psterm=False, wbawp=True, conjbeams=False, cfcache='', usepointing=False, computepastep=360.0, rotatepastep=360.0, pointingoffsetsigdev=[], pblimit=0.2, normtype='flatnoise', deconvolver='hogbom', scales=[], nterms=2, smallscalebias=0.0, fusedthreshold=0.0, largestscale=-1, restoration=True, restoringbeam=[], pbcor=False, outlierfile='', weighting='briggs', robust=0.5, noise='1.0Jy', npixels=0, uvtaper=[], niter=1000, gain=0.1, threshold='0.001Jy', nsigma=0.0, cycleniter=100, cyclefactor=1.0, minpsffraction=0.05, maxpsffraction=0.8, interactive=True, usemask='user', mask='', pbmask=0.0, sidelobethreshold=3.0, noisethreshold=5.0, lownoisethreshold=1.5, negativethreshold=0.0, smoothfactor=1.0, minbeamfrac=0.3, cutthreshold=0.01, growiterations=75, dogrowprune=True, minpercentchange=-1.0, verbose=False, fastnoise=True, restart=True, savemodel='none', calcres=True, calcpsf=True, psfcutoff=0.35, parallel=False )
+2024-10-03 13:22:27	INFO	tclean::::casa	Verifying Input Parameters
+2024-10-03 13:22:27	INFO	SynthesisImagerVi2::selectData 	MS : 3C391_calibrated.ms | [Opened in readonly mode]
+2024-10-03 13:22:27	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 77573
+2024-10-03 13:22:27	SEVERE	MeasTable::dUTC(Double) (file casacore/measures/Measures/MeasTable.cc, line 4292)	Leap second table TAI_UTC seems out-of-date.
+2024-10-03 13:22:27	SEVERE	MeasTable::dUTC(Double) (file casacore/measures/Measures/MeasTable.cc, line 4292)+	Until the table is updated (see the CASA documentation or your system admin),
+2024-10-03 13:22:27	SEVERE	MeasTable::dUTC(Double) (file casacore/measures/Measures/MeasTable.cc, line 4292)+	times and coordinates derived from UTC could be wrong by 1s or more.
+2024-10-03 13:22:27	INFO	SynthesisImagerVi2::defineImage 	Define image coordinates for [3C391_map0] : 
+2024-10-03 13:22:28	INFO	SynthesisImagerVi2::defineImage 	Impars : start 
+2024-10-03 13:22:28	INFO	SynthesisImagerVi2::defineImage 	Shape : [400, 400, 1, 1]Spectral : [4.59835e+09] at [0] with increment [1.27992e+08]
+2024-10-03 13:22:28	INFO	SynthesisImagerVi2::defineImage 	Set Gridding options for [3C391_map0] with ftmachine : gridft
+2024-10-03 13:22:28	INFO	SynthesisImagerVi2::nSubCubeFitInMemory	Required memory: 0.007725 GB. Available mem.: 11.46 GB (rc, mem. fraction: 80%, memory: -) => Subcubes: 1. Processes on node: 1.
+2024-10-03 13:22:28	INFO	SynthesisImagerVi2::weight() 	Set imaging weights : Briggs weighting: sidelobes will be suppressed over full image
+2024-10-03 13:22:28	INFO	VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2024-10-03 13:22:28	INFO	task_tclean::SynthesisDeconvolver::setupDeconvolution 	Set Deconvolution Options for [3C391_map0] : hogbom
+2024-10-03 13:22:28	INFO	task_tclean::SynthesisImager::makePSF 	----------------------------------------------------------- Make PSF ---------------------------------------------
+2024-10-03 13:22:32	INFO	task_tclean::SIImageStore::calcSensitivity 	[3C391_map0] Theoretical sensitivity (Jy/bm):0.000155977 
+2024-10-03 13:22:32	INFO	task_tclean::SIImageStore::getPSFGaussian 	Time to fit Gaussian to PSF 0.009407
+2024-10-03 13:22:32	INFO	task_tclean::SIImageStore::printBeamSet 	Beam : 17.4713 arcsec, 14.4631 arcsec, 25.4607 deg
+2024-10-03 13:22:32	INFO	task_tclean::SynthesisImagerVi2::makePrimaryBeam 	vi2 : Evaluating Primary Beam model onto image grid(s)
+2024-10-03 13:22:33	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run (Last) Major Cycle 1 -------------------------------------
+2024-10-03 13:22:37	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.144655, over full image : 0.144655
+2024-10-03 13:22:37	INFO	SynthesisDeconvolver::setupMask 	[3C391_map0] Initializing new mask to 0.0 for interactive drawing
+2024-10-03 13:22:37	INFO	SynthesisDeconvolver::setupMask 	[3C391_map0] Number of pixels in the clean mask : 0 out of a total of 160000 pixels. [ 0 % ]
+2024-10-03 13:32:02	INFO	grpcInteractiveCleanGui::interactivemask 	[3C391_map0.mask] Mask modified from 0 pixels to 14756 pixels 
+2024-10-03 13:32:02	INFO	grpcInteractiveCleanManager::pauseForUserInteraction 	[3C391_map0] Mask changed interactively.
+2024-10-03 13:32:02	INFO	SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.144655, over full image : 0.144655
+2024-10-03 13:32:02	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.0274982, CycleNiter=100, Gain=0.1
+2024-10-03 13:32:02	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=0->0.697012, peakres=0.144655->0.0496718, Reached cycleniter.
+2024-10-03 13:32:02	INFO	task_tclean::grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 100 iterations.
+2024-10-03 13:32:02	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 2 -------------------------------------
+2024-10-03 13:36:07	INFO	task_tclean::grpcInteractiveCleanGui::interactivemask 	[3C391_map0.mask] Mask modified from 14756 pixels to 10773 pixels 
+2024-10-03 13:36:07	INFO	task_tclean::grpcInteractiveCleanManager::pauseForUserInteraction 	[3C391_map0] Mask changed interactively.
+2024-10-03 13:36:07	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0496717, over full image : 0.0496717
+2024-10-03 13:36:07	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00944235, CycleNiter=100, Gain=0.1
+2024-10-03 13:36:07	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=0.697012->1.12399, peakres=0.0496717->0.0361934, Reached cycleniter.
+2024-10-03 13:36:07	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 200 iterations.
+2024-10-03 13:36:07	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 3 -------------------------------------
+2024-10-03 13:36:50	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0361934, over full image : 0.0361934
+2024-10-03 13:36:50	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00688019, CycleNiter=100, Gain=0.1
+2024-10-03 13:36:51	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=1.12399->1.45062, peakres=0.0361934->0.0291568, Reached cycleniter.
+2024-10-03 13:36:51	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 300 iterations.
+2024-10-03 13:36:51	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 4 -------------------------------------
+2024-10-03 13:37:09	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0291568, over full image : 0.0291568
+2024-10-03 13:37:09	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00554257, CycleNiter=100, Gain=0.1
+2024-10-03 13:37:09	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=1.45062->1.72294, peakres=0.0291568->0.0251024, Reached cycleniter.
+2024-10-03 13:37:09	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 400 iterations.
+2024-10-03 13:37:09	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 5 -------------------------------------
+2024-10-03 13:37:17	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0251023, over full image : 0.0251023
+2024-10-03 13:37:17	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00477182, CycleNiter=100, Gain=0.1
+2024-10-03 13:37:18	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=1.72294->1.9583, peakres=0.0251023->0.0217446, Reached cycleniter.
+2024-10-03 13:37:18	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 500 iterations.
+2024-10-03 13:37:18	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 6 -------------------------------------
+2024-10-03 13:38:03	INFO	task_tclean::grpcInteractiveCleanGui::interactivemask 	[3C391_map0.mask] Mask modified from 10773 pixels to 0 pixels 
+2024-10-03 13:38:03	INFO	task_tclean::grpcInteractiveCleanManager::pauseForUserInteraction 	[3C391_map0] Mask changed interactively.
+2024-10-03 13:38:03	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.022994, over full image : 0.022994
+2024-10-03 13:38:03	INFO	tclean::::casa	Reached global stopping criterion : zero mask
+2024-10-03 13:38:03	INFO	SDAlgorithmBase::restore 	[3C391_map0] : Restoring model image.
+2024-10-03 13:38:03	INFO	SIImageStore::restore 	Beam for chan : 0 : 17.4713 arcsec, 14.4631 arcsec, 25.4607 deg
+2024-10-03 13:38:03	INFO	tclean::::casa	Searching for images with prefix '3C391_map0'... Found these, writing history into them: ['3C391_map0.pb', '3C391_map0.mask', '3C391_map0.image', '3C391_map0.psf', '3C391_map0.model', '3C391_map0.sumwt', '3C391_map0.residual']
+2024-10-03 13:38:03	INFO	tclean::::casa	Task tclean complete. Start time: 2024-10-03 15:22:26.918919 End time: 2024-10-03 15:38:03.232433
+2024-10-03 13:38:03	INFO	tclean::::casa	##### End Task: tclean               #####
+2024-10-03 13:38:03	INFO	tclean::::casa	##########################################
+2024-10-03 13:46:05	INFO	tclean::::casa	##########################################
+2024-10-03 13:46:05	INFO	tclean::::casa	##### Begin Task: tclean             #####
+2024-10-03 13:46:05	INFO	tclean::::casa	tclean( vis='3C391_calibrated.ms', selectdata=True, field='', spw='', timerange='', uvrange='', antenna='', scan='', observation='', intent='', datacolumn='data', imagename='3C391_map0', imsize=[400, 400], cell=['2.5arcsec', '2.5arcsec'], phasecenter='', stokes='I', projection='SIN', startmodel='', specmode='mfs', reffreq='', nchan=-1, start='', width='', outframe='LSRK', veltype='radio', restfreq=[], interpolation='linear', perchanweightdensity=True, gridder='standard', facets=1, psfphasecenter='', wprojplanes=1, vptable='', mosweight=True, aterm=True, psterm=False, wbawp=True, conjbeams=False, cfcache='', usepointing=False, computepastep=360.0, rotatepastep=360.0, pointingoffsetsigdev=[], pblimit=0.2, normtype='flatnoise', deconvolver='hogbom', scales=[], nterms=2, smallscalebias=0.0, fusedthreshold=0.0, largestscale=-1, restoration=True, restoringbeam=[], pbcor=False, outlierfile='', weighting='briggs', robust=0.5, noise='1.0Jy', npixels=0, uvtaper=[], niter=1000, gain=0.1, threshold='0.001Jy', nsigma=0.0, cycleniter=100, cyclefactor=1.0, minpsffraction=0.05, maxpsffraction=0.8, interactive=True, usemask='user', mask='', pbmask=0.0, sidelobethreshold=3.0, noisethreshold=5.0, lownoisethreshold=1.5, negativethreshold=0.0, smoothfactor=1.0, minbeamfrac=0.3, cutthreshold=0.01, growiterations=75, dogrowprune=True, minpercentchange=-1.0, verbose=False, fastnoise=True, restart=True, savemodel='none', calcres=True, calcpsf=True, psfcutoff=0.35, parallel=False )
+2024-10-03 13:46:05	INFO	tclean::::casa	Verifying Input Parameters
+2024-10-03 13:46:05	INFO	SynthesisImagerVi2::selectData 	MS : 3C391_calibrated.ms | [Opened in readonly mode]
+2024-10-03 13:46:05	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 77573
+2024-10-03 13:46:05	INFO	SynthesisImagerVi2::defineImage 	Define image coordinates for [3C391_map0] : 
+2024-10-03 13:46:05	INFO	SynthesisImagerVi2::defineImage 	Impars : start 
+2024-10-03 13:46:05	INFO	SynthesisImagerVi2::defineImage 	Shape : [400, 400, 1, 1]Spectral : [4.59835e+09] at [0] with increment [1.27992e+08]
+2024-10-03 13:46:05	INFO	SynthesisImagerVi2::defineImage 	Set Gridding options for [3C391_map0] with ftmachine : gridft
+2024-10-03 13:46:05	INFO	SynthesisImagerVi2::nSubCubeFitInMemory	Required memory: 0.007725 GB. Available mem.: 11.41 GB (rc, mem. fraction: 80%, memory: -) => Subcubes: 1. Processes on node: 1.
+2024-10-03 13:46:05	INFO	SynthesisImagerVi2::weight() 	Set imaging weights : Briggs weighting: sidelobes will be suppressed over full image
+2024-10-03 13:46:06	INFO	VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2024-10-03 13:46:06	INFO	task_tclean::SynthesisDeconvolver::setupDeconvolution 	Set Deconvolution Options for [3C391_map0] : hogbom
+2024-10-03 13:46:06	INFO	task_tclean::SynthesisImager::makePSF 	----------------------------------------------------------- Make PSF ---------------------------------------------
+2024-10-03 13:46:10	INFO	task_tclean::SIImageStore::calcSensitivity 	[3C391_map0] Theoretical sensitivity (Jy/bm):0.000155977 
+2024-10-03 13:46:10	INFO	task_tclean::SIImageStore::printBeamSet 	Beam : 17.4713 arcsec, 14.4631 arcsec, 25.4607 deg
+2024-10-03 13:46:10	INFO	task_tclean::SynthesisImagerVi2::makePrimaryBeam 	vi2 : Evaluating Primary Beam model onto image grid(s)
+2024-10-03 13:46:10	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run (Last) Major Cycle 1 -------------------------------------
+2024-10-03 13:46:15	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.022994, over full image : 0.022994
+2024-10-03 13:46:15	INFO	tclean::::casa	Reached global stopping criterion : zero mask
+2024-10-03 13:46:15	INFO	SynthesisDeconvolver::setupMask 	[3C391_map0] Initializing new mask to 0.0 for interactive drawing
+2024-10-03 13:46:15	INFO	SynthesisDeconvolver::setupMask 	[3C391_map0] Number of pixels in the clean mask : 0 out of a total of 160000 pixels. [ 0 % ]
+2024-10-03 13:46:48	INFO	grpcInteractiveCleanGui::interactivemask 	[3C391_map0.mask] Mask modified from 0 pixels to 15904 pixels 
+2024-10-03 13:46:48	INFO	grpcInteractiveCleanManager::pauseForUserInteraction 	[3C391_map0] Mask changed interactively.
+2024-10-03 13:46:48	INFO	SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0217446, over full image : 0.022994
+2024-10-03 13:46:48	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00413355, CycleNiter=100, Gain=0.1
+2024-10-03 13:46:48	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=1.9583->2.16637, peakres=0.0217446->0.0195742, Reached cycleniter.
+2024-10-03 13:46:48	INFO	task_tclean::grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 100 iterations.
+2024-10-03 13:46:48	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 2 -------------------------------------
+2024-10-03 13:47:01	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0195742, over full image : 0.0216659
+2024-10-03 13:47:01	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00372096, CycleNiter=100, Gain=0.1
+2024-10-03 13:47:02	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=2.16637->2.34594, peakres=0.0195742->0.0176131, Reached cycleniter.
+2024-10-03 13:47:02	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 200 iterations.
+2024-10-03 13:47:02	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 3 -------------------------------------
+2024-10-03 13:47:30	INFO	task_tclean::grpcInteractiveCleanGui::interactivemask 	[3C391_map0.mask] Mask modified from 15904 pixels to 23789 pixels 
+2024-10-03 13:47:30	INFO	task_tclean::grpcInteractiveCleanManager::pauseForUserInteraction 	[3C391_map0] Mask changed interactively.
+2024-10-03 13:47:30	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0204478, over full image : 0.0204478
+2024-10-03 13:47:30	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00388702, CycleNiter=100, Gain=0.1
+2024-10-03 13:47:31	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=2.34594->2.47446, peakres=0.0204478->0.0162074, Reached cycleniter.
+2024-10-03 13:47:31	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 300 iterations.
+2024-10-03 13:47:31	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 4 -------------------------------------
+2024-10-03 13:47:40	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0162075, over full image : 0.0186896
+2024-10-03 13:47:40	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00308096, CycleNiter=100, Gain=0.1
+2024-10-03 13:47:40	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=2.47446->2.61633, peakres=0.0162075->0.0150141, Reached cycleniter.
+2024-10-03 13:47:40	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 400 iterations.
+2024-10-03 13:47:40	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 5 -------------------------------------
+2024-10-03 13:47:49	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.015014, over full image : 0.0177336
+2024-10-03 13:47:49	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00285409, CycleNiter=100, Gain=0.1
+2024-10-03 13:47:49	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=2.61633->2.74489, peakres=0.015014->0.0139578, Reached cycleniter.
+2024-10-03 13:47:49	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 500 iterations.
+2024-10-03 13:47:49	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 6 -------------------------------------
+2024-10-03 13:48:15	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0139578, over full image : 0.0170839
+2024-10-03 13:48:15	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.0026533, CycleNiter=100, Gain=0.1
+2024-10-03 13:48:15	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=2.74489->2.87823, peakres=0.0139578->0.0129801, Reached cycleniter.
+2024-10-03 13:48:15	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 600 iterations.
+2024-10-03 13:48:15	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 7 -------------------------------------
+2024-10-03 13:48:23	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0129801, over full image : 0.0164319
+2024-10-03 13:48:23	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00246745, CycleNiter=100, Gain=0.1
+2024-10-03 13:48:23	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=2.87823->2.9879, peakres=0.0129801->0.0121948, Reached cycleniter.
+2024-10-03 13:48:23	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 700 iterations.
+2024-10-03 13:48:23	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 8 -------------------------------------
+2024-10-03 13:48:30	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0121948, over full image : 0.0159658
+2024-10-03 13:48:30	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00231818, CycleNiter=100, Gain=0.1
+2024-10-03 13:48:30	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=2.9879->3.08869, peakres=0.0121948->0.011479, Reached cycleniter.
+2024-10-03 13:48:30	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 800 iterations.
+2024-10-03 13:48:30	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 9 -------------------------------------
+2024-10-03 13:48:36	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.011479, over full image : 0.0154769
+2024-10-03 13:48:36	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.0021821, CycleNiter=100, Gain=0.1
+2024-10-03 13:48:36	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=3.08869->3.19282, peakres=0.011479->0.0108778, Reached cycleniter.
+2024-10-03 13:48:36	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 900 iterations.
+2024-10-03 13:48:36	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 10 -------------------------------------
+2024-10-03 13:49:28	INFO	task_tclean::grpcInteractiveCleanGui::interactivemask 	[3C391_map0.mask] Mask modified from 23789 pixels to 52372 pixels 
+2024-10-03 13:49:28	INFO	task_tclean::grpcInteractiveCleanManager::pauseForUserInteraction 	[3C391_map0] Mask changed interactively.
+2024-10-03 13:49:28	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.015036, over full image : 0.015036
+2024-10-03 13:49:28	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] Run Hogbom minor-cycle | CycleThreshold=0.00285827, CycleNiter=100, Gain=0.1
+2024-10-03 13:49:28	INFO	SDAlgorithmBase::deconvolve 	[3C391_map0] iters=0->100 [100], model=3.19282->3.19753, peakres=0.015036->0.0103309, Reached cycleniter.
+2024-10-03 13:49:28	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 1000 iterations.
+2024-10-03 13:49:28	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run (Last) Major Cycle 11 -------------------------------------
+2024-10-03 13:49:43	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0103309, over full image : 0.0105615
+2024-10-03 13:49:43	INFO	tclean::::casa	Reached global stopping criterion : iteration limit
+2024-10-03 13:49:43	INFO	SDAlgorithmBase::restore 	[3C391_map0] : Restoring model image.
+2024-10-03 13:49:43	INFO	SIImageStore::restore 	Beam for chan : 0 : 17.4713 arcsec, 14.4631 arcsec, 25.4607 deg
+2024-10-03 13:49:43	INFO	tclean::::casa	Searching for images with prefix '3C391_map0'... Found these, writing history into them: ['3C391_map0.pb', '3C391_map0.mask', '3C391_map0.image', '3C391_map0.psf', '3C391_map0.model', '3C391_map0.sumwt', '3C391_map0.residual']
+2024-10-03 13:49:43	INFO	tclean::::casa	Task tclean complete. Start time: 2024-10-03 15:46:05.008710 End time: 2024-10-03 15:49:43.322415
+2024-10-03 13:49:43	INFO	tclean::::casa	##### End Task: tclean               #####
+2024-10-03 13:49:43	INFO	tclean::::casa	##########################################
+2024-10-03 13:50:07	INFO	imview::::casa	##########################################
+2024-10-03 13:50:07	INFO	imview::::casa	##### Begin Task: imview             #####
+2024-10-03 13:50:07	INFO	imview::::casa	imview( raster='3C391_map0.image', contour={}, zoom=1, axes={}, out='' )
+2024-10-03 13:50:11	INFO	imview::::casa	Task imview complete. Start time: 2024-10-03 15:50:07.319194 End time: 2024-10-03 15:50:11.086136
+2024-10-03 13:50:11	INFO	imview::::casa	##### End Task: imview               #####
+2024-10-03 13:50:11	INFO	imview::::casa	##########################################
+2024-10-03 14:25:47	INFO	tclean::::casa	##########################################
+2024-10-03 14:25:47	INFO	tclean::::casa	##### Begin Task: tclean             #####
+2024-10-03 14:25:47	INFO	tclean::::casa	tclean( vis='3C391_calibrated.ms', selectdata=True, field='', spw='', timerange='', uvrange='', antenna='', scan='', observation='', intent='', datacolumn='data', imagename='3C391_map_noiterations', imsize=[400, 400], cell=['2.5arcsec', '2.5arcsec'], phasecenter='', stokes='I', projection='SIN', startmodel='', specmode='mfs', reffreq='', nchan=-1, start='', width='', outframe='LSRK', veltype='radio', restfreq=[], interpolation='linear', perchanweightdensity=True, gridder='standard', facets=1, psfphasecenter='', wprojplanes=1, vptable='', mosweight=True, aterm=True, psterm=False, wbawp=True, conjbeams=False, cfcache='', usepointing=False, computepastep=360.0, rotatepastep=360.0, pointingoffsetsigdev=[], pblimit=0.2, normtype='flatnoise', deconvolver='hogbom', scales=[], nterms=2, smallscalebias=0.0, fusedthreshold=0.0, largestscale=-1, restoration=True, restoringbeam=[], pbcor=False, outlierfile='', weighting='briggs', robust=0.5, noise='1.0Jy', npixels=0, uvtaper=[], niter=10000, gain=0.1, threshold='0.001Jy', nsigma=0.0, cycleniter=100, cyclefactor=1.0, minpsffraction=0.05, maxpsffraction=0.8, interactive=False, usemask='user', mask='', pbmask=0.0, sidelobethreshold=3.0, noisethreshold=5.0, lownoisethreshold=1.5, negativethreshold=0.0, smoothfactor=1.0, minbeamfrac=0.3, cutthreshold=0.01, growiterations=75, dogrowprune=True, minpercentchange=-1.0, verbose=False, fastnoise=True, restart=True, savemodel='none', calcres=True, calcpsf=True, psfcutoff=0.35, parallel=False )
+2024-10-03 14:25:47	INFO	tclean::::casa	Verifying Input Parameters
+2024-10-03 14:25:47	INFO	SynthesisImagerVi2::selectData 	MS : 3C391_calibrated.ms | [Opened in readonly mode]
+2024-10-03 14:25:47	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 77573
+2024-10-03 14:25:47	INFO	SynthesisImagerVi2::defineImage 	Define image coordinates for [3C391_map_noiterations] : 
+2024-10-03 14:25:47	INFO	SynthesisImagerVi2::defineImage 	Impars : start 
+2024-10-03 14:25:47	INFO	SynthesisImagerVi2::defineImage 	Shape : [400, 400, 1, 1]Spectral : [4.59835e+09] at [0] with increment [1.27992e+08]
+2024-10-03 14:25:47	INFO	SynthesisImagerVi2::defineImage 	Set Gridding options for [3C391_map_noiterations] with ftmachine : gridft
+2024-10-03 14:25:47	INFO	SynthesisImagerVi2::nSubCubeFitInMemory	Required memory: 0.007725 GB. Available mem.: 11.4 GB (rc, mem. fraction: 80%, memory: -) => Subcubes: 1. Processes on node: 1.
+2024-10-03 14:25:47	INFO	SynthesisImagerVi2::weight() 	Set imaging weights : Briggs weighting: sidelobes will be suppressed over full image
+2024-10-03 14:25:48	INFO	VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2024-10-03 14:25:48	INFO	task_tclean::SynthesisDeconvolver::setupDeconvolution 	Set Deconvolution Options for [3C391_map_noiterations] : hogbom
+2024-10-03 14:25:48	INFO	task_tclean::SynthesisImager::makePSF 	----------------------------------------------------------- Make PSF ---------------------------------------------
+2024-10-03 14:25:52	INFO	task_tclean::SIImageStore::calcSensitivity 	[3C391_map_noiterations] Theoretical sensitivity (Jy/bm):0.000155977 
+2024-10-03 14:25:52	INFO	task_tclean::SIImageStore::getPSFGaussian 	Time to fit Gaussian to PSF 0.008752
+2024-10-03 14:25:52	INFO	task_tclean::SIImageStore::printBeamSet 	Beam : 17.4713 arcsec, 14.4631 arcsec, 25.4607 deg
+2024-10-03 14:25:52	INFO	task_tclean::SynthesisImagerVi2::makePrimaryBeam 	vi2 : Evaluating Primary Beam model onto image grid(s)
+2024-10-03 14:25:52	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run (Last) Major Cycle 1 -------------------------------------
+2024-10-03 14:25:56	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.144655, over full image : 0.144655
+2024-10-03 14:25:56	INFO	SynthesisDeconvolver::setupMask 	[3C391_map_noiterations] Initializing new mask to 1.0 for the full image
+2024-10-03 14:25:56	INFO	SynthesisDeconvolver::setupMask 	[3C391_map_noiterations] Number of pixels in the clean mask : 160000 out of a total of 160000 pixels. [ 100 % ]
+2024-10-03 14:25:56	INFO	SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.144655, over full image : 0.144655
+2024-10-03 14:25:56	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.0274982, CycleNiter=100, Gain=0.1
+2024-10-03 14:25:56	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=0->0.697012, peakres=0.144655->0.0496718, Reached cycleniter.
+2024-10-03 14:25:56	INFO	task_tclean::grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 100 iterations.
+2024-10-03 14:25:56	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 2 -------------------------------------
+2024-10-03 14:26:01	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0496717, over full image : 0.0496717
+2024-10-03 14:26:01	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00944235, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:01	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=0.697012->1.12399, peakres=0.0496717->0.0361934, Reached cycleniter.
+2024-10-03 14:26:01	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 200 iterations.
+2024-10-03 14:26:01	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 3 -------------------------------------
+2024-10-03 14:26:06	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0361934, over full image : 0.0361934
+2024-10-03 14:26:06	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00688019, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:06	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=1.12399->1.45062, peakres=0.0361934->0.0291568, Reached cycleniter.
+2024-10-03 14:26:06	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 300 iterations.
+2024-10-03 14:26:06	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 4 -------------------------------------
+2024-10-03 14:26:10	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0291568, over full image : 0.0291568
+2024-10-03 14:26:10	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00554257, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:11	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=1.45062->1.72294, peakres=0.0291568->0.0251024, Reached cycleniter.
+2024-10-03 14:26:11	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 400 iterations.
+2024-10-03 14:26:11	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 5 -------------------------------------
+2024-10-03 14:26:15	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0251023, over full image : 0.0251023
+2024-10-03 14:26:15	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00477182, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:15	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=1.72294->1.94472, peakres=0.0251023->0.0217813, Reached cycleniter.
+2024-10-03 14:26:16	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 500 iterations.
+2024-10-03 14:26:16	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 6 -------------------------------------
+2024-10-03 14:26:20	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0217814, over full image : 0.0217814
+2024-10-03 14:26:21	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00414054, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:21	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=1.94472->2.13309, peakres=0.0217814->0.0194424, Reached cycleniter.
+2024-10-03 14:26:21	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 600 iterations.
+2024-10-03 14:26:21	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 7 -------------------------------------
+2024-10-03 14:26:26	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0194425, over full image : 0.0194425
+2024-10-03 14:26:26	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00369592, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:26	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=2.13309->2.29853, peakres=0.0194425->0.0177513, Reached cycleniter.
+2024-10-03 14:26:26	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 700 iterations.
+2024-10-03 14:26:26	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 8 -------------------------------------
+2024-10-03 14:26:31	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0177513, over full image : 0.0177513
+2024-10-03 14:26:31	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00337444, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:31	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=2.29853->2.44951, peakres=0.0177513->0.01621, Reached cycleniter.
+2024-10-03 14:26:31	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 800 iterations.
+2024-10-03 14:26:31	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 9 -------------------------------------
+2024-10-03 14:26:36	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.01621, over full image : 0.01621
+2024-10-03 14:26:36	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00308144, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:36	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=2.44951->2.57666, peakres=0.01621->0.0149863, Reached cycleniter.
+2024-10-03 14:26:36	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 900 iterations.
+2024-10-03 14:26:36	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 10 -------------------------------------
+2024-10-03 14:26:40	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0149863, over full image : 0.0149863
+2024-10-03 14:26:40	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00284882, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:40	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=2.57666->2.70864, peakres=0.0149863->0.0140052, Reached cycleniter.
+2024-10-03 14:26:41	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 1000 iterations.
+2024-10-03 14:26:41	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 11 -------------------------------------
+2024-10-03 14:26:45	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0140053, over full image : 0.0140053
+2024-10-03 14:26:45	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00266233, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:45	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=2.70864->2.82327, peakres=0.0140053->0.0130275, Reached cycleniter.
+2024-10-03 14:26:45	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 1100 iterations.
+2024-10-03 14:26:45	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 12 -------------------------------------
+2024-10-03 14:26:50	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0130275, over full image : 0.0130275
+2024-10-03 14:26:50	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00247647, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:50	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=2.82327->2.93317, peakres=0.0130275->0.0121963, Reached cycleniter.
+2024-10-03 14:26:50	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 1200 iterations.
+2024-10-03 14:26:50	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 13 -------------------------------------
+2024-10-03 14:26:54	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0121964, over full image : 0.0121964
+2024-10-03 14:26:54	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00231847, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:54	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=2.93317->3.02948, peakres=0.0121964->0.0115277, Reached cycleniter.
+2024-10-03 14:26:54	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 1300 iterations.
+2024-10-03 14:26:54	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 14 -------------------------------------
+2024-10-03 14:26:59	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0115277, over full image : 0.0115277
+2024-10-03 14:26:59	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00219136, CycleNiter=100, Gain=0.1
+2024-10-03 14:26:59	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.02948->3.12927, peakres=0.0115277->0.0109103, Reached cycleniter.
+2024-10-03 14:26:59	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 1400 iterations.
+2024-10-03 14:26:59	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 15 -------------------------------------
+2024-10-03 14:27:03	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0109103, over full image : 0.0109103
+2024-10-03 14:27:03	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00207399, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:03	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.12927->3.20051, peakres=0.0109103->0.0103297, Reached cycleniter.
+2024-10-03 14:27:03	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 1500 iterations.
+2024-10-03 14:27:03	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 16 -------------------------------------
+2024-10-03 14:27:08	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0103298, over full image : 0.0103298
+2024-10-03 14:27:08	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00196364, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:09	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.20051->3.2783, peakres=0.0103298->0.00988934, Reached cycleniter.
+2024-10-03 14:27:09	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 1600 iterations.
+2024-10-03 14:27:09	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 17 -------------------------------------
+2024-10-03 14:27:13	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00988934, over full image : 0.00988934
+2024-10-03 14:27:13	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00187992, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:14	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.2783->3.35032, peakres=0.00988934->0.00937108, Reached cycleniter.
+2024-10-03 14:27:14	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 1700 iterations.
+2024-10-03 14:27:14	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 18 -------------------------------------
+2024-10-03 14:27:18	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00937107, over full image : 0.00937107
+2024-10-03 14:27:18	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.0017814, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:18	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.35031->3.4137, peakres=0.00937107->0.00896486, Reached cycleniter.
+2024-10-03 14:27:18	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 1800 iterations.
+2024-10-03 14:27:18	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 19 -------------------------------------
+2024-10-03 14:27:23	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00896483, over full image : 0.00896483
+2024-10-03 14:27:23	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00170417, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:23	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.4137->3.47416, peakres=0.00896483->0.00858967, Reached cycleniter.
+2024-10-03 14:27:23	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 1900 iterations.
+2024-10-03 14:27:23	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 20 -------------------------------------
+2024-10-03 14:27:28	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00858972, over full image : 0.00858972
+2024-10-03 14:27:28	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00163286, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:28	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.47416->3.53041, peakres=0.00858972->0.00816726, Reached cycleniter.
+2024-10-03 14:27:28	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 2000 iterations.
+2024-10-03 14:27:28	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 21 -------------------------------------
+2024-10-03 14:27:33	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00816723, over full image : 0.00816723
+2024-10-03 14:27:33	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00155255, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:34	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.53041->3.58907, peakres=0.00816723->0.00787281, Reached cycleniter.
+2024-10-03 14:27:34	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 2100 iterations.
+2024-10-03 14:27:34	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 22 -------------------------------------
+2024-10-03 14:27:39	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0078728, over full image : 0.0078728
+2024-10-03 14:27:39	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00149658, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:39	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.58907->3.63642, peakres=0.0078728->0.00756959, Reached cycleniter.
+2024-10-03 14:27:39	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 2200 iterations.
+2024-10-03 14:27:39	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 23 -------------------------------------
+2024-10-03 14:27:43	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00756961, over full image : 0.00756961
+2024-10-03 14:27:43	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00143895, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:43	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.63642->3.68782, peakres=0.00756961->0.00729889, Reached cycleniter.
+2024-10-03 14:27:44	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 2300 iterations.
+2024-10-03 14:27:44	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 24 -------------------------------------
+2024-10-03 14:27:48	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00729887, over full image : 0.00729887
+2024-10-03 14:27:48	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00138748, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:48	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.68782->3.7243, peakres=0.00729887->0.00700684, Reached cycleniter.
+2024-10-03 14:27:48	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 2400 iterations.
+2024-10-03 14:27:48	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 25 -------------------------------------
+2024-10-03 14:27:52	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00700696, over full image : 0.00700696
+2024-10-03 14:27:52	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00133199, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:52	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.72429->3.77188, peakres=0.00700696->0.00674563, Reached cycleniter.
+2024-10-03 14:27:52	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 2500 iterations.
+2024-10-03 14:27:52	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 26 -------------------------------------
+2024-10-03 14:27:57	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00674333, over full image : 0.00674333
+2024-10-03 14:27:57	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00128187, CycleNiter=100, Gain=0.1
+2024-10-03 14:27:57	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.77188->3.81911, peakres=0.00674333->0.00653202, Reached cycleniter.
+2024-10-03 14:27:58	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 2600 iterations.
+2024-10-03 14:27:58	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 27 -------------------------------------
+2024-10-03 14:28:02	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00653201, over full image : 0.00653201
+2024-10-03 14:28:02	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.0012417, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:02	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.81911->3.84778, peakres=0.00653201->0.00628434, Reached cycleniter.
+2024-10-03 14:28:02	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 2700 iterations.
+2024-10-03 14:28:02	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 28 -------------------------------------
+2024-10-03 14:28:07	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00628844, over full image : 0.00628844
+2024-10-03 14:28:07	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.0011954, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:07	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.84778->3.88938, peakres=0.00628844->0.00610889, Reached cycleniter.
+2024-10-03 14:28:07	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 2800 iterations.
+2024-10-03 14:28:07	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 29 -------------------------------------
+2024-10-03 14:28:11	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00610556, over full image : 0.00610556
+2024-10-03 14:28:11	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00116064, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:11	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.88938->3.92116, peakres=0.00610556->0.00589119, Reached cycleniter.
+2024-10-03 14:28:11	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 2900 iterations.
+2024-10-03 14:28:11	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 30 -------------------------------------
+2024-10-03 14:28:16	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00589111, over full image : 0.00589111
+2024-10-03 14:28:16	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00111987, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:16	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.92115->3.95192, peakres=0.00589111->0.00569048, Reached cycleniter.
+2024-10-03 14:28:16	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 3000 iterations.
+2024-10-03 14:28:16	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 31 -------------------------------------
+2024-10-03 14:28:20	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00570065, over full image : 0.00570065
+2024-10-03 14:28:20	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00108367, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:20	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.95191->3.98607, peakres=0.00570065->0.00553341, Reached cycleniter.
+2024-10-03 14:28:20	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 3100 iterations.
+2024-10-03 14:28:20	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 32 -------------------------------------
+2024-10-03 14:28:25	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00554472, over full image : 0.00554472
+2024-10-03 14:28:25	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.00105402, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:25	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=3.98607->4.01493, peakres=0.00554472->0.00534642, Reached cycleniter.
+2024-10-03 14:28:25	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 3200 iterations.
+2024-10-03 14:28:25	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 33 -------------------------------------
+2024-10-03 14:28:30	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00535418, over full image : 0.00535418
+2024-10-03 14:28:30	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.0010178, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:30	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.01493->4.05435, peakres=0.00535418->0.00518654, Reached cycleniter.
+2024-10-03 14:28:30	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 3300 iterations.
+2024-10-03 14:28:30	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 34 -------------------------------------
+2024-10-03 14:28:34	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00518657, over full image : 0.00518657
+2024-10-03 14:28:34	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:34	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.05435->4.08053, peakres=0.00518657->0.00503603, Reached cycleniter.
+2024-10-03 14:28:34	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 3400 iterations.
+2024-10-03 14:28:34	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 35 -------------------------------------
+2024-10-03 14:28:39	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00504809, over full image : 0.00504809
+2024-10-03 14:28:39	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:39	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.08053->4.10481, peakres=0.00504809->0.00488318, Reached cycleniter.
+2024-10-03 14:28:39	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 3500 iterations.
+2024-10-03 14:28:39	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 36 -------------------------------------
+2024-10-03 14:28:44	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00488933, over full image : 0.00488933
+2024-10-03 14:28:44	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:44	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.1048->4.13038, peakres=0.00488933->0.00473761, Reached cycleniter.
+2024-10-03 14:28:44	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 3600 iterations.
+2024-10-03 14:28:44	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 37 -------------------------------------
+2024-10-03 14:28:48	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00474702, over full image : 0.00474702
+2024-10-03 14:28:48	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:48	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.13037->4.15338, peakres=0.00474702->0.00462438, Reached cycleniter.
+2024-10-03 14:28:48	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 3700 iterations.
+2024-10-03 14:28:48	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 38 -------------------------------------
+2024-10-03 14:28:53	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0046382, over full image : 0.0046382
+2024-10-03 14:28:53	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:53	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.15338->4.18116, peakres=0.0046382->0.00450798, Reached cycleniter.
+2024-10-03 14:28:53	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 3800 iterations.
+2024-10-03 14:28:53	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 39 -------------------------------------
+2024-10-03 14:28:57	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00448871, over full image : 0.00448871
+2024-10-03 14:28:58	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:28:58	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.18115->4.19841, peakres=0.00448871->0.00435699, Reached cycleniter.
+2024-10-03 14:28:58	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 3900 iterations.
+2024-10-03 14:28:58	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 40 -------------------------------------
+2024-10-03 14:29:02	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00436446, over full image : 0.00436446
+2024-10-03 14:29:02	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:02	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.19841->4.22721, peakres=0.00436446->0.00423481, Reached cycleniter.
+2024-10-03 14:29:02	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 4000 iterations.
+2024-10-03 14:29:02	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 41 -------------------------------------
+2024-10-03 14:29:07	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00424339, over full image : 0.00424339
+2024-10-03 14:29:07	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:07	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.22721->4.25024, peakres=0.00424339->0.0041362, Reached cycleniter.
+2024-10-03 14:29:07	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 4100 iterations.
+2024-10-03 14:29:07	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 42 -------------------------------------
+2024-10-03 14:29:11	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00414868, over full image : 0.00414868
+2024-10-03 14:29:11	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:11	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.25023->4.27034, peakres=0.00414868->0.00402633, Reached cycleniter.
+2024-10-03 14:29:11	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 4200 iterations.
+2024-10-03 14:29:11	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 43 -------------------------------------
+2024-10-03 14:29:16	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0040464, over full image : 0.0040464
+2024-10-03 14:29:16	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:16	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.27033->4.28746, peakres=0.0040464->0.00391768, Reached cycleniter.
+2024-10-03 14:29:16	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 4300 iterations.
+2024-10-03 14:29:16	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 44 -------------------------------------
+2024-10-03 14:29:21	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00392908, over full image : 0.00392908
+2024-10-03 14:29:21	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:21	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.28746->4.30564, peakres=0.00392908->0.00380858, Reached cycleniter.
+2024-10-03 14:29:21	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 4400 iterations.
+2024-10-03 14:29:21	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 45 -------------------------------------
+2024-10-03 14:29:25	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00382015, over full image : 0.00382015
+2024-10-03 14:29:25	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:25	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.30563->4.32497, peakres=0.00382015->0.00372958, Reached cycleniter.
+2024-10-03 14:29:26	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 4500 iterations.
+2024-10-03 14:29:26	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 46 -------------------------------------
+2024-10-03 14:29:30	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00373565, over full image : 0.00373565
+2024-10-03 14:29:30	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:31	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.32496->4.34819, peakres=0.00373565->0.00363433, Reached cycleniter.
+2024-10-03 14:29:31	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 4600 iterations.
+2024-10-03 14:29:31	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 47 -------------------------------------
+2024-10-03 14:29:35	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00363204, over full image : 0.00363204
+2024-10-03 14:29:35	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:35	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.34818->4.37292, peakres=0.00363204->0.0035523, Reached cycleniter.
+2024-10-03 14:29:35	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 4700 iterations.
+2024-10-03 14:29:35	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 48 -------------------------------------
+2024-10-03 14:29:40	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00354997, over full image : 0.00354997
+2024-10-03 14:29:40	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:40	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.37292->4.38451, peakres=0.00354997->0.00345216, Reached cycleniter.
+2024-10-03 14:29:40	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 4800 iterations.
+2024-10-03 14:29:40	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 49 -------------------------------------
+2024-10-03 14:29:44	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00346525, over full image : 0.00346525
+2024-10-03 14:29:44	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:44	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.3845->4.39716, peakres=0.00346525->0.00338896, Reached cycleniter.
+2024-10-03 14:29:44	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 4900 iterations.
+2024-10-03 14:29:44	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 50 -------------------------------------
+2024-10-03 14:29:49	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00339812, over full image : 0.00339812
+2024-10-03 14:29:49	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:50	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.39716->4.41156, peakres=0.00339812->0.00330188, Reached cycleniter.
+2024-10-03 14:29:50	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 5000 iterations.
+2024-10-03 14:29:50	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 51 -------------------------------------
+2024-10-03 14:29:54	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00330303, over full image : 0.00330303
+2024-10-03 14:29:54	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:54	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.41156->4.42432, peakres=0.00330303->0.00322516, Reached cycleniter.
+2024-10-03 14:29:54	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 5100 iterations.
+2024-10-03 14:29:54	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 52 -------------------------------------
+2024-10-03 14:29:58	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00324111, over full image : 0.00324111
+2024-10-03 14:29:58	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:29:58	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.42432->4.44257, peakres=0.00324111->0.00315039, Reached cycleniter.
+2024-10-03 14:29:58	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 5200 iterations.
+2024-10-03 14:29:58	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 53 -------------------------------------
+2024-10-03 14:30:03	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00316808, over full image : 0.00316808
+2024-10-03 14:30:03	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:03	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.44257->4.46031, peakres=0.00316808->0.0030832, Reached cycleniter.
+2024-10-03 14:30:03	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 5300 iterations.
+2024-10-03 14:30:03	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 54 -------------------------------------
+2024-10-03 14:30:08	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00310535, over full image : 0.00310535
+2024-10-03 14:30:08	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:08	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.46031->4.47153, peakres=0.00310535->0.00302517, Reached cycleniter.
+2024-10-03 14:30:08	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 5400 iterations.
+2024-10-03 14:30:08	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 55 -------------------------------------
+2024-10-03 14:30:13	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00304107, over full image : 0.00304107
+2024-10-03 14:30:13	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:13	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.47153->4.48022, peakres=0.00304107->0.00295875, Reached cycleniter.
+2024-10-03 14:30:13	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 5500 iterations.
+2024-10-03 14:30:13	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 56 -------------------------------------
+2024-10-03 14:30:18	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00295725, over full image : 0.00295725
+2024-10-03 14:30:18	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:18	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.48022->4.49334, peakres=0.00295725->0.00290054, Reached cycleniter.
+2024-10-03 14:30:18	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 5600 iterations.
+2024-10-03 14:30:18	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 57 -------------------------------------
+2024-10-03 14:30:22	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00289677, over full image : 0.00289677
+2024-10-03 14:30:22	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:22	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.49334->4.50963, peakres=0.00289677->0.00282398, Reached cycleniter.
+2024-10-03 14:30:22	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 5700 iterations.
+2024-10-03 14:30:22	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 58 -------------------------------------
+2024-10-03 14:30:28	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00283872, over full image : 0.00283872
+2024-10-03 14:30:28	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:28	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.50963->4.51831, peakres=0.00283872->0.00277076, Reached cycleniter.
+2024-10-03 14:30:28	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 5800 iterations.
+2024-10-03 14:30:28	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 59 -------------------------------------
+2024-10-03 14:30:33	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0027827, over full image : 0.0027827
+2024-10-03 14:30:33	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:33	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.51831->4.53173, peakres=0.0027827->0.00271681, Reached cycleniter.
+2024-10-03 14:30:33	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 5900 iterations.
+2024-10-03 14:30:33	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 60 -------------------------------------
+2024-10-03 14:30:38	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00271656, over full image : 0.00271656
+2024-10-03 14:30:38	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:38	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.53173->4.5438, peakres=0.00271656->0.00265252, Reached cycleniter.
+2024-10-03 14:30:38	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 6000 iterations.
+2024-10-03 14:30:38	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 61 -------------------------------------
+2024-10-03 14:30:42	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00266028, over full image : 0.00266028
+2024-10-03 14:30:42	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:42	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.5438->4.55406, peakres=0.00266028->0.00259835, Reached cycleniter.
+2024-10-03 14:30:42	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 6100 iterations.
+2024-10-03 14:30:42	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 62 -------------------------------------
+2024-10-03 14:30:47	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00261506, over full image : 0.00261506
+2024-10-03 14:30:47	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:47	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.55406->4.56001, peakres=0.00261506->0.00255274, Reached cycleniter.
+2024-10-03 14:30:47	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 6200 iterations.
+2024-10-03 14:30:47	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 63 -------------------------------------
+2024-10-03 14:30:51	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00255595, over full image : 0.00255595
+2024-10-03 14:30:51	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:52	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.56001->4.57039, peakres=0.00255595->0.00250726, Reached cycleniter.
+2024-10-03 14:30:52	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 6300 iterations.
+2024-10-03 14:30:52	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 64 -------------------------------------
+2024-10-03 14:30:56	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00250659, over full image : 0.00250659
+2024-10-03 14:30:56	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:30:56	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.57039->4.57662, peakres=0.00250659->0.00245152, Reached cycleniter.
+2024-10-03 14:30:56	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 6400 iterations.
+2024-10-03 14:30:56	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 65 -------------------------------------
+2024-10-03 14:31:01	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00247227, over full image : 0.00247227
+2024-10-03 14:31:01	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:01	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.57662->4.58611, peakres=0.00247227->0.0024124, Reached cycleniter.
+2024-10-03 14:31:01	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 6500 iterations.
+2024-10-03 14:31:01	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 66 -------------------------------------
+2024-10-03 14:31:06	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00241361, over full image : 0.00241361
+2024-10-03 14:31:06	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:06	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.58611->4.59548, peakres=0.00241361->0.00236453, Reached cycleniter.
+2024-10-03 14:31:06	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 6600 iterations.
+2024-10-03 14:31:06	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 67 -------------------------------------
+2024-10-03 14:31:11	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00236491, over full image : 0.00236491
+2024-10-03 14:31:11	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:11	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.59548->4.60038, peakres=0.00236491->0.0023206, Reached cycleniter.
+2024-10-03 14:31:11	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 6700 iterations.
+2024-10-03 14:31:11	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 68 -------------------------------------
+2024-10-03 14:31:15	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00233606, over full image : 0.00233606
+2024-10-03 14:31:15	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:16	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.60038->4.60753, peakres=0.00233606->0.002273, Reached cycleniter.
+2024-10-03 14:31:16	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 6800 iterations.
+2024-10-03 14:31:16	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 69 -------------------------------------
+2024-10-03 14:31:20	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00228719, over full image : 0.00228719
+2024-10-03 14:31:20	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:21	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.60753->4.6186, peakres=0.00228719->0.00223655, Reached cycleniter.
+2024-10-03 14:31:21	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 6900 iterations.
+2024-10-03 14:31:21	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 70 -------------------------------------
+2024-10-03 14:31:25	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00224435, over full image : 0.00224435
+2024-10-03 14:31:25	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:25	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.61859->4.62503, peakres=0.00224435->0.0022028, Reached cycleniter.
+2024-10-03 14:31:25	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 7000 iterations.
+2024-10-03 14:31:25	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 71 -------------------------------------
+2024-10-03 14:31:29	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00220797, over full image : 0.00220797
+2024-10-03 14:31:29	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:29	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.62502->4.63091, peakres=0.00220797->0.00215738, Reached cycleniter.
+2024-10-03 14:31:29	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 7100 iterations.
+2024-10-03 14:31:29	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 72 -------------------------------------
+2024-10-03 14:31:34	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00216463, over full image : 0.00216463
+2024-10-03 14:31:34	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:35	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.63091->4.63713, peakres=0.00216463->0.00212424, Reached cycleniter.
+2024-10-03 14:31:35	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 7200 iterations.
+2024-10-03 14:31:35	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 73 -------------------------------------
+2024-10-03 14:31:40	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00212216, over full image : 0.00212216
+2024-10-03 14:31:40	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:40	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.63713->4.64074, peakres=0.00212216->0.00208609, Reached cycleniter.
+2024-10-03 14:31:40	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 7300 iterations.
+2024-10-03 14:31:40	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 74 -------------------------------------
+2024-10-03 14:31:44	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00209351, over full image : 0.00209351
+2024-10-03 14:31:44	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:45	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.64073->4.64841, peakres=0.00209351->0.00205347, Reached cycleniter.
+2024-10-03 14:31:45	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 7400 iterations.
+2024-10-03 14:31:45	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 75 -------------------------------------
+2024-10-03 14:31:49	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.002063, over full image : 0.002063
+2024-10-03 14:31:49	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:49	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.6484->4.65311, peakres=0.002063->0.002022, Reached cycleniter.
+2024-10-03 14:31:49	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 7500 iterations.
+2024-10-03 14:31:49	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 76 -------------------------------------
+2024-10-03 14:31:54	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00204649, over full image : 0.00204649
+2024-10-03 14:31:54	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:54	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.65311->4.66012, peakres=0.00204649->0.00198517, Reached cycleniter.
+2024-10-03 14:31:54	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 7600 iterations.
+2024-10-03 14:31:54	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 77 -------------------------------------
+2024-10-03 14:31:58	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00199039, over full image : 0.00199039
+2024-10-03 14:31:58	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:31:58	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.66012->4.66624, peakres=0.00199039->0.00195703, Reached cycleniter.
+2024-10-03 14:31:58	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 7700 iterations.
+2024-10-03 14:31:58	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 78 -------------------------------------
+2024-10-03 14:32:03	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00195811, over full image : 0.00195811
+2024-10-03 14:32:03	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:03	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.66623->4.67301, peakres=0.00195811->0.00192691, Reached cycleniter.
+2024-10-03 14:32:03	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 7800 iterations.
+2024-10-03 14:32:03	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 79 -------------------------------------
+2024-10-03 14:32:08	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0019283, over full image : 0.0019283
+2024-10-03 14:32:08	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:08	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.673->4.67778, peakres=0.0019283->0.00190194, Reached cycleniter.
+2024-10-03 14:32:08	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 7900 iterations.
+2024-10-03 14:32:08	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 80 -------------------------------------
+2024-10-03 14:32:13	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00190879, over full image : 0.00190879
+2024-10-03 14:32:13	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:13	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.67778->4.68061, peakres=0.00190879->0.00186013, Reached cycleniter.
+2024-10-03 14:32:13	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 8000 iterations.
+2024-10-03 14:32:13	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 81 -------------------------------------
+2024-10-03 14:32:18	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00186757, over full image : 0.00186757
+2024-10-03 14:32:18	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:18	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.68061->4.68522, peakres=0.00186757->0.00183263, Reached cycleniter.
+2024-10-03 14:32:18	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 8100 iterations.
+2024-10-03 14:32:18	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 82 -------------------------------------
+2024-10-03 14:32:23	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00184409, over full image : 0.00184409
+2024-10-03 14:32:23	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:23	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.68522->4.69123, peakres=0.00184409->0.00181095, Reached cycleniter.
+2024-10-03 14:32:23	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 8200 iterations.
+2024-10-03 14:32:23	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 83 -------------------------------------
+2024-10-03 14:32:28	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00180965, over full image : 0.00180965
+2024-10-03 14:32:28	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:28	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.69122->4.69533, peakres=0.00180965->0.00177527, Reached cycleniter.
+2024-10-03 14:32:28	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 8300 iterations.
+2024-10-03 14:32:28	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 84 -------------------------------------
+2024-10-03 14:32:32	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00179148, over full image : 0.00179148
+2024-10-03 14:32:32	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:32	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.69533->4.70046, peakres=0.00179148->0.00174942, Reached cycleniter.
+2024-10-03 14:32:32	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 8400 iterations.
+2024-10-03 14:32:32	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 85 -------------------------------------
+2024-10-03 14:32:38	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00175906, over full image : 0.00175906
+2024-10-03 14:32:38	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:38	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.70046->4.70513, peakres=0.00175906->0.00172129, Reached cycleniter.
+2024-10-03 14:32:38	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 8500 iterations.
+2024-10-03 14:32:38	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 86 -------------------------------------
+2024-10-03 14:32:43	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00172717, over full image : 0.00172717
+2024-10-03 14:32:43	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:43	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.70514->4.7108, peakres=0.00172717->0.00170035, Reached cycleniter.
+2024-10-03 14:32:43	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 8600 iterations.
+2024-10-03 14:32:43	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 87 -------------------------------------
+2024-10-03 14:32:48	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0017086, over full image : 0.0017086
+2024-10-03 14:32:48	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:48	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.7108->4.71503, peakres=0.0017086->0.00167539, Reached cycleniter.
+2024-10-03 14:32:48	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 8700 iterations.
+2024-10-03 14:32:48	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 88 -------------------------------------
+2024-10-03 14:32:53	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00168042, over full image : 0.00168042
+2024-10-03 14:32:53	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:53	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.71503->4.71386, peakres=0.00168042->0.00165269, Reached cycleniter.
+2024-10-03 14:32:53	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 8800 iterations.
+2024-10-03 14:32:53	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 89 -------------------------------------
+2024-10-03 14:32:58	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.0016633, over full image : 0.0016633
+2024-10-03 14:32:58	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:32:58	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.71387->4.71762, peakres=0.0016633->0.00162615, Reached cycleniter.
+2024-10-03 14:32:58	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 8900 iterations.
+2024-10-03 14:32:58	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 90 -------------------------------------
+2024-10-03 14:33:03	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00163324, over full image : 0.00163324
+2024-10-03 14:33:03	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:33:03	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.71763->4.72457, peakres=0.00163324->0.00160572, Reached cycleniter.
+2024-10-03 14:33:03	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 9000 iterations.
+2024-10-03 14:33:03	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 91 -------------------------------------
+2024-10-03 14:33:08	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00160436, over full image : 0.00160436
+2024-10-03 14:33:08	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:33:08	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.72457->4.72697, peakres=0.00160436->0.0015863, Reached cycleniter.
+2024-10-03 14:33:08	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 9100 iterations.
+2024-10-03 14:33:08	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 92 -------------------------------------
+2024-10-03 14:33:13	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00158493, over full image : 0.00158493
+2024-10-03 14:33:13	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:33:13	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.72698->4.7309, peakres=0.00158493->0.00156374, Reached cycleniter.
+2024-10-03 14:33:13	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 9200 iterations.
+2024-10-03 14:33:13	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 93 -------------------------------------
+2024-10-03 14:33:17	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00156652, over full image : 0.00156652
+2024-10-03 14:33:17	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:33:17	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.73091->4.73384, peakres=0.00156652->0.00153727, Reached cycleniter.
+2024-10-03 14:33:17	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 9300 iterations.
+2024-10-03 14:33:17	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 94 -------------------------------------
+2024-10-03 14:33:21	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00154059, over full image : 0.00154059
+2024-10-03 14:33:21	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:33:22	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.73384->4.73888, peakres=0.00154059->0.00152135, Reached cycleniter.
+2024-10-03 14:33:22	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 9400 iterations.
+2024-10-03 14:33:22	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 95 -------------------------------------
+2024-10-03 14:33:26	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00152654, over full image : 0.00152654
+2024-10-03 14:33:26	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:33:26	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.73888->4.74175, peakres=0.00152654->0.0014967, Reached cycleniter.
+2024-10-03 14:33:26	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 9500 iterations.
+2024-10-03 14:33:26	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 96 -------------------------------------
+2024-10-03 14:33:31	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00150589, over full image : 0.00150589
+2024-10-03 14:33:31	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:33:31	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.74176->4.74488, peakres=0.00150589->0.00148121, Reached cycleniter.
+2024-10-03 14:33:31	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 9600 iterations.
+2024-10-03 14:33:31	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 97 -------------------------------------
+2024-10-03 14:33:35	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00148916, over full image : 0.00148916
+2024-10-03 14:33:35	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:33:35	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.74489->4.74855, peakres=0.00148916->0.00146119, Reached cycleniter.
+2024-10-03 14:33:35	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 9700 iterations.
+2024-10-03 14:33:35	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 98 -------------------------------------
+2024-10-03 14:33:40	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00146077, over full image : 0.00146077
+2024-10-03 14:33:40	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:33:40	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.74856->4.75391, peakres=0.00146077->0.00143834, Reached cycleniter.
+2024-10-03 14:33:40	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 9800 iterations.
+2024-10-03 14:33:40	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 99 -------------------------------------
+2024-10-03 14:33:45	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00145018, over full image : 0.00145018
+2024-10-03 14:33:45	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:33:45	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.75392->4.75662, peakres=0.00145018->0.00142156, Reached cycleniter.
+2024-10-03 14:33:45	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 9900 iterations.
+2024-10-03 14:33:45	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 100 -------------------------------------
+2024-10-03 14:33:50	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00143908, over full image : 0.00143908
+2024-10-03 14:33:50	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] Run Hogbom minor-cycle | CycleThreshold=0.001, CycleNiter=100, Gain=0.1
+2024-10-03 14:33:50	INFO	SDAlgorithmBase::deconvolve 	[3C391_map_noiterations] iters=0->100 [100], model=4.75663->4.76045, peakres=0.00143908->0.00140342, Reached cycleniter.
+2024-10-03 14:33:50	INFO	grpcInteractiveCleanManager::mergeCycleExecutionRecord 	Completed 10000 iterations.
+2024-10-03 14:33:50	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run (Last) Major Cycle 101 -------------------------------------
+2024-10-03 14:33:55	INFO	task_tclean::SynthesisDeconvolver::initMinorCycle 	 Absolute Peak residual within mask : 0.00140645, over full image : 0.00140645
+2024-10-03 14:33:55	INFO	tclean::::casa	Reached global stopping criterion : iteration limit
+2024-10-03 14:33:55	INFO	SDAlgorithmBase::restore 	[3C391_map_noiterations] : Restoring model image.
+2024-10-03 14:33:55	INFO	SIImageStore::restore 	Beam for chan : 0 : 17.4713 arcsec, 14.4631 arcsec, 25.4607 deg
+2024-10-03 14:33:55	INFO	tclean::::casa	Searching for images with prefix '3C391_map_noiterations'... Found these, writing history into them: ['3C391_map_noiterations.image', '3C391_map_noiterations.mask', '3C391_map_noiterations.residual', '3C391_map_noiterations.pb', '3C391_map_noiterations.model', '3C391_map_noiterations.psf', '3C391_map_noiterations.sumwt']
+2024-10-03 14:33:55	INFO	tclean::::casa	Task tclean complete. Start time: 2024-10-03 16:25:46.909458 End time: 2024-10-03 16:33:54.936847
+2024-10-03 14:33:55	INFO	tclean::::casa	##### End Task: tclean               #####
+2024-10-03 14:33:55	INFO	tclean::::casa	##########################################
+2024-10-03 14:35:20	INFO	imview::::casa	##########################################
+2024-10-03 14:35:20	INFO	imview::::casa	##### Begin Task: imview             #####
+2024-10-03 14:35:20	INFO	imview::::casa	imview( raster='3C391_map_noiterations.image', contour={}, zoom=1, axes={}, out='' )
+2024-10-03 14:35:20	INFO	viewertool::::casa	successfully removed defunct viewer: 0.0.0.0:38549
+2024-10-03 14:35:24	INFO	imview::::casa	Task imview complete. Start time: 2024-10-03 16:35:19.824726 End time: 2024-10-03 16:35:23.513062
+2024-10-03 14:35:24	INFO	imview::::casa	##### End Task: imview               #####
+2024-10-03 14:35:24	INFO	imview::::casa	##########################################
+2024-10-03 15:26:24	INFO	imview::::casa	Terminating casaplotms, PID: 4758
+2024-10-03 15:26:25	INFO	imview::::casa	Waiting for casaplotms to terminate. Poll return code: None, PID: 4758
+2024-10-03 15:26:26	INFO	imview::::casa	Finished shutting down casaplotms. Poll return code: -15, PID: 4758
